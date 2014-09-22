@@ -13,6 +13,6 @@ Website for Bamboo Creative.
 
 1. Run Grunt with `grunt`
 
-1. Serve Jekyll with `jekyll serve`
+1. Build Jekyll with `jekyll build --watch` to test changes
 
 1. Develop Away!
