@@ -24,24 +24,10 @@ module.exports = function(grunt) {
 		    }
 		},
 		
-		sass: {
-			dist: {
-				files: {
-					'css/app.css': 'scss/app.scss'
-				}
-			}
-		},
-		
 		watch: {
-			sass: {
-				files: 'scss/*.scss',
-				tasks: ['sass'],
-			},
 			livereload: {
-				// Here we watch the files the sass task will compile to
-				// These files are sent to the live reload server after sass compiles to them
 				options: { livereload: true },
-				files: ['css/app.css'],
+				files: ['_site/css/app.css'],
 			},
 			scripts: {
 				files: ['js/app/app.js'],
@@ -53,11 +39,10 @@ module.exports = function(grunt) {
 	
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	
 	// Default task(s).
-	grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
+	grunt.registerTask('default', ['concat', 'uglify', 'watch']);
 	
 }
 

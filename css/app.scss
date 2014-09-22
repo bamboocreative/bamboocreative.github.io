@@ -1,10 +1,13 @@
+---
+---
+
 // These are Libraries
-@import "bourbon/bourbon";
-@import "neat/neat";
+@import "../scss/bourbon/bourbon";
+@import "../scss/neat/neat";
 
 // These are resets
-@import "normalize";
-@import "main";
+@import "../scss/normalize";
+@import "../scss/main";
 
 // These are variables 
 $font-size: 22px;
@@ -65,10 +68,10 @@ $email:	lighten($font-color, 15%);
 }
 /* End Social Icons */
 
-@import "components";
-@import "type";
-@import "fonts";
-@import "forms";
+@import "../scss/components";
+@import "../scss/type";
+@import "../scss/fonts";
+@import "../scss/forms";
 
 
 .page{
