@@ -76,7 +76,11 @@ footer#footer{
 			border-bottom: 1px solid $primary-color;
 			margin-bottom: 5px;
 			position: relative;
-			@include transition(3s opacity);
+			//@include transition(.3s opacity, .3s -webkit-transform, .3s transform, .3s border-color);
+			//@include transition(.3s opacity);
+			@include transition(.3s -webkit-transform);
+			//@include transition(.3s transform);
+			//@include transition(.3s border-color);
 		}
 		
 	}
@@ -89,13 +93,13 @@ footer#footer{
 			&:first-child{
 				opacity: 1;
 				border-color: $error;
-				@include transform(translateY(6px) rotate(45deg) translate3d(0px, 0, 0));
+				@include transform(translateY(6px) rotate(45deg) translate3d(0, 0, 0));
 			}
 			
 			&:last-child{
 				opacity: 1;
 				border-color: $error;
-				@include transform(translateY(-6px) rotate(-45deg) translate3d(0px, 0, 0));
+				@include transform(translateY(-6px) rotate(-45deg) translate3d(0, 0, 0));
 			}
 		}
 	}
