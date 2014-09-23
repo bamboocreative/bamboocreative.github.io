@@ -68,14 +68,15 @@ footer#footer{
 	.menu-icon{
 		width: 20px;
 		float: right;
-		margin-left: 10px;
-		margin-top: 8px;
+		position: relative;
+		top: 8px;
+		left: 10px;
 		
 		.bar{
 			border-bottom: 1px solid $primary-color;
 			margin-bottom: 5px;
 			position: relative;
-			@include transition(.3s opacity, .3s -webkit-transform, .3s transform,  .3s border-color );
+			@include transition(3s opacity, 3s -webkit-transform, 3s transform,  3s border-color );
 		}
 		
 	}
