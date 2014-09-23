@@ -75,7 +75,7 @@ footer#footer{
 			border-bottom: 1px solid $primary-color;
 			margin-bottom: 5px;
 			position: relative;
-			@include transition(.3s opacity, .3s bottom, .3s top, .3s -webkit-transform, .3s -ms-transform, .3s transform,  .3s border-color );
+			@include transition(.3s opacity, .3s -webkit-transform, .3s transform,  .3s border-color );
 		}
 		
 	}
@@ -87,20 +87,14 @@ footer#footer{
 			
 			&:first-child{
 				opacity: 1;
-				border-color: red;
-				-ms-transform: rotate(45deg); /* IE 9 */
-			    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-			    transform: rotate(45deg);
-			    bottom: -6px;
+				border-color: $error;
+				@include transform(translateY(6px) rotate(45deg));
 			}
 			
 			&:last-child{
 				opacity: 1;
-				border-color: red;
-				-ms-transform: rotate(-45deg); /* IE 9 */
-			    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-			    transform: rotate(-45deg);
-			    top: -6px;
+				border-color: $error;
+				@include transform(translateY(-6px) rotate(-45deg));
 			}
 		}
 	}
