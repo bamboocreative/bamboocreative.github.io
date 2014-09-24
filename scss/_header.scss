@@ -1,0 +1,116 @@
+// Footer
+footer#footer{
+	padding: 1em 0;
+}
+
+.menu-button{
+	display: inline-block;
+	color: $font-color;
+	text-decoration: none;
+	float: right;
+	position: relative;
+	z-index: 3; // Layer 3
+	margin-top: 1em;
+	
+	.menu-icon{
+		width: 20px;
+		float: right;
+		position: relative;
+		top: 8px;
+		left: 10px;
+		
+		.bar{
+			border-bottom: 1px solid $primary-color;
+			margin-bottom: 5px;
+			position: relative;
+			@include transition(.3s all);
+		}
+		
+	}
+	
+	&.active{
+		.bar{
+			
+			opacity: 0;
+			
+			&:first-child{
+				opacity: 1;
+				border-color: $error;
+				@include transform(translateY(6px) rotate(45deg) translate3d(0, 0, 0));
+			}
+			
+			&:last-child{
+				opacity: 1;
+				border-color: $error;
+				@include transform(translateY(-6px) rotate(-45deg) translate3d(0, 0, 0));
+			}
+		}
+	}
+	
+}
+
+h1.logo{
+	background-image: url('../images/bamboo.svg');
+	background-size: 100%;
+	width: 180px;
+	height: 80px;
+	margin: 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+header.header{
+	margin-top: 1em;
+}
+
+.full-nav{
+	width: 100%; height: 100%; left: 0; top:0;
+	background: rgba(255,255,255,.98);
+	position: fixed;
+	opacity: 0;
+	z-index: -1;
+	
+	@include transition(.3s all);
+	@include transform(scale(1.1));
+	
+	&.active{
+		opacity: 1;
+		z-index: 1;
+		@include transform(scale(1));
+	}
+	
+	li{
+		a{
+			font-size: 1.5em;
+			line-height: 1em;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+	
+	nav.site-nav{
+		position: relative;
+		top: 50%;
+		margin-top: -60px;
+		
+		ul{
+			font-size: 2em;
+			display: inline-block;
+			margin: 0;
+			padding: 0 10px 5px;
+			width: 50%;
+			&:first-child{
+				float: right;
+			}
+			
+			&:last-child{
+				border-right: 1px solid #eee;
+				text-align: right;
+			}
+			
+		}
+		
+	}
+	
+}
+
