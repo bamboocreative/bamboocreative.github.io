@@ -1,0 +1,30 @@
+.post-header{
+	text-align: center;
+	
+	.pub-title{
+		margin-bottom: 0em;
+		
+		&:after{
+			content: '';
+			display: block;
+			border-bottom: 1px solid $primary-color;
+			width: 100px;
+			margin: .30em auto;
+		}
+		
+	}
+	
+	.pub-date, .pub-author{
+		margin-bottom: .5em;
+		font-size: 1.2em;
+	}
+	
+	.pub-date{
+		font-size: .8em;
+		color: lighten($font-color, 50%);
+	}
+}
+
+.post-content{
+	margin-top: 2em;
+}
