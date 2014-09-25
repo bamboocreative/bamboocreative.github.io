@@ -80,6 +80,13 @@ $email:	lighten($font-color, 15%);
 	max-width: $max-width;
 	margin: 0 auto;
 	padding: 0 1em;
+	margin-bottom: 4em;
+	
+	img{
+		// Responsivable images!
+		max-width: 100%;
+	}
+	
 }
 
 /* Sticky footer */

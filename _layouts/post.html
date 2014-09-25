@@ -2,5 +2,9 @@
 layout: default
 ---
 
-Post Layout 
+<section class="page">
+<h1 class="pub-title">{{ page.title }}</h1>
+<span class="pub-date">{{ page.date }}</span>
+<div class="pub-author">by {{ page.author }}</div> 
 {{ content }}
+</section>

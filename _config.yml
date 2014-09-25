@@ -13,5 +13,5 @@ markdown: kramdown
 sass:
   sass_dir: scss
   
-exclude: [scss, README.md, node_modules]
+exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
   
