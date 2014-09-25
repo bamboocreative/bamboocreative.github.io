@@ -2,7 +2,7 @@
 "body-class": "post-welcome"
 layout: post
 title: 3 Ways To Help Great Ideas Thrive
-date: {}
+date: 2014-04-11 12:00:00
 categories: 
   - bamboo
 author: CJ Alvarado
