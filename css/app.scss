@@ -82,6 +82,16 @@ $email:	lighten($font-color, 15%);
 	padding: 0 1em;
 }
 
+/* Sticky footer */
+html,body{
+	height: 100%;
+}
+
+.web-wrapper{
+	min-height: 100%;
+}
+
+
 *{
 	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
 }
