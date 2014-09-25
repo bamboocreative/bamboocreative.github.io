@@ -15,3 +15,60 @@ sass:
   
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
   
+# Configs prose.io for external editing
+prose:
+    rooturl: '_posts'
+    site: 'bamboocreative.github.io'
+    media: 'media'
+    metadata:
+        _posts:
+            -   name: "layout"
+                field:
+                    element: "hidden"
+                    value: "post"
+            -   name: "title"
+                field:
+                    element: "text"
+                    label: "title"
+            -   name: "categories"
+                field:
+                    element: "multiselect"
+                    label: "Add Categories"
+                    placeholder: "Choose Categories.."
+                    options:
+                        -   name: "Bamboo"
+                            value: "bamboo"
+                        -   name: "Web"
+                            value: "web"
+                        -   name: "Design"
+                            value: "design"
+                        -   name: "Productivity"
+                            value: "productivity"
+            -   name: "body-class"
+                field:
+                    element: "hidden"
+                    value: "body-class"
+            -   name: "author"
+                field:
+                    element: "select"
+                    label: "Choose Author"
+                    placeholder: "Choose Author.."
+                    options:
+                        -   name: "Bamboo"
+                            value: "Bamboo"
+                        -   name: "CJ Alvarado"
+                            value: "CJ Alvarado"
+                        -   name: "Ginny Townsend"
+                            value: "Ginny Townsend"
+                        -   name: "Ben Derienzo"
+                            value: "Ben Derienzo"
+                        -   name: "Jake Elia"
+                            value: "Jake Elia"
+                        -   name: "Garrett Boatman"
+                            value: "Garrett Boatman"
+                        -   name: "Josh Reeder-Esparza"
+                            value: "Josh Reeder-Esparza"
+                        -   name: "Angie Wysocki"
+                            value: "Angie Wysocki"
+                        -   name: "Emily Lockteff"
+                            value: "Emily Lockteff"
