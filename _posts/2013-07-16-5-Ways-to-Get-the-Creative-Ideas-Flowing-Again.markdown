@@ -7,7 +7,7 @@ body-class: post-welcome
 author: CJ ALvarado
 ---
 
-![Creative Gravity](/assets/5-Ways-to.jpg)
+![Creative Gravity](/images/posts/5-Ways-to.jpg)
 
 No matter how creative you are, sometimes the well just runs dry. But, you still have projects and clients, and they're still relying on your creative genius! So, why not try something new to break through creative's block? Here are five different methods that will have you raining fresh ideas in no time.
 
@@ -28,7 +28,7 @@ Great ideas are a collection of hundreds of good ones, so work in groups to harv
 **Do it Alone**
 
 > _I think 99 times and find nothing. I stop thinking, swim in silence, and the truth comes to me. --Albert Einstein_  
-![book](/assets/book-5-ways.jpg)
+![book](/images/posts/book-5-ways.jpg)
 
 If collaborating in a group isn’t working for you, take some alone time. Lock yourself in your office, turn up your music, and turn off your phone. Close your eyes, clear your head, and wait for the storm.
 
@@ -43,7 +43,7 @@ When you run out of ideas, sometimes all you need to do is immerse yourself in a
 **Let’s Get Visual**
 
 > _Art attracts us only by what it reveals of our most secret self. --Jean-Luc Godard_  
-![wall](/assets/wall-5-ways.jpg)
+![wall](/images/posts/wall-5-ways.jpg)
 
 Perhaps the trick to thinking up your next great idea is simply _not _to think. Go online and browse images. Mindlessly search keywords on Pinterest. Find things that appeal to you, print them out, and hang them up. Create an entire wall that is comprised of images. Once the wall is full, group the images into relevant categories. Tweak, add, and subtract until you start to see a solid idea taking shape; then mold it into something greater. Let the images guide you. At Bamboo we do this to help generate fresh ideas on things we've been working on for a while. The images provoke all kinds of new ideas.
 

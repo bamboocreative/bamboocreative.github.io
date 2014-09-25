@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Jake Elia
 ---
 
-![Come Up For Air](/assets/come-up-for-air.jpg)
+![Come Up For Air](/images/posts/come-up-for-air.jpg)
 
 With every start-up or project, you go through phases. You fall in and out of love with your idea, your commitment, and your understanding of what you’re doing. When you’ve tackled the big idea and vision, and have moved on to the time of execution, building, and refining, you can reach a frustrating phase. At this stage you can get so caught up in the nitty gritty details that you lose sight of the big idea and the original vision. You can find your self deep in the details asking, “What are we even building?” or “What do we _do_ again?”
 

@@ -7,7 +7,7 @@ body-class: post-welcome
 author: CJ Alvarado
 ---
 
-![Kodak Film](/assets/kodak.jpg)
+![Kodak Film](/images/posts/kodak.jpg)
 
 > "It's the same each time with progress. First they ignore you, then they say you're mad, then there's a pause, and then you can't find anyone who disagrees with you." Tony Benn
 

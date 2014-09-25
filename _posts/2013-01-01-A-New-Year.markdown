@@ -7,7 +7,7 @@ body-class: post-welcome
 author: CJ Alvarado
 ---
 
-![A New Year](/assets/a-new-year.jpg)
+![A New Year](/images/posts/a-new-year.jpg)
 
 Dear friends,
 

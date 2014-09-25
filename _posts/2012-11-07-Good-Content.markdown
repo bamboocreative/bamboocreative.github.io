@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Jake Elia
 ---
 
-![Good Content](/assets/good-content.jpg)
+![Good Content](/images/posts/good-content.jpg)
 
 Our office is divided; to love cat photos or to not love cat photos, that is the question.
 

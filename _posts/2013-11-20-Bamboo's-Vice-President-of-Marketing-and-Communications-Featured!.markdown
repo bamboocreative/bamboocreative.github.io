@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Bamboo
 ---
 
-![Bamboo's Vice President of Marketing and Communications Featured!](/assets/ginny-townsend.jpg)
+![Bamboo's Vice President of Marketing and Communications Featured!](/images/posts/ginny-townsend.jpg)
 
 We're excited to have our Vice President of Marketing and Communications, Ginny Townsend, featured in Bellevue University's magazine, _The View_!
 

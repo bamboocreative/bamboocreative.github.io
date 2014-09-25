@@ -8,7 +8,7 @@ author: Ben De Rienzo
 ---
 
 
-![The Design Privelege](/assets/the-design-privilege.jpg)
+![The Design Privelege](/images/posts/the-design-privilege.jpg)
 
 My three year old son will sometimes briefly wander away from his construction toys on the living room floor, see the design work I've got open in an Adobe application and ask me what I'm doing. The casual, sheepish, "Oh, just something I'm designing for someone" not deterrent enough, he will then climb up onto my lap, stare at the colorful screen and wait for a much more descriptive explanation that will satisfy his curiosity. Afterwards, the descension out of my lap is quick, usually followed by a gentle pleading for me to join him on the floor for a few minutes, which in toddler speak means I should be done with work for the day.
 

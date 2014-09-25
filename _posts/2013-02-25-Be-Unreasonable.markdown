@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Bamboo
 ---
 
-![Be Unreasonable](/assets/be-unreasonable.jpg)
+![Be Unreasonable](/images/posts/be-unreasonable.jpg)
 
 I don’t think the first people who considered flying to outer space began by asking, “Is this reasonable?”
 

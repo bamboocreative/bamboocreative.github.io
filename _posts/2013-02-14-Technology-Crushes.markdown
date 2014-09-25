@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Bamboo
 ---
 
-![Technology Crushes](/assets/technology-crushes.jpg)
+![Technology Crushes](/images/posts/technology-crushes.jpg)
 
 We spend our time and money on them. We could stare at them for hours. To maintain a close, healthy relationship, we always keep them updated. We all have one, a technology crush - a program, app or piece of tech we love. The Bamboo team members share the technologies that set their hearts aflutter:
 

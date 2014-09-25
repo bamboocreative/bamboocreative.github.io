@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Jake Elia
 ---
 
-![Creative Gravity](/assets/creative-gravity.jpg)
+![Creative Gravity](/images/posts/creative-gravity.jpg)
 
 > “I’m as proud of what we don’t do as I am of what we do.” - Steve Jobs
 

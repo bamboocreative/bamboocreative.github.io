@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Bamboo
 ---
 
-![Bamboo Retreat](/assets/bamboo-retreat.jpg)
+![Bamboo Retreat](/images/posts/bamboo-retreat.jpg)
 
 
 Last week, we gathered the team and trekked up to Tahoe for our staff retreat. It was a time of team-bonding and reenergizing. We believe work and fun should not be mutually exclusive. So, while learning about overcoming creative blocks, practicing innovation, and enacting team synergy, we incorporated paper airplane contests, speed app-prototyping and snowball fights into our schedule. Perhaps the biggest feat of the three days was cramming 10 laptops, 9 iPhones and a smattering of iPads onto the cabin’s Wifi, not to mention the dinner table. We managed.
@@ -40,18 +40,18 @@ Overall, the retreat was an awesome opportunity to grow as a team and get the cr
 `This was an image gallery (3 columns of images)`
 
 {: .retreat-gal }
-![Bamboo Retreat - 01](/assets/retreat-gallery/01.jpg)
-![Bamboo Retreat - 02](/assets/retreat-gallery/02.jpg)
-![Bamboo Retreat - 03](/assets/retreat-gallery/03.jpg)
-![Bamboo Retreat - 04](/assets/retreat-gallery/04.jpg)
-![Bamboo Retreat - 05](/assets/retreat-gallery/05.jpg)
-![Bamboo Retreat - 06](/assets/retreat-gallery/06.jpg)
-![Bamboo Retreat - 07](/assets/retreat-gallery/07.jpg)
-![Bamboo Retreat - 08](/assets/retreat-gallery/08.jpg)
-![Bamboo Retreat - 09](/assets/retreat-gallery/09.jpg)
-![Bamboo Retreat - 10](/assets/retreat-gallery/10.jpg)
-![Bamboo Retreat - 11](/assets/retreat-gallery/11.jpg)
-![Bamboo Retreat - 12](/assets/retreat-gallery/12.jpg)
-![Bamboo Retreat - 13](/assets/retreat-gallery/13.jpg)
-![Bamboo Retreat - 14](/assets/retreat-gallery/14.jpg)
-![Bamboo Retreat - 15](/assets/retreat-gallery/15.jpg)
+![Bamboo Retreat - 01](/images/posts/retreat-gallery/01.jpg)
+![Bamboo Retreat - 02](/images/posts/retreat-gallery/02.jpg)
+![Bamboo Retreat - 03](/images/posts/retreat-gallery/03.jpg)
+![Bamboo Retreat - 04](/images/posts/retreat-gallery/04.jpg)
+![Bamboo Retreat - 05](/images/posts/retreat-gallery/05.jpg)
+![Bamboo Retreat - 06](/images/posts/retreat-gallery/06.jpg)
+![Bamboo Retreat - 07](/images/posts/retreat-gallery/07.jpg)
+![Bamboo Retreat - 08](/images/posts/retreat-gallery/08.jpg)
+![Bamboo Retreat - 09](/images/posts/retreat-gallery/09.jpg)
+![Bamboo Retreat - 10](/images/posts/retreat-gallery/10.jpg)
+![Bamboo Retreat - 11](/images/posts/retreat-gallery/11.jpg)
+![Bamboo Retreat - 12](/images/posts/retreat-gallery/12.jpg)
+![Bamboo Retreat - 13](/images/posts/retreat-gallery/13.jpg)
+![Bamboo Retreat - 14](/images/posts/retreat-gallery/14.jpg)
+![Bamboo Retreat - 15](/images/posts/retreat-gallery/15.jpg)

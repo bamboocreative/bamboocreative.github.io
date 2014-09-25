@@ -7,7 +7,7 @@ body-class: post-welcome
 author: CJ Alvarado
 ---
 
-![Stand Out with Cross-Industry Marketing](/assets/stand-out-with-cross-industry-marketing.jpg)
+![Stand Out with Cross-Industry Marketing](/images/posts/stand-out-with-cross-industry-marketing.jpg)
 
 _No matter what industry a company is in, brand building is paramount._
 

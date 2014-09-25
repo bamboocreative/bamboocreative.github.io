@@ -7,7 +7,7 @@ body-class: post-welcome
 author: Ben De Rienzo
 ---
 
-![Reading Doesn't Cut It Anymore](/assets/reading-doesnt-cut-it.jpg)
+![Reading Doesn't Cut It Anymore](/images/posts/reading-doesnt-cut-it.jpg)
 
 It's been an eventful year, with our first venture into designing a mobile application. It probably would have been smart to just pick some garbage-tech idea to cut our teeth on, like a silly, stress-relieving time-waster app or an ultra-simple utility. Instead, Bamboo decided to go after something disruptive by re-imagining (buzzword alert!) the reading experience on mobile devices. [Shaking my head...]
 
