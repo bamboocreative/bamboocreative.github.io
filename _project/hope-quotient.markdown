@@ -3,7 +3,7 @@ layout: project
 client: Hope Quotient
 slug: hope-quotient
 image: logo.svg 
-url: http://hopequotient.com/
+website: http://hopequotient.com/
 services: Web, E-Commerce
 ---
 

@@ -6,9 +6,9 @@ layout: page
 <div class="project-archive">
 
 	{% for project in site.project %}
-	<div class="project">
-	Whoohoo!
-	</div>
+	<a href="{{project.url}}" class="project">	
+		<img alt="{{project.client}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
+	</a>
 	
 	{% cycle 'add rows': nil, nil, '</div><div class="project-archive">' %}
 	

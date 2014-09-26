@@ -1,9 +1,9 @@
 ---
 layout: project
-bayside: Bayside
+client: Bayside
 slug: bayside
 image: logo.svg 
-url: http://www.baysideonline.com
+website: http://www.baysideonline.com
 services: Web, Design
 ---
 

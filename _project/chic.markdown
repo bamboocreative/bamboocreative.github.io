@@ -3,7 +3,7 @@ layout: project
 client: CHIC
 slug: chic
 image: logo.svg 
-url: http://chic2015.org/
+website: http://chic2015.org/
 services: Design, Branding, Marketing
 ---
 

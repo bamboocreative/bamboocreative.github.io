@@ -3,7 +3,7 @@ layout: project
 client: Richard Ellis
 slug: richard-ellis
 image: logo.svg 
-url: http://www.richardellistalks.com
+website: http://www.richardellistalks.com
 services: Design, Web
 ---
 

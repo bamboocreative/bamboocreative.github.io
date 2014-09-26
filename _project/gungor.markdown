@@ -3,7 +3,7 @@ layout: project
 client: Gungor
 slug: gungor
 image: logo.svg 
-url: 
+website: 
 services: Design
 ---
 

@@ -3,7 +3,7 @@ layout: project
 client: The Snippet App
 slug: snippet
 image: logo.svg 
-url: http://thesnippetapp.com
+website: http://thesnippetapp.com
 services: Web, App Development, Design, Labs
 ---
 

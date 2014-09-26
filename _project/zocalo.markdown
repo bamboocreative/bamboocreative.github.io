@@ -3,7 +3,7 @@ layout: project
 client: Zocalo
 slug: zocalo
 image: logo.svg 
-url: http://zocalosacramento.com/
+website: http://zocalosacramento.com/
 services: Web, Marketing, Design
 ---
 

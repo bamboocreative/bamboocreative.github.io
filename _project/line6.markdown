@@ -3,7 +3,7 @@ layout: project
 client: Line 6
 slug: line-6
 image: logo.svg 
-url: http://line6.com/
+website: http://line6.com/
 services: Design, Marketing
 ---
 

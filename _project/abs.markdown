@@ -3,7 +3,7 @@ layout: project
 client: American Bible Society
 slug: abs
 image: logo.jpg 
-url: www.americanbible.org
+website: www.americanbible.org
 services: App, Experience, Interactive, Design
 ---
 

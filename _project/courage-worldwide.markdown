@@ -3,7 +3,7 @@ layout: project
 client: Courage Worldwide
 slug: courage-worldwide
 image: logo.jpg 
-url: 
+website: 
 services: Branding, Design
 ---
 
