@@ -1,4 +1,13 @@
 .project-archive{
 	
+	@include outer-container;
+	
+	.project{
+		
+		@include span-columns(4);
+		@include pad(0);
+		
+	}
 	
 }
+
