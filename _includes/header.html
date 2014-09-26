@@ -6,12 +6,16 @@
 		    <div class="full-nav">
 			    <nav class="site-nav" role="navigation">
 			        <ul>
-				        <li><a href="">Blog</a></li>
-				        <li><a href="">Contact</a></li>
+			        
+			        
+			        
+			        
+				        <li><a href="{{ site.path | prepend: '/' | replace: '//', '/' }}blog/">Blog</a></li>
+				        <li><a href="{{ site.path | prepend: '/' | replace: '//', '/' }}contact/">Contact</a></li>
 			        </ul>
 			        <ul>
-				        <li><a href="">Work</a></li>
-				        <li><a href="">About Us</a></li>
+				        <li><a href="{{ site.path | prepend: '/' | replace: '//', '/' }}projects/">Work</a></li>
+				        <li><a href="{{ site.path | prepend: '/' | replace: '//', '/' }}about/">About Us</a></li>
 			        </ul>
 			    </nav>
 		    </div>
