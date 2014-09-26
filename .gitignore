@@ -3,4 +3,3 @@ node_modules/*
 *.scssc
 _site
 .sass-cache
-css/app.scss
