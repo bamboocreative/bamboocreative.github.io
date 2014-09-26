@@ -2,9 +2,9 @@
 layout: post
 title:  "The Design Privilege"
 date:   2012-10-17 12:00:00
-categories: bamboo
-body-class: post-welcome
+categories: bamboo 
 author: Ben De Rienzo
+excerpt: "My three year old son will sometimes briefly wander away from his construction toys on the living room floor, see the design work I've got open in an Adobe application and ask me what I'm doing."
 ---
 
 
