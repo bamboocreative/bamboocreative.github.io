@@ -5,10 +5,13 @@ layout: page
 <!-- This is the project page! -->
 <div class="project-archive">
 
-{% for project in site.project %}
-<div class="project">
-Whoohoo!
-</div>
-{% endfor %}
+	{% for project in site.project %}
+	<div class="project">
+	Whoohoo!
+	</div>
+	
+	{% cycle 'add rows': nil, nil, '</div><div class="project-archive">' %}
+	
+	{% endfor %}
 
 </div>
