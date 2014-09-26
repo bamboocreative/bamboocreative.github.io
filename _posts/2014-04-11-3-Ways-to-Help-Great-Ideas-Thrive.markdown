@@ -1,12 +1,9 @@
 ---
-"body-class": "post-welcome"
 layout: post
 title: 3 Ways To Help Great Ideas Thrive
-date: 2014-04-11 12:00:00
-categories: 
-  - bamboo
-author: CJ Alvarado
-published: true
+categories: bamboo
+author: "CJ Alvarado"
+excerpt: "In 1975, a Kodak engineer invented the first digital camera which captured low resolution black and white images and transferred them to a TV. He then took his idea and pitched it to various leaders in the company."
 ---
 
 ![Kodak Film](/images/posts/kodak.jpg)
@@ -14,9 +11,6 @@ published: true
 > "It's the same each time with progress. First they ignore you, then they say you're mad, then there's a pause, and then you can't find anyone who disagrees with you." Tony Benn
 
 In 1975, a Kodak engineer invented the first digital camera which captured low resolution black and white images and transferred them to a TV. He then took his idea and pitched it to various leaders in the company.
-
-![img.png](/media/img.png)
-
 
 He called his invention “filmless photography.”
 

@@ -2,9 +2,9 @@
 layout: post
 title:  "Congratulations, CJ."
 date:   2013-12-13 12:00:00
-categories: bamboo
-body-class: post-welcome
+categories: bamboo 
 author: Bamboo
+excerpt: "Congratulations to our CEO and Founder, CJ Alvarado, for being recognized as one of the Sacramento Business Journal’s 40 under 40 winners for 2013!"
 ---
 
 ![Congratulations, CJ.](/images/posts/cj.jpg) Congratulations to our CEO and Founder, **[CJ Alvarado](https://twitter.com/cjalvarado)** for being recognized as one of the Sacramento Business Journal’s 40 under 40 winners for 2013!

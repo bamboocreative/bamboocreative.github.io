@@ -8,6 +8,11 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: feeltheboo
 github_username:  bamboocreative
 
+#Blog Settings
+permalink: blog/:title/
+paginate: 5
+paginate_path: "blog/page:num"
+
 # Build settings
 markdown: kramdown
 sass:

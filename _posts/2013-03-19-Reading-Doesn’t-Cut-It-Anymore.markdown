@@ -2,9 +2,9 @@
 layout: post
 title:  "“Reading” Doesn’t Cut It Anymore"
 date:   2013-03-19 12:00:00
-categories: bamboo
-body-class: post-welcome
+categories: bamboo 
 author: Ben De Rienzo
+excerpt: "It's been an eventful year, with our first venture into designing a mobile application. It probably would have been smart to just pick some garbage-tech idea to cut our teeth on, like a silly, stress-relieving time-waster app or an ultra-simple utility."
 ---
 
 ![Reading Doesn't Cut It Anymore](/images/posts/reading-doesnt-cut-it.jpg)

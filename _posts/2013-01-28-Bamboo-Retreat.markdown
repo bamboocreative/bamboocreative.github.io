@@ -2,9 +2,9 @@
 layout: post
 title:  "Bamboo Retreat"
 date:   2013-01-28 12:00:00
-categories: bamboo
-body-class: post-welcome
+categories: bamboo 
 author: Bamboo
+excerpt: "Last week, we gathered the team and trekked up to Tahoe for our staff retreat. It was a time of team-bonding and reenergizing. We believe work and fun should not be mutually exclusive."
 ---
 
 ![Bamboo Retreat](/images/posts/bamboo-retreat.jpg)
