@@ -1,0 +1,20 @@
+.pagination{
+    font-size: 2em;
+    
+    a{
+        color: $primary-color;
+        
+        &:hover{
+            color: darken($primary-color, 20%);
+        }
+    }
+    
+    span{
+        color: $font-color-light;
+    }
+    
+    a, span{
+        text-decoration: none;
+    }
+    
+}

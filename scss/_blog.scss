@@ -1,0 +1,21 @@
+.post-excerpt{
+    border-bottom: 1px solid lighten($font-color-light, 20%);
+    padding-bottom: 2em;
+
+    &:last-of-type{
+        border-bottom: none;
+    }
+
+    .excerpt-footer{
+        color: $font-color-light;
+        font-style: italic;
+        
+        .date{
+          color: $primary-color;
+        }
+    }
+    
+    h2{
+        margin-bottom: 0.6em;
+    }
+}
