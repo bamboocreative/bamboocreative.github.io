@@ -3,7 +3,7 @@ layout: project
 client: The Hub Bikes
 slug: the-hub
 image: logo.svg 
-url: 
+website: 
 services: Branding, Marketing
 ---
 

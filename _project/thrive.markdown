@@ -3,7 +3,7 @@ layout: project
 client: Thrive Conference
 slug: thrive
 image: logo.svg 
-url: http://thriveconference.org/
+website: http://thriveconference.org/
 services: Web, Marketing
 ---
 

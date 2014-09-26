@@ -3,8 +3,20 @@ layout: default
 ---
 
 <article class="page" role="main">
+
+	<header class="proj-header">
+		<h1 class="proj-title">{{ page.client }}</h1>
+		<div class="proj-sercives">{{ page.services }}</div> 
+		{% if page.website %}
+			<div class="proj-url">
+			<a href="{{page.website}}">
+			{% if page.prettywebsite %}{{ page.prettywebsite }}{% else %}{{ page.website }}{% endif %}
+			</a>
+			</div>
+		{% endif %}
+	</header>
 	
-	<section class="post-content">
+	<section class="proj-content">
 		{{ content }}
 	</section>
 	

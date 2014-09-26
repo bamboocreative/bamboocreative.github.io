@@ -3,7 +3,7 @@ layout: project
 client: Booklaunch.io
 slug: booklaunch
 image: logo.svg 
-url: https://booklaunch.io/
+website: https://booklaunch.io/
 services: Branding, Web, Design, Marketing, Labs
 ---
 

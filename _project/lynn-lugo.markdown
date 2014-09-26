@@ -3,7 +3,7 @@ layout: project
 client: Lynn Lugo
 slug: lynn-lugo
 image: logo.svg 
-url: http://www.lynnlugo.com/
+website: http://www.lynnlugo.com/
 services: Web
 ---
 

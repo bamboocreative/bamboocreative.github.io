@@ -3,7 +3,7 @@ layout: project
 client: White Hat Studios
 slug: white-hat
 image: logo.svg 
-url: http://whitehatstudios.co/
+website: http://whitehatstudios.co/
 services: Branding
 ---
 

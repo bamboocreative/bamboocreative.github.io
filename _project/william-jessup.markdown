@@ -3,7 +3,7 @@ layout: project
 client: William Jessup University
 slug: wju
 image: logo.svg 
-url: http://www.jessup.edu/
+website: http://www.jessup.edu/
 services: Branding, Marketing, Web, Design
 ---
 

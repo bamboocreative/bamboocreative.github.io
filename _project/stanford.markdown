@@ -1,9 +1,10 @@
 ---
 layout: project
-client: Standford
+client: Stanford University
 slug: stanford
 image: logo.svg 
-url: http://standforduniversity.com
+website: http://standforduniversity.com
+prettywebsite: standforduniversity.com
 services: Branding
 ---
 

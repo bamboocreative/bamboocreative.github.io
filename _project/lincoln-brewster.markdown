@@ -3,7 +3,7 @@ layout: project
 client: Lincoln Brewster
 slug: lincoln-brewster
 image: logo.svg 
-url: http://lincolnbrewster.com
+website: http://lincolnbrewster.com
 services: Graphic Design, Web
 ---
 
