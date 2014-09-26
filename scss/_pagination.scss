@@ -15,11 +15,15 @@
 
 
     a{
-
+        @include transition(all .3s $ease-out-quint);
         
         &:hover{
             background-color: $font-color-light;
-            @include transition(all .3s $ease-out-quint);
+        }
+        
+        &:active{
+            background-color: lighten($font-color-light, 20%);
+            transition: none;
         }
     }
     
