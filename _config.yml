@@ -14,7 +14,12 @@ sass:
   sass_dir: scss
   
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
-  
+
+collections:
+  project:
+    foo: bar
+    output: true
+
 # Configs prose.io for external editing
 prose:
     rooturl: '_posts'
