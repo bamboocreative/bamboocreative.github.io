@@ -2,7 +2,7 @@
 layout: project
 client: American Bible Society
 slug: abs
-image: logo.jpg 
+image: logo.svg 
 website: www.americanbible.org
 services: App, Experience, Interactive, Design
 ---
@@ -13,7 +13,7 @@ ABS came to us, as it made plans for its newest exhibit. ABS partnered with top 
 
 [The Bible debuted on the History Channel](www.history.com/shows/the-bible) March 3, 2013, with 13.1 million total viewers, making it the top entertainment telecast on cable so far this year.
 
-![abs](/images/client-assets/abs/01.jpg)
-![abs](/images/client-assets/abs/02.jpg)
-![abs](/images/client-assets/abs/03.jpg)
-![abs](/images/client-assets/abs/04.jpg)
+![abs](/images/client-assets/{{page.slug}}/01.jpg)
+![abs](/images/client-assets/{{page.slug}}/02.jpg)
+![abs](/images/client-assets/{{page.slug}}/03.jpg)
+![abs](/images/client-assets/{{page.slug}}/04.jpg)
