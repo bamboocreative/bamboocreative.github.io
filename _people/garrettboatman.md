@@ -1,6 +1,6 @@
 ---
 layout: default
-image: http://placekitten.com/g/300/300
+image: garrett.jpg
 name: Garrett Boatman
 title: Lead Developer
 twitter: garrettboatman
