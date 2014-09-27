@@ -13,10 +13,10 @@ We immediately saw a multitude of ways to do this. We created a centralized medi
 
 We believe a strong message presented on a fresh platform increases both audience engagement and organization trajectory. A new look can breath new life. Bamboo brought its design expertise to the Jessup Magazine to help tell the incredible stories coming out of William Jessup University, which is coming up on its 75th anniversary.
 
-![william-jessup](/images/client-assets/william-jessup/01.jpg)
-![william-jessup](/images/client-assets/william-jessup/02.jpg)
-![william-jessup](/images/client-assets/william-jessup/03.jpg)
-![william-jessup](/images/client-assets/william-jessup/04.jpg)
-![william-jessup](/images/client-assets/william-jessup/05.jpg)
-![william-jessup](/images/client-assets/william-jessup/06.jpg)
-![william-jessup](/images/client-assets/william-jessup/07.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/01.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/02.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/03.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/04.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/05.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/06.jpg)
+![william-jessup](/images/client-assets/{{page.slug}}/07.jpg)

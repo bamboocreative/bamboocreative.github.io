@@ -1,4 +1,3 @@
-<!--- 
 ---
 layout: project
 client: Rocklin
@@ -7,7 +6,3 @@ image: logo.svg
 website: http://rocklin.ca.us
 services: Branding
 ---
-
-Woohoo!
-
--->
