@@ -10,9 +10,13 @@ layout: page
 <div class="people-archive">
 	{% for person in site.people %}
 	<div href="{{person.url}}" class="person">	
-		<img alt="{{person.name}}" src="{{person.image}}">
+		<img alt="{{person.name}}" src="/images/people/{{person.image}}">
 		<div class="person-overlay">
 			{{person.name}}
+			<br>
+			{{person.title}}
+			<br>
+			<a href="https://twitter.com/{{person.twitter}}">@{{person.twitter}}</a>
 		</div>
 	</div>
 	{% cycle 'add rows': nil, nil, '</div><div class="people-archive">' %}
