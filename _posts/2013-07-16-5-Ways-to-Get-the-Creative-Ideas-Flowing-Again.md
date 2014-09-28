@@ -2,8 +2,7 @@
 layout: post
 title:  "5 Ways to Get the Creative Ideas Flowing Again"
 date:   2013-07-16 12:00:00
-categories:
-    - creativity
+categories: bamboo 
 author: CJ ALvarado
 excerpt: "No matter how creative you are, sometimes the well just runs dry. But, you still have projects and clients, and they're still relying on your creative genius!"
 ---

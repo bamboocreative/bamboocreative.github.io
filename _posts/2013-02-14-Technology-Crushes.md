@@ -2,10 +2,7 @@
 layout: post
 title:  "Technology Crushes"
 date:   2013-02-14 12:00:00
-categories:
-    - bamboo 
-    - team
-    - tech
+categories: bamboo 
 author: Bamboo
 excerpt: "We spend our time and money on them. We could stare at them for hours. To maintain a close, healthy relationship, we always keep them updated. We all have one, a technology crush - a program, app or piece of tech we love. The Bamboo team members share the technologies that set their hearts aflutter."
 ---

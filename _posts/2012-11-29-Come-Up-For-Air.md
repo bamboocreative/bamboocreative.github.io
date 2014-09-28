@@ -2,10 +2,7 @@
 layout: post
 title:  "Come Up For Air"
 date:   2012-11-29 12:00:00
-categories:
-    - creativity
-    - product development
-    - design
+categories: bamboo 
 author: Jake Elia
 excerpt: "With every start-up or project, you go through phases. You fall in and out of love with your idea, your commitment, and your understanding of what you’re doing. When you’ve tackled the big idea and vision, and have moved on to the time of execution, building, and refining, you can reach a frustrating phase."
 ---

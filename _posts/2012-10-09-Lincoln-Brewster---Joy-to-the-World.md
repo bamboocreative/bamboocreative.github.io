@@ -2,9 +2,7 @@
 layout: post
 title:  "Lincoln Brewster - Joy to the World"
 date:   2012-10-09 12:00:00
-categories:
-    - clients
-    - humanitarian
+categories: bamboo 
 author: Ben De Rienzo
 excerpt: "We had a chance to work with Lincoln Brewster, singer, songwriter and guitar extraordinaire, on his latest Christmas album.  From the very beginning, we knew that this would not be just another Christmas album. Lincoln, in fact, decided to donate all the proceeds of this project to the Northern Congo."
 ---

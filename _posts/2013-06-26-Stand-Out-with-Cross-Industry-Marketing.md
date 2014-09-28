@@ -2,9 +2,7 @@
 layout: post
 title:  "Stand Out with Cross-Industry Marketing"
 date:   2013-06-26 12:00:00
-categories:
-    - marketing
-    - standing out
+categories: bamboo 
 author: CJ Alvarado
 excerpt: "No matter what industry a company is in, brand building is paramount."
 ---
