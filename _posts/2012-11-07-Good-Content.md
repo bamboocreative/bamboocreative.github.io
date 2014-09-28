@@ -2,7 +2,9 @@
 layout: post
 title:  "Good Content"
 date:   2012-11-07 12:00:00
-categories: bamboo 
+categories:
+    - bamboo
+    - content
 author: Jake Elia
 excerpt: "Our office is divided; to love cat photos or to not love cat photos, that is the question."
 ---
