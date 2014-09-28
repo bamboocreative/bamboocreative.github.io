@@ -2,7 +2,9 @@
 layout: post
 title:  "The Creative Mindset"
 date:   2012-11-13 12:00:00
-categories: bamboo 
+categories:
+    - creativity
+    - courage
 author: CJ Alvarado
 excerpt: "I've heard it said that \"you can be cautious or creative, but there is no such thing as a cautious creative.\" Being a creative takes guts. It requires that you have a particular mindset."
 ---

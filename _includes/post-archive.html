@@ -1,0 +1,9 @@
+ <section class="post-excerpt">
+     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        <p class="excerpt-footer">{{ post.author }} wrote this on <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>. It has to do with 
+            {% for category in post.categories %}
+                <a class="cat-{{category | replace: " ", "-"}}" href="{{category | replace: " ", "-" | prepend: "/blog/" }}">{{category}}</a>
+            {% endfor %}
+        </p>
+</section>

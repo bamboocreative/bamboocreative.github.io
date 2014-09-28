@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  
+  {% include head.html %}
+
+  <body>
+	<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% include header.html %}
+    
+    {% capture page_category %}{{ page.title }}{% endcapture %}    
+    
+        <main class="page" role="main">
+            <h4 class="category-title">Every stinkin' post about <span class="cat-{{page_category | replace: " ", "-"}}">{{ page_category | capitalize }}</span></h4>
+            {% for post in site.categories.[page_category] %}
+                
+                {% include post-archive.html %}
+                
+            {% endfor %}
+        </main>
+        
+
+    {% include footer.html %}
+
+    </body>
+</html>
+
