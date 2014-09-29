@@ -3,6 +3,15 @@ layout: default
 image: emily.jpg
 name: Emily Lokteff
 title: Social Media
-twitter: EmilyLokteff
-social: {twitter: EmilyLokteff, facebook: '', github: '', rdio: ''}
+
+social: 
+  - account: twitter
+    username: EmilyLokteff
+  - account: facebook
+    username: emily.lokteff
+  - account: instagram
+    username: emilylokteff
+  - account: spotify
+    username: 1235186594
+    
 ---

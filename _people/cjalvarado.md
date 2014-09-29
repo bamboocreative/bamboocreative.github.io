@@ -3,6 +3,15 @@ layout: default
 image: cj.jpg
 name: CJ Alvarado
 title: Founder & CEO
-twitter: cjalvarado
-social: {twitter: cjalvarado, facebook: '', github: '', rdio: ''}
+
+social: 
+  - account: twitter
+    username: cjalvarado
+  - account: facebook
+    username: cjalvarado
+  - account: instagram
+    username: cjalvarado
+  - account: spotify
+    username: 1258104351
+    
 ---
