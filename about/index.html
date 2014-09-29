@@ -8,14 +8,25 @@ layout: page
 </div>
 <div class="people-archive">
 	{% for person in site.people %}
-	<div href="{{person.url}}" class="person">	
+	<div class="person">	
 		<img alt="{{person.name}}" src="/images/people/{{person.image}}">
 		<div class="person-overlay">
-			{{person.name}}
-			<br>
-			{{person.title}}
-			<br>
-			<a href="https://twitter.com/{{person.twitter}}">@{{person.twitter}}</a>
+			<h4 class="person-name">{{person.name}}</h4>
+			<span class="break"></span><br>
+			<span class="person-title">{{person.title}}</span><br />
+			<span class="person-social">
+			{% for user in person.social %}
+				
+				{% if user.account == "facebook" %}<a target="_blank" href="//facebook.com/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+				{% if user.account == "twitter" %}<a target="_blank" href="//twitter.com/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+				{% if user.account == "instagram" %}<a target="_blank" href="//instagram.com/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+				{% if user.account == "github" %}<a target="_blank" href="//github.com/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+				{% if user.account == "rdio" %}<a target="_blank" href="//rdio.com/people/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+				{% if user.account == "spotify" %}<a target="_blank" href="//play.spotify.com/user/{{user.username}}"><i class="icon-{{user.account}}"></i></a>{% endif %}
+
+					
+			{% endfor %}
+			</span>
 		</div>
 	</div>
 	{% cycle 'add rows': nil, nil, '</div><div class="people-archive">' %}
