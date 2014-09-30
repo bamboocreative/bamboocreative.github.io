@@ -47,15 +47,17 @@
 h1.logo{
 	background-image: url('../images/bamboo.svg');
 	background-size: 100%;
-	width: 180px;
-	height: 80px;
-	margin: 0;
+	width: 140px;
+	height: 50px;
+	margin: .1em 0 0;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 }
 
 header.header{
 	padding-top: 1em;
+	
+	@include media(max-width $mamabear){padding-top: .2em;}
 	
 	.page{
 		margin-bottom: 2em;
@@ -74,7 +76,7 @@ header.header{
 	@include transform(scale(1.1));
 	
 	&.active{
-		opacity: 1;
+		opacity: 1 !important;
 		z-index: 1;
 		@include transform(scale(1));
 	}
@@ -113,4 +115,3 @@ header.header{
 	}
 	
 }
-
