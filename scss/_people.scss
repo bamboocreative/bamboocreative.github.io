@@ -1,0 +1,92 @@
+.about{
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+.people-archive{
+	
+	@include outer-container;
+	
+	.person{
+		@include span-columns(4);
+		width: 33.333333%;
+		margin-right: 0;
+		position: relative;
+		@include pad(0);
+				
+		@include transition(.3s background);
+		
+		
+		.person-overlay{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			color: #fff;
+			background: rgba(129, 230, 217, .9);
+			@include transition(.3s opacity);
+			
+			.icon-facebook, .icon-twitter{
+				margin-left: -3px;
+				margin-right: -3px;
+			}
+			
+			padding: .5em;
+			padding-top: 80px;
+			opacity: 0;
+						
+			text-align: center;
+			
+			.person-name{
+				margin: 0;
+				padding: 0;
+				line-height: 1em;
+				font-size: 1.3em;
+			}
+			
+			.person-social{
+				font-size: 1.3em;
+				a{
+					color: #fff;
+					text-decoration: none;
+					display: inline-block;
+					margin-top: 10px;
+				}
+			}
+			
+			&:hover{
+				opacity: 1;
+			}
+			
+		}
+		
+		&:hover{
+			background: $primary-color;
+		}
+		
+		img{
+			width: 100%;
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+		
+		@include media(max-width $mamabear){
+			@include span-columns(6);
+			margin-right: 0;
+			width: 100%;
+			height: auto;			
+		}
+
+	}
+	
+}
+
+.break{
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+	width: 50px;
+	margin: .5em 0 .25em;
+}

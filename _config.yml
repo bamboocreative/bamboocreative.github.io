@@ -22,8 +22,9 @@ exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 
 collections:
   project:
-    foo: bar
     output: true
+  people:
+    output: true #Set to true for user profiles
 
 # Configs prose.io for external editing
 prose:
