@@ -24,11 +24,11 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?sb1ucc');
-	src:url('fonts/icomoon.eot?#iefixsb1ucc') format('embedded-opentype'),
-		url('fonts/icomoon.woff?sb1ucc') format('woff'),
-		url('fonts/icomoon.ttf?sb1ucc') format('truetype'),
-		url('fonts/icomoon.svg?sb1ucc#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-xiv0ia');
+	src:url('fonts/icomoon.eot?#iefix-xiv0ia') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-xiv0ia') format('woff'),
+		url('fonts/icomoon.ttf?-xiv0ia') format('truetype'),
+		url('fonts/icomoon.svg?-xiv0ia#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -50,11 +50,11 @@
 .icon-googleplus:before {
 	content: "\e600";
 }
-.icon-envelope:before {
+.icon-phone:before {
 	content: "\e601";
 }
-.icon-mobile:before {
-	content: "\e602";
+.icon-paperplane:before {
+	content: "\e609";
 }
 .icon-github:before {
 	content: "\e603";
@@ -65,6 +65,9 @@
 .icon-facebook:before {
 	content: "\e605";
 }
+.icon-dribbble:before {
+	content: "\e602";
+}
 .icon-rdio:before {
 	content: "\e607";
 }
@@ -74,8 +77,7 @@
 .icon-instagram:before {
 	content: "\e606";
 }
+
 .icon-dribbble:before {
 	content: "\e609";
 }
-
-
