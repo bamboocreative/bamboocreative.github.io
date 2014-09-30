@@ -1,0 +1,59 @@
+.social{
+	text-align: center;
+	
+	a{
+		margin: 0 .5em;
+	}	
+}
+
+.contact{
+	text-align: center;
+	@include media($mamabear){
+		@include row(table);
+		text-align: left;
+	}
+		
+	margin-top: 2em;
+	.call, .email{
+		@include media($mamabear){
+			@include span-columns(6);
+		}
+		margin-right: 0px;
+		padding: 1.5em;
+		
+		.icon-paperplane, .icon-phone{
+			font-size: 3em;
+			color: #a7a7a7;
+		}
+		
+		a{
+			display: block;
+			margin-top: 1em;
+		}
+		
+	}
+	
+	@include media($mamabear){
+		.call{
+			border-right: 1px solid #eee;
+			text-align: right;
+		}
+	}
+	
+	.email{
+	}
+
+}
+
+.address{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1.5em;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	
+	a{
+		color: $font-color;
+	}
+}
