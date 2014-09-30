@@ -17,6 +17,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 sass:
   sass_dir: scss
+  style: :compressed
   
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 
