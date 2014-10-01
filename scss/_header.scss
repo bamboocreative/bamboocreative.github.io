@@ -67,6 +67,7 @@ header.header{
 
 .full-nav{
 	width: 100%; height: 100%; left: 0; top:110px;
+	padding-bottom: 110px;
 	background: $primary-color;
 	position: fixed;
 	opacity: 0;
@@ -75,7 +76,7 @@ header.header{
 	-webkit-overflow-scrolling: touch;
 	@include transform(translateY(-100%));
 	@include transition(.3s all);
-	@include media(max-width $mamabear){top: 75px;}
+	@include media(max-width $mamabear){top: 75px; padding-bottom: 75px;}
 	&.active{
 		opacity: 1 !important;
 		z-index: 1;
