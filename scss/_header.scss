@@ -113,7 +113,7 @@ header.header{
 			font-size: 1.5em;
 			line-height: 1em;
 			padding-top: 10px;
-			padding-bottom: 20px;
+			padding-bottom: 10px;
 			color: white;
 			text-decoration: none;
 			border-bottom: 2px solid transparent;
@@ -131,9 +131,15 @@ header.header{
 	}
 	
 	.menu-posts{
-		li a{
-			font-size: 1.6em;
-		}
+		li{
+			
+			margin-bottom: 1em;
+			
+			a{
+				font-size: 1.6em;
+			}
+			
+		} 
 	}
 	
 	nav.site-nav{
