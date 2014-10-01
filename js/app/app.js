@@ -3,6 +3,7 @@ document.addEventListener("touchstart", function(){}, true);
 $('.menu-button').click(function(){
 	$(this).toggleClass('active');
 	$('.full-nav').toggleClass('active');
+	$('body').toggleClass('overflow-hidden');
 });
 ;// Avoid `console` errors in browsers that lack a console.
 (function() {
