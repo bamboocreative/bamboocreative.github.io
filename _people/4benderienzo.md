@@ -11,8 +11,6 @@ social:
     username: derienzo777
   - account: instagram
     username: derienzo777
-  - account: spotify
-    username: derienzo777
   - account: dribbble
     username: derienzo777
     

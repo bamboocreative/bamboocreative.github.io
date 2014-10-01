@@ -11,5 +11,6 @@ social:
     username: angie.wysocki
   - account: instagram
     username: angiewysocki
-
+  - account: spotify
+    username: chic2015
 ---

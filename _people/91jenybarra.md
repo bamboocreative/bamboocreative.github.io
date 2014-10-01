@@ -5,7 +5,7 @@ name: Jennifer Ybarra
 title: Designer
 
 social: 
-  - account: facebook
-    username: ybarra.jennifer
+  - account: dribbble
+    username: jenniferybarra
 
 ---
