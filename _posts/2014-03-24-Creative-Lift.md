@@ -7,7 +7,7 @@ author: Ginny Townsend
 excerpt: "Married to a pilot for 9+ years, I’ve had an extended lesson in the laws of aviation and aeronautical history. Drew, my husband, is a gem. He is a pilot to the core and he often leaves me in the dust when he shares all sorts of complicated aeronautical… stuff."
 ---
 
-![Creative Lift](/images/posts/creative-lift.jpg)
+![Creative Lift](/images/posts/creative-lift.jpg){: .feat-img}
 
 Married to a pilot for 9+ years, I’ve had an extended lesson in the laws of aviation and aeronautical history. Drew, my husband, is a gem. He is a pilot to the core and he often leaves me in the dust when he shares all sorts of complicated aeronautical… stuff.
 

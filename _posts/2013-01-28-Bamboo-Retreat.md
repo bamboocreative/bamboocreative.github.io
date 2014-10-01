@@ -7,7 +7,7 @@ author: Bamboo
 excerpt: "Last week, we gathered the team and trekked up to Tahoe for our staff retreat. It was a time of team-bonding and reenergizing. We believe work and fun should not be mutually exclusive."
 ---
 
-![Bamboo Retreat](/images/posts/bamboo-retreat.jpg)
+![Bamboo Retreat](/images/posts/bamboo-retreat.jpg){: .feat-img}
 
 
 Last week, we gathered the team and trekked up to Tahoe for our staff retreat. It was a time of team-bonding and reenergizing. We believe work and fun should not be mutually exclusive. So, while learning about overcoming creative blocks, practicing innovation, and enacting team synergy, we incorporated paper airplane contests, speed app-prototyping and snowball fights into our schedule. Perhaps the biggest feat of the three days was cramming 10 laptops, 9 iPhones and a smattering of iPads onto the cabin’s Wifi, not to mention the dinner table. We managed.
