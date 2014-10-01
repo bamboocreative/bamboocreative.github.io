@@ -2,7 +2,7 @@
 layout: default
 image: emily.jpg
 name: Emily Lokteff
-title: Social Media
+title: Marketing Researcher & Coordinator
 
 social: 
   - account: twitter

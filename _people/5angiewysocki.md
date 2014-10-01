@@ -2,7 +2,7 @@
 layout: default
 image: angie.jpg
 name: Angie Wysocki
-title: Project Management
+title: Client Services
 
 social: 
   - account: twitter

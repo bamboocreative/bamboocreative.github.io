@@ -2,7 +2,7 @@
 layout: default
 image: josh.jpg
 name: Josh Reeder-Espara
-title: Web Developer
+title: Jr. Web Developer - Creative Support
 
 social: 
   - account: twitter
