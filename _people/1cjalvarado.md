@@ -1,6 +1,6 @@
 ---
 layout: default
-image: cj.jpg
+image: cj2.jpg
 name: CJ Alvarado
 title: Founder & CEO
 
