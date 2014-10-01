@@ -4,14 +4,13 @@ layout: page
 
 <!-- This is the project page! -->
 <h1 class="center">Our Work</h1>
-<div class="project-archive">
-	{% for project in site.project %}
-	<a href="{{project.url}}" class="project">	
-		<img alt="{{project.client}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
-	</a>
-	
-	{% cycle 'add rows': nil, nil, '</div><div class="project-archive">' %}
-	
-	{% endfor %}
-
+<div class="twocol-project-archive">
+	<div class="project-archive">
+		{% for project in site.project %}
+		<a href="{{project.url}}" class="project">	
+			<img alt="{{project.client}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
+			<span>{{project.services}}</span>
+		</a>		
+		{% endfor %}
+	</div>
 </div>
