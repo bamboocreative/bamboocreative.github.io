@@ -3,8 +3,8 @@ layout: project
 client: Stanford University
 slug: stanford
 image: logo.svg 
-website: http://standforduniversity.com
-prettywebsite: standforduniversity.com
+website: http://stanforduniversity.com
+prettywebsite: stanforduniversity.com
 services: Branding
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Standford
+client: Lists.io
 slug: listsio
 image: logo.svg 
 website: lists.io

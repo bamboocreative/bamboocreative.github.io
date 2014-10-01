@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Bayside
+client: Bayside Church
 slug: bayside
 image: logo.svg 
 website: http://www.baysideonline.com
