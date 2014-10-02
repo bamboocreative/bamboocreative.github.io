@@ -5,11 +5,15 @@ slug: zocalo
 image: logo.svg 
 website: http://zocalosacramento.com/
 prettywebsite: zocalosacramento.com
-services: Web, Marketing, Design
+services: Web, Marketing, Design, Photography
 order: 6
 ---
 
-From chile relleno to tacos del mar, Zocalo knows how to serve a mean Mexican dish with flair. With locations in Sacramento and Roseville, this restaurant boasts rave reviews from Sacramento Bee and Sactown Magazine. Desiring to provide their customers with a visual experience as savory as their entrees, Zocalo came to Bamboo for all their web and mobile design needs. We took their vision to create excellent Mexican cuisine with an ambiance influenced by the lively town squares of Mexico, and we captured it by creating key art and photography for Zocalo. We designed and developed Zocalo’s web and mobile presence and continue to influence their social platforms. Now people can drool over their menu and be struck by their style, anytime and anywhere.
+
+
+From chile rellenos to tacos del mar, Zocalo knows authentic Mexican fare. Their lively ambiance features dishes and decor influenced by the lively town squares of Mexico. With multiple locations and growing rapidly, this restaurant boasts rave reviews from fans and area media outlets alike. 
+
+Desiring to provide their customers with a visual experience as savory as their entrees, Zocalo relies on Bamboo for design and social strategy. We captured it through key art and original photography, which displays prominently on their beautifully designed web and mobile presence. Now people can drool over the menus and be struck by their style, anytime and anywhere.
 
 ![zocalo](/images/client-assets/{{page.slug}}/01.jpg)
 ![zocalo](/images/client-assets/{{page.slug}}/02.jpg)

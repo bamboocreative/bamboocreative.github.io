@@ -9,7 +9,11 @@ services: Graphic Design, Web
 order: 11
 ---
 
-Integrity Music recording artist, Lincoln Brewster, tapped Bamboo to design his latest record. For his 8th release, Shout for Joy, the former guitar prodigy and sought-after session player chose to produce his first set of Christmas songs. In designing his package, we wanted to capture the energy of his live electric-guitar playing using super-bold typography and his memorable profile image.
+Recording artist and touring musician, Lincoln Brewster, tasked Bamboo to come alongside and provide bold creative support and platform-building strategy. 
+
+From album design to tour collateral, to interactive web and social campaigns, our goal is to capture the energy of his live electric-guitar sound, utilizing ultra-bold typography and his memorable profile image.
+
+For his latest release on Integrity Music, Oxygen, our creative team delivered the album story in some new ways. We produced an intimate series of behind-the-scenes videos and commissioned writers to tell the different song stories, and produced a rich, interactive digital book on the Snippet platform. 
 
 ![Lincoln Brewster](/images/client-assets/{{page.slug}}/01.jpg)
 ![Lincoln Brewster](/images/client-assets/{{page.slug}}/02.jpg)

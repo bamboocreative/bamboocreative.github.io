@@ -10,7 +10,9 @@ feat-order: 1
 order: 2
 ---
 
-Line 6 describes themselves as both musicians and technologists with a love of bringing top-notch, no-hassle audio products to market. When planning to release a game-changing new amp, Amplifi, Line 6 knew they would need a game-changing new website to showcase their innovation. They came to Bamboo Creative with this charge so we designed a beautiful and intuitive experience that allows Line 6 to give a product like Amplifi the attention it deserves. Congratulations, Line 6, on your revolutionary new amp!
+This industry-leading company continually introduces innovative audio products to musicians and technologists.  
+
+To showcase their revolutionary new bluetooth-enabled, cloud-synced, Amplifi system, Bamboo Creative designed a beautiful, storytelling experience that highlights all of the ways this amp changes the game. Full-width video and gorgeous product imagery inspire the guitarist that lives in all of us.  
 
 ![line-six](/images/client-assets/{{page.slug}}/01.jpg)
 ![line-six](/images/client-assets/{{page.slug}}/02.jpg)
