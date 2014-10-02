@@ -3,6 +3,9 @@ layout: project
 client: Rocklin
 slug: rocklin
 image: logo.svg 
-website: http://rocklin.ca.us
+website: http://wearerocklin.com/
 services: Branding
 ---
+
+![Rocklin](/images/client-assets/{{page.slug}}/01.jpg)
+![Rocklin](/images/client-assets/{{page.slug}}/02.jpg)

@@ -7,7 +7,7 @@ author: CJ ALvarado
 excerpt: "No matter how creative you are, sometimes the well just runs dry. But, you still have projects and clients, and they're still relying on your creative genius!"
 ---
 
-![Creative Gravity](/images/posts/5-Ways-to.jpg)
+![Creative Gravity](/images/posts/5-Ways-to.jpg){: .feat-img}
 
 No matter how creative you are, sometimes the well just runs dry. But, you still have projects and clients, and they're still relying on your creative genius! So, why not try something new to break through creative's block? Here are five different methods that will have you raining fresh ideas in no time.
 

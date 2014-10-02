@@ -7,7 +7,7 @@ author: CJ Alvarado
 excerpt: "No matter what industry a company is in, brand building is paramount."
 ---
 
-![Stand Out with Cross-Industry Marketing](/images/posts/stand-out-with-cross-industry-marketing.jpg)
+![Stand Out with Cross-Industry Marketing](/images/posts/stand-out-with-cross-industry-marketing.jpg){: .feat-img}
 
 _No matter what industry a company is in, brand building is paramount._
 

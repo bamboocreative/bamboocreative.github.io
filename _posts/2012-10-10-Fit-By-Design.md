@@ -7,7 +7,7 @@ author: CJ Alvarado
 excerpt: "I read a story about a group of American car executives that went to see a Japanese assembly line.  At the end of the line, the car doors were placed on hinges just as they were in the American factories."
 ---
 
-![Fit By Design](/images/posts/fit-by-design.jpg)
+![Fit By Design](/images/posts/fit-by-design.jpg){: .feat-img}
 
 I read a story about a group of American car executives that went to see a Japanese assembly line.  At the end of the line, the car doors were placed on hinges just as they were in the American factories.  However, in the US, a line worker would stand at the end of the line and use a mallet to make sure the edges of the doors fit perfectly.  In the Japanese line there were no such people.
 

@@ -7,7 +7,7 @@ author: Bamboo
 excerpt: "I don’t think the first people who considered flying to outer space began by asking, \"Is this reasonable?\""
 ---
 
-![Be Unreasonable](/images/posts/be-unreasonable.jpg)
+![Be Unreasonable](/images/posts/be-unreasonable.jpg){: .feat-img}
 
 I don’t think the first people who considered flying to outer space began by asking, “Is this reasonable?”
 
