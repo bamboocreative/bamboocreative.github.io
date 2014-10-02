@@ -12,7 +12,7 @@ footer#footer{
 
 .home-tag{
 	text-align: center;
-	margin: 4em 0;
+	margin: 2em 0;
 	
 	h2{
 		
@@ -23,8 +23,36 @@ footer#footer{
 	}
 	
 	p{
-		margin-bottom: 2em;
+	    font-size: 25px;
+		margin: 2em 0;
 	}
+	
+	span{
+        display: block;
+        font-size: 17px;
+	}
+	.feat-clients{ 
+    	padding: 1.3em 0 2.5em 0;
+
+        a{
+            width: 20%;
+        	margin-left: -5px;
+            
+            img{
+        	    width: 100%;
+            }
+    	}
+	
+	@include media(max-width $babybear){
+			a{
+			img{
+    			width: 33%;
+			}
+			}
+		}
+
+	}
+	
 	
 }
 

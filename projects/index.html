@@ -6,7 +6,8 @@ layout: page
 <h2 class="center">Our Work</h2>
 <div class="twocol-project-archive">
 	<div class="project-archive">
-		{% for project in site.project %}
+        {% assign projects = site.project | sort: 'order' %}
+       	{% for project in projects %}
 		<a href="{{project.url}}" class="project">	
 			<img alt="{{project.client}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
 		</a>		

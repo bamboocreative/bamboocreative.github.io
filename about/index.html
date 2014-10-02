@@ -9,7 +9,8 @@ layout: page
 	<p>We joke that we are never short on ideas, but truthfully we aren’t. We challenge ourselves and our team to never let an idea go unexplored. New ideas are delicate and dangerous, you never know what they may turn in to.</p>
 </div>
 <div class="people-archive">
-	{% for person in site.people %}
+	{% assign people = site.people | sort: 'order' %}
+	{% for person in people %}
 	<div class="person">	
 		<img alt="{{person.name}}" src="/images/people/{{person.image}}">
 		<div class="person-overlay">
