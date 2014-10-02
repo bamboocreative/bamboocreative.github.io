@@ -74,13 +74,19 @@ header.header{
 	z-index: -1;
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
-	@include transform(translateY(-100%));
-	@include transition(.3s all);
+	@include transform(translateY(-100%) translate3d(0, 0, 0));
+	@include transition(.5s all $ease-out-quart);
 	@include media(max-width $mamabear){top: 75px; padding-bottom: 75px;}
 	&.active{
 		opacity: 1 !important;
-		z-index: 1;
+		z-index: 2;
 		@include transform(scale(1));
+        .menu-posts{
+		    li{
+                @include transform(translateY(0) translate3d(0, 0, 0));
+                }
+		    }
+
 	}
 	div{
 	    text-align: center;
@@ -131,13 +137,18 @@ header.header{
 	}
 	
 	.menu-posts{
+        
 		li{
-			
+            @include transition(0.5s transform $ease-in-out-quad);
+            @include transform(translateY(-100px) translate3d(0, 0, 0));
 			margin-bottom: 1em;
-			
 			a{
 				font-size: 1.6em;
 			}
+            &:nth-child(1){@include transition-duration(.4s);}
+            &:nth-child(2){@include transition-duration(.5s);}
+            &:nth-child(3){@include transition-duration(.6s);}
+            &:nth-child(4){@include transition-duration(.7s);}
 			
 		} 
 	}

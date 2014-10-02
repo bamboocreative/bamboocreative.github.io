@@ -4,6 +4,10 @@ $('.menu-button').click(function(){
 	$(this).toggleClass('active');
 	$('.full-nav').toggleClass('active');
 	$('body').toggleClass('overflow-hidden');
+	 $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
 });
 ;// Avoid `console` errors in browsers that lack a console.
 (function() {
