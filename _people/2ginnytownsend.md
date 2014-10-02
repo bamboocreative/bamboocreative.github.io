@@ -2,7 +2,7 @@
 layout: default
 image: ginny.jpg
 name: Ginny Townsend
-title: Vice President
+title: Marketing & Communications
 
 social: 
   - account: twitter
