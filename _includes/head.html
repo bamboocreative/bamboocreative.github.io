@@ -1,10 +1,37 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+	<!-- Plain Descript -->
+	<title>{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{site.title}}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
+	
+	<!-- Google+ -->
+	<!-- Authors aren't people yet. <link rel="author" href="https://plus.google.com/[Google+_Profile]/posts"/> -->
+	<link rel="publisher" href="https://plus.google.com/{{site.googleplus}}"/>
+	<meta itemprop="name" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | Bamboo Creative{% endif %}">
+	<meta itemprop="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
+	<meta itemprop="image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}">
+	
+	<!-- Facebook -->
+	<meta property="og:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | Bamboo Creative{% endif %}"/>
+	<meta property="og:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}"/>
+	<meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.socialimg}}{% endif %}"/>
+	<meta property="og:url" content="{{site.url}}{{page.url}}"/>
+	<meta property="og:site_name" content="Bamboo Creative"/>
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | Bamboo Creative{% endif %}">
+	<meta name="twitter:description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
+	<meta name="twitter:image" content="{{site.url}}{{site.socialimg}}">
+	<meta name="twitter:url" content="{{site.url}}{{page.url}}">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/app.css">
+	
+	<!-- Head Scripts -->
 	<script>
 	/*
  * For font license information, see the CSS file loaded by this JavaScript.
@@ -61,6 +88,4 @@ Ya.prototype.load=function(){var a=this.na.__webfonttypekitmodule__;if(a)for(var
 if(!window.Typekit.load){var $a=window.Typekit.config||{},ab=k;$a.k&&(ab=new M($a.k));var X=new Wa(ab,new fa(window),Za,document.documentElement),bb=new Ya(window);window.Typekit.load=function(){X.load.apply(X,arguments)};window.Typekit.addKit=function(){X.Y.apply(X,arguments)}}var cb,db=k,Y,$,L=window.Typekit.config||{};L.p&&(db=new M(L.p));$=new W(new fa(window));$.pa=new function(){this.ta=db};Y=new Ia;Y.oa=!L.si;Y.U=!L.st;Y.I=!L.sa;Y.xa=!L.sw;Y.ia=!L.sb;$.Z=Y;L.w&&($.wa=L.w);
 L.f&&(cb=new M(L.f),$.aa=cb);var i;if(L.fn)for(i=0;i<L.fn.length;i+=2)$.u.push(new Fa(L.fn[i],L.fn[i+1]));if(L.c)for(i=0;i<L.c.length;i+=2)$.P.push(new Ba);var eb;if(eb=bb)eb=!!bb.na.__webfonttypekitmodule__;eb?(bb.Y($),bb.load()):($.e=Za,$.s=Ua($.e,$.Z),window.Typekit.addKit($));
 })(this,document); try{Typekit.load();}catch(e){} </script>
-	
-    <link rel="stylesheet" href="/css/app.css">
 </head>
