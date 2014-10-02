@@ -8,7 +8,11 @@ services: Branding, Design
 order: 20
 ---
 
-Courage Worldwide is a nonprofit organization with a mission to fight sex trafficking, both locally and globally. Courage Worldwide raises awareness about the growing problem of human trafficking, while providing information on the various ways they're promoting the rescue and healing of those trapped in sex slavery. Courage Worldwide wanted to break the cycle of discouraging awareness campaigns that leave their audience feeling downcast and helpless. Bamboo Creative provided Courage Worldwide with brand strategy, helping them convey a message of empowerment through a #BeCourageous campaign. We crafted graphics to visually capture their brand identity and organized social media campaigns to spread the message of the positive change Courage Worldwide is implementing and the power individuals have to support this important cause.
+Courage Worldwide is a nonprofit organization with a mission to fight sex trafficking, both locally and globally. Their aim is to raise awareness about the growing problem of human trafficking and  provide information on the various ways to rescue and healing of those trapped in sex slavery. 
+
+Instead of continuing the trend of discouraging awareness campaigns that leave audiences feeling downcast and helpless, Bamboo Creative provided Courage Worldwide a brand and messaging strategy that conveys a message of empowerment.  
+
+We crafted graphics to visually capture their brand identity and organized social media campaigns like #BeCourageous to spread this message of positive change. Bamboo is proud to partner with Courage Worldwide in implementing and empowering individuals to support this important cause.
 
 ![courage-worldwide](/images/client-assets/{{page.slug}}/01.jpg)
 ![courage-worldwide](/images/client-assets/{{page.slug}}/02.jpg)
