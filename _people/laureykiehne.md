@@ -9,6 +9,6 @@ social:
   - account: twitter
     username: lakiehne
   - account: instagram
-    username: aureyanne
+    username: laureyanne
     
 ---
