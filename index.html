@@ -4,16 +4,15 @@ layout: page
 
 <div class="home-tag">
 	<h2>Unleash your company's creative potential.</h2>
-	<p>Excecuting beautiful ideas in Northern California. We push our clients to exceed their goals. Sometimes, that includes strategy, branding, design, and product development.</p>
-	
-	<div class="clients-home">
-		<h5>Some of our trusted clients:</h5>
-		<img src="images/client-assets/line-6/logo.svg">
-		<img src="images/client-assets/stanford/logo.svg">
-		<img src="images/client-assets/abs/logo.svg">
-		<img src="images/client-assets/bayside/logo.svg">
-		<img src="images/client-assets/wju/logo.svg">
+	<p>Executing <a href="">beautiful</a> ideas in Northern California. We push our clients to exceed their goals. Sometimes, that includes creative strategy, branding, design and product development.</p>
+	<span>Some of our trusted clients:</span>
+	<div class="feat-clients">
+	    {% assign projects = site.project | sort: 'feat-order' %}
+       	{% for project in projects %}
+		    {% if project.feat-order %}
+            <a title="{{project.title}}" href="{{project.url}}"><img alt="{{project.title}}" src="/images/client-assets/{{project.slug}}/logo.svg"></a>
+		    {% endif %}
+        {% endfor %}
 	</div>
-	
 	<a class="button" href="/projects">Our Work</a>
 </div>

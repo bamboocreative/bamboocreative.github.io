@@ -12,7 +12,7 @@ footer#footer{
 
 .home-tag{
 	text-align: center;
-	margin: 4em 0;
+	margin: 2em 0;
 	
 	h2{
 		
@@ -23,15 +23,36 @@ footer#footer{
 	}
 	
 	p{
-		margin-bottom: 2em;
-		max-width: 700px;
-		margin: 0 auto;
+	    font-size: 25px;
+		margin: 2em 0;
 	}
 	
-	a.button{
-		margin-top: .8em;
-		font-size: 1.3em;
+	span{
+        display: block;
+        font-size: 17px;
 	}
+	.feat-clients{ 
+    	padding: 1.3em 0 2.5em 0;
+
+        a{
+            width: 20%;
+        	margin-left: -5px;
+            
+            img{
+        	    width: 100%;
+            }
+    	}
+	
+	@include media(max-width $babybear){
+			a{
+			img{
+    			width: 33%;
+			}
+			}
+		}
+
+	}
+	
 	
 }
 
@@ -90,20 +111,4 @@ table{
 		text-align: center;
 		padding: 10px 0;
 	}
-}
-
-.clients-home{
-	text-align: center;
-	
-	img{
-		width: 160px;
-		margin-bottom: 1em;
-	}
-	
-	h5{
-		font-size: .8em;
-		margin-top: 3.5em;
-		margin-bottom: .5em;
-	}
-	
 }
