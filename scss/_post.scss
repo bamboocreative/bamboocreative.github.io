@@ -36,3 +36,15 @@
     float: left;
     padding: 10px 30px 10px 0px;
 }
+blockquote{
+    p{
+        padding-left: 2em;
+        border-left: 3px solid $font-color-light;
+        color: $font-color-light;
+        em{
+            display: block;
+            text-align: right;
+            color: $font-color;
+        }
+    }
+}
