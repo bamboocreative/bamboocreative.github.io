@@ -16,10 +16,14 @@ phone: 1 (855) trybamboo
 email: admin
 
 
-#Blog Settings
+# Blog Settings
 permalink: blog/:title/
 paginate: 8
 paginate_path: "blog/page:num"
+
+# We need a sitemap
+gems:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
