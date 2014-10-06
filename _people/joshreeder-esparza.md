@@ -1,7 +1,7 @@
 ---
 layout: default
 image: josh.jpg
-name: Josh Reeder-Espara
+name: Josh Reeder-Esparza
 title: Web Developer
 order: 7
 
