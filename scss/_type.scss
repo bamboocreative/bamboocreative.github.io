@@ -43,7 +43,7 @@ h2,
 h3,
 h4,
 h5{
-	font-family: $sans-serif-font-family;
+	font-family: $sans-serif-font-family !important;
 	line-height: 1.1em !important;
 	a{
 		text-decoration: none;
