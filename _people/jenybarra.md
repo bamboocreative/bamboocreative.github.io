@@ -3,7 +3,7 @@ layout: default
 image: jen.jpg
 name: Jennifer Ybarra
 title: Designer
-order: 9
+order: 10
 
 social: 
   - account: dribbble

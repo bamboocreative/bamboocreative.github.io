@@ -3,7 +3,7 @@ layout: default
 image: emily.jpg
 name: Emily Lokteff
 title: Marketing Research
-order: 8
+order: 9
 
 social: 
   - account: twitter

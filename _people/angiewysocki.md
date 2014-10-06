@@ -3,7 +3,7 @@ layout: default
 image: angie.jpg
 name: Angie Wysocki
 title: Client Services
-order: 5
+order: 6
 
 social: 
   - account: twitter

@@ -3,7 +3,7 @@ layout: default
 image: jake.jpg
 name: Jake Elia
 title: Product Development & Strategy
-order: 6
+order: 7
 
 social: 
   - account: twitter

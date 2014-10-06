@@ -3,7 +3,7 @@ layout: default
 image: nathan.jpg
 name: Nathan Davis
 title: Designer
-order: 13
+order: 14
 
 social:
   - account: dribbble

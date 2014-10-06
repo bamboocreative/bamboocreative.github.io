@@ -3,7 +3,7 @@ layout: default
 image: laurey.jpg
 name: Laurey Kiehne
 title: Social Media Marketing
-order: 12
+order: 13
 
 social: 
   - account: twitter

@@ -3,7 +3,7 @@ layout: default
 image: jonathon.jpg
 name: Jonathon Gray
 title: Lead Developer, Snippet App
-order: 10
+order: 11
 
 social: 
   - account: twitter

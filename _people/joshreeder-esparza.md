@@ -3,7 +3,7 @@ layout: default
 image: josh.jpg
 name: Josh Reeder-Esparza
 title: Web Developer
-order: 7
+order: 8
 
 social: 
   - account: twitter
