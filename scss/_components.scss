@@ -24,14 +24,18 @@ footer#footer{
 	text-align: center;
 	margin: 2em 0;
 	
-	h2{
-		
-		@include media(max-width $babybear){
-			font-size: 1.8em;
-		}
-		
-	}
+	@include media(max-width $babybear){
 	
+		h2{
+			font-size: 1.5em;
+		}
+	
+		p{
+			margin-top: 0px !important;
+		}
+	
+	}
+		
 	p{
 	    font-size: 25px;
 		margin: 2em 0;
