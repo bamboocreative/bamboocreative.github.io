@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Technology Crushes"
+title:  "technology crushes"
 date:   2013-02-14 12:00:00
 categories: bamboo 
 author: Bamboo

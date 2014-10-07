@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Creative Mindset"
+title:  "the creative mindset"
 date:   2012-11-13 12:00:00
 categories: bamboo 
 author: CJ Alvarado

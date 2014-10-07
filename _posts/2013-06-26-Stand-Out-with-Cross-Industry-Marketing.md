@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stand Out with Cross-Industry Marketing"
+title:  "stand out with cross-industry marketing"
 date:   2013-06-26 12:00:00
 categories: bamboo 
 author: CJ Alvarado

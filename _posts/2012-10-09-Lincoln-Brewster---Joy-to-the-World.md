@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lincoln Brewster - Joy to the World"
+title:  "lincoln brewster - joy to the world"
 date:   2012-10-09 12:00:00
 categories: bamboo 
 author: Ben De Rienzo

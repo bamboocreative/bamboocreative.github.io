@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3 Ways To Help Great Ideas Thrive"
+title: "3 ways to help great ideas thrive"
 categories: bamboo
 author: "CJ Alvarado"
 excerpt: "In 1975, a Kodak engineer invented the first digital camera which captured low resolution black and white images and transferred them to a TV. He then took his idea and pitched it to various leaders in the company."

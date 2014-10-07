@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Come Up For Air"
+title:  "come up for air"
 date:   2012-11-29 12:00:00
 categories: bamboo 
 author: Jake Elia
