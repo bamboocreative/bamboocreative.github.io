@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beautiful"
+title: "beautiful"
 categories: bamboo
 author: "Bamboo"
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."

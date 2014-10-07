@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fit By Design"
+title:  "fit by design"
 date:   2012-10-10 12:00:00
 categories: bamboo 
 author: CJ Alvarado

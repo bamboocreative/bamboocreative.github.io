@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "“Reading” Doesn’t Cut It Anymore"
+title:  "“reading” doesn’t cut it anymore"
 date:   2013-03-19 12:00:00
 categories: bamboo 
 author: Ben De Rienzo

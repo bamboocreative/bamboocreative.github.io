@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Design Privilege"
+title:  "the design privilege"
 date:   2012-10-17 12:00:00
 categories: bamboo 
 author: Ben De Rienzo

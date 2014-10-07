@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Good Content"
+title:  "good content"
 date:   2012-11-07 12:00:00
 categories: bamboo 
 author: Jake Elia

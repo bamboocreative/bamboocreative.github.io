@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creative Lift"
+title:  "creative lift"
 date:   2014-08-10 12:00:00
 categories: bamboo
 author: Ginny Townsend

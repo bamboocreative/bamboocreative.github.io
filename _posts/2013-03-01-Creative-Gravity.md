@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creative Gravity"
+title:  "creative gravity"
 date:   2013-03-01 12:00:00
 categories: bamboo 
 author: Jake Elia

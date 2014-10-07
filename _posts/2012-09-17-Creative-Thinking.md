@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creative Thinking"
+title:  "creative thinking"
 date:   2012-09-17 12:00:00
 categories: bamboo 
 author: CJ Alvarado

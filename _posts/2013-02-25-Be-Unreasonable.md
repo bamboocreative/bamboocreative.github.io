@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Be Unreasonable"
+title:  "be unreasonable"
 date:   2013-02-25 12:00:00
 categories: bamboo 
 author: Bamboo

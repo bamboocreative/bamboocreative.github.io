@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meet the Booterns"
+title:  "meet the booterns"
 date:   2013-07-12 12:00:00
 categories: bamboo 
 author: Emily Sidnam

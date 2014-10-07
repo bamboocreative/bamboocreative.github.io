@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bamboo Retreat"
+title:  "bamboo retreat"
 date:   2013-01-28 12:00:00
 categories: bamboo 
 author: Bamboo

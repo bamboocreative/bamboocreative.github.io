@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "5 Ways to Get the Creative Ideas Flowing Again"
+title:  "5 ways to get the creative ideas flowing again"
 date:   2013-07-16 12:00:00
 categories: bamboo 
 author: CJ ALvarado
