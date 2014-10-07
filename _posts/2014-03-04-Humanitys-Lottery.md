@@ -5,6 +5,7 @@ date:   2014-03-04 12:00:00
 categories: bamboo 
 author: CJ Alvarado
 excerpt: "Over the years, I’ve had the opportunity to visit some remote places in the world. On one occasion, I was in a remote jungle in Chiang Mai, Thailand helping a Thai American doctor provide aid to refugees fleeing civil unrest in Burma."
+redirect_from: /humanitys-lottery/
 ---
 
 ![Humanity's Lottery](/images/posts/humanitys-lottery.jpg){: .feat-img}

@@ -5,6 +5,7 @@ date:   2013-03-01 12:00:00
 categories: bamboo 
 author: Jake Elia
 excerpt: "We live in a constant battle with gravity. Nothing is more consistent than that ever-present downward pull."
+redirect_from: /creative-gravity/
 ---
 
 ![Creative Gravity](/images/posts/creative-gravity.jpg){: .feat-img}

@@ -5,6 +5,7 @@ date:   2013-07-12 12:00:00
 categories: bamboo 
 author: Emily Sidnam
 excerpt: "We're excited to announce that five interns have joined the Boo Crew for the summer. This talented group is passionate about design, web development, marketing and social media. Each \"Bootern\" brings something unique to the table, forming a team with a variety strengths and fresh perspectives."
+redirect_from: /meet-the-booterns/
 ---
 
 We're excited to announce that five interns have joined the Boo Crew for the summer. This talented group is passionate about design, web development, marketing and social media. Each "Bootern" brings something unique to the table, forming a team with a variety strengths and fresh perspectives.

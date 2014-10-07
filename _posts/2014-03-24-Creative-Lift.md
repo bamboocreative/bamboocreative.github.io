@@ -5,6 +5,7 @@ date:   2014-08-10 12:00:00
 categories: bamboo
 author: Ginny Townsend
 excerpt: "Married to a pilot for 9+ years, I’ve had an extended lesson in the laws of aviation and aeronautical history. Drew, my husband, is a gem. He is a pilot to the core and he often leaves me in the dust when he shares all sorts of complicated aeronautical… stuff."
+redirect_from: /creative-lift/
 ---
 
 ![Creative Lift](/images/posts/creative-lift.jpg){: .feat-img}

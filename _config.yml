@@ -24,6 +24,7 @@ paginate_path: "blog/page:num"
 # We need a sitemap
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown

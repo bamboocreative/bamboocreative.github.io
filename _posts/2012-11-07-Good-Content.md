@@ -5,6 +5,7 @@ date:   2012-11-07 12:00:00
 categories: bamboo 
 author: Jake Elia
 excerpt: "Our office is divided; to love cat photos or to not love cat photos, that is the question."
+redirect_from: /good-content/
 ---
 
 ![Good Content](/images/posts/good-content.jpg){: .feat-img}
