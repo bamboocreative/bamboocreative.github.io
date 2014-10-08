@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "how we stay creative"
-date:   2014-10-6 12:00:00
+date:   2014-10-01 12:00:00
 categories: bamboo
 author: Bamboo
 excerpt: "We believe that creativity is something that can be learned and developed. Everyone has the potential for creativity in their work as well as their daily lives. We asked our team how they stay creative."

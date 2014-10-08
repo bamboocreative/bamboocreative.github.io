@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "beautiful"
+date:   2014-09-22 12:00:00
 categories: bamboo
 author: "Bamboo"
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."
-image: 
+image: /images/posts/beautiful.jpg
 ---
 
 ![Beautiful Things](/images/posts/beautiful.jpg){: .feat-img}
