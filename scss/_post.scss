@@ -33,9 +33,9 @@
     width: 100%;
 }
 .left-img{
-    width: 30%;
     float: left;
-    padding: 10px 30px 10px 0px;
+    padding-right: 30px;
+    box-sizing: content-box;
 }
 blockquote{
     p{
@@ -49,3 +49,5 @@ blockquote{
         }
     }
 }
+.serif { font-family: $serif-font-family !important;}
+.p-wimage {min-height: 200px;}
