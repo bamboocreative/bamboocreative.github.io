@@ -1,6 +1,6 @@
 ---
 layout: project
-client: White Hat Studios
+title: White Hat Studios
 slug: white-hat
 image: logo.svg 
 website: http://whitehatstudios.co/

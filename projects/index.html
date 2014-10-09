@@ -10,7 +10,7 @@ title: Our Work
         {% assign projects = site.project | sort: 'order' %}
        	{% for project in projects %}
 		<a href="{{project.url}}" class="project">	
-			<img alt="{{project.client}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
+			<img alt="{{project.title}}" src="/images/client-assets/{{project.slug}}/{{project.image}}">
 		</a>		
 		{% endfor %}
 	</div>

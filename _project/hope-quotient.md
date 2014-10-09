@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Hope Quotient
+title: Hope Quotient
 slug: hope-quotient
 image: logo.svg 
 website: http://hopequotient.com/

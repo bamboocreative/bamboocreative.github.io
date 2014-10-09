@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Lists.io
+title: Lists.io
 slug: listsio
 image: logo.svg 
 website: lists.io

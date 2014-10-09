@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "creative thinking"
+title:  "Creative Thinking"
 date:   2012-09-17 12:00:00
 categories: bamboo 
 author: CJ Alvarado
 excerpt: "A student was in physics class taking a test. The final question on the test was, “Given a barometer, how would you measure the height of this building?” Now, the go-to answer for this is to go to the first floor, note the pressure, go to the roof, note the pressure, and run it through an equation."
 redirect_from: /creative-thinking/
+image: /images/posts/creative-thinking.jpg
 ---
 
 ![Creative Thinking](/images/posts/creative-thinking.jpg){: .feat-img}

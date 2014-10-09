@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "beautiful"
+title: "Beautiful"
 date:   2014-09-22 12:00:00
 categories: bamboo
 author: "Bamboo"

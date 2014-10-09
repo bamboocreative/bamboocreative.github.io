@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Line 6
+title: Line 6
 slug: line-6
 image: logo.svg 
 website: http://line6.com/

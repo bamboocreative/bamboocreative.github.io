@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Stanford University
+title: Stanford University
 slug: stanford
 image: logo.svg 
 website: http://stanford.edu

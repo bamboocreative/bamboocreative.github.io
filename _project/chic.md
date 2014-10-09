@@ -1,6 +1,6 @@
 ---
 layout: project
-client: CHIC
+title: CHIC
 slug: chic
 image: logo.svg 
 website: http://chic2015.org/

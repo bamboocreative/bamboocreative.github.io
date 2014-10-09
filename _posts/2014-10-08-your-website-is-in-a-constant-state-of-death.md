@@ -17,7 +17,7 @@ They said it’d cost $15,000
 
 You thought “holy hell, that’s expensive”, and then you said “sure”.
 
-You pay $15,000 and get an awesome website. It’s fast, it’s [beautiful](http://bamboocreative.com/blog/beautiful/), and your engagement rises because people can actually read your content on their phones.
+You pay $15,000 and get an awesome website. It’s fast, it’s [beautiful](/blog/beautiful/), and your engagement rises because people can actually read your content on their phones.
 
 You’re done, right?
 

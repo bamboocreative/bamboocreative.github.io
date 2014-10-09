@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Lincoln Brewster
+title: Lincoln Brewster
 slug: lincoln-brewster
 image: logo.svg 
 website: http://lincolnbrewster.com

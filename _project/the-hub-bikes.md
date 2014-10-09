@@ -1,6 +1,6 @@
 ---
 layout: project
-client: The Hub Bikes
+title: The Hub Bikes
 slug: the-hub
 image: logo.svg 
 website: 

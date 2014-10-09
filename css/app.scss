@@ -128,3 +128,9 @@ html,body{
 .center{
 	text-align: center;
 }
+
+.hidden{
+	line-height: 0px !important;
+	text-indent: -9999px;
+	margin: 0px;
+}

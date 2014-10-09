@@ -1,6 +1,6 @@
 ---
 layout: project
-client: The Snippet App
+title: The Snippet App
 slug: snippet
 image: logo.svg 
 website: http://thesnippetapp.com

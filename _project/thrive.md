@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Thrive Conference
+title: Thrive Conference
 slug: thrive
 image: logo.svg 
 website: http://thriveconference.org/

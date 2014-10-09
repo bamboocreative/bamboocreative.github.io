@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Gungor
+title: Gungor
 slug: gungor
 image: logo.svg 
 website: 

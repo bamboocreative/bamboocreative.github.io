@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "be unreasonable"
+title:  "Be Unreasonable"
 date:   2013-02-25 12:00:00
 categories: bamboo 
 author: Bamboo
 excerpt: "I don’t think the first people who considered flying to outer space began by asking, \"Is this reasonable?\""
 redirect_from: /be-unreasonable/
+image: /images/posts/be-unreasonable.jpg
 ---
 
 ![Be Unreasonable](/images/posts/be-unreasonable.jpg){: .feat-img}

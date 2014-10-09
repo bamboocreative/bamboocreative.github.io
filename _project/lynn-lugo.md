@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Lynn Lugo
+title: Lynn Lugo
 slug: lynn-lugo
 image: logo.svg 
 website: http://www.lynnlugo.com/

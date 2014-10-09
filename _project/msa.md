@@ -1,6 +1,6 @@
 ---
 layout: project
-client: My Secure Advantage
+title: My Secure Advantage
 slug: msa
 image: logo.svg 
 website: 

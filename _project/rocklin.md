@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Rocklin
+title: Rocklin
 slug: rocklin
 image: logo.svg 
 website: http://wearerocklin.com/

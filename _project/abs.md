@@ -1,6 +1,6 @@
 ---
 layout: project
-client: American Bible Society
+title: American Bible Society
 slug: abs
 image: logo.svg 
 website: www.americanbible.org

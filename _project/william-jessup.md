@@ -1,6 +1,6 @@
 ---
 layout: project
-client: William Jessup University
+title: William Jessup University
 slug: wju
 image: logo.svg 
 website: http://www.jessup.edu/

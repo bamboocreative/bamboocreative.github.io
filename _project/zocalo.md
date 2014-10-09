@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Zocalo
+title: Zocalo
 slug: zocalo
 image: logo.svg 
 website: http://zocalosacramento.com/

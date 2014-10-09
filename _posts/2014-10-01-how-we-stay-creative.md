@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "how we stay creative"
+title:  "How We Stay Creative"
 date:   2014-10-01 12:00:00
 categories: bamboo
 author: Bamboo

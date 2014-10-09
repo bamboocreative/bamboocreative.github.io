@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "fit by design"
+title:  "Fit by Design"
 date:   2012-10-10 12:00:00
 categories: bamboo 
 author: CJ Alvarado
 excerpt: "I read a story about a group of American car executives that went to see a Japanese assembly line.  At the end of the line, the car doors were placed on hinges just as they were in the American factories."
 redirect_from: /fit-by-design/
+image: /images/posts/fit-by-design.jpg
 ---
 
 ![Fit By Design](/images/posts/fit-by-design.jpg){: .feat-img}

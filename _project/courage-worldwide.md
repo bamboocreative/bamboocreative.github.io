@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Courage Worldwide
+title: Courage Worldwide
 slug: courage-worldwide
 image: logo.svg 
 website: 

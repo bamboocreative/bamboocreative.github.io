@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Richard Ellis
+title: Richard Ellis
 slug: richard-ellis
 image: logo.svg 
 website: http://www.richardellistalks.com

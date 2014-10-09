@@ -4,7 +4,7 @@ title: Blog
 ---
 
 <article class="page" role="main">
-    <h2 class="center">Blog</h2>
+    <h2 class="center hidden">Blog</h2>
     {% for post in paginator.posts %}
         <section class="post-excerpt">
             <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>

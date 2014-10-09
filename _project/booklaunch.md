@@ -1,6 +1,6 @@
 ---
 layout: project
-client: Booklaunch.io
+title: Booklaunch.io
 slug: booklaunch
 image: logo.svg 
 website: https://booklaunch.io/
