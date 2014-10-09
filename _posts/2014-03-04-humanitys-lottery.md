@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "humanity's lottery"
+title:  "Humanity's Lottery"
 date:   2014-03-04 12:00:00
 categories: bamboo 
 author: CJ Alvarado
