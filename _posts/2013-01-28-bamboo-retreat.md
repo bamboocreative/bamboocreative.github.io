@@ -39,8 +39,6 @@ Overall, the retreat was an awesome opportunity to grow as a team and get the cr
 
 * * *
 
-`This was an image gallery (3 columns of images)`
-
 {: .retreat-gal }
 ![Bamboo Retreat - 01](/images/posts/retreat-gallery/01.jpg)
 ![Bamboo Retreat - 02](/images/posts/retreat-gallery/02.jpg)
