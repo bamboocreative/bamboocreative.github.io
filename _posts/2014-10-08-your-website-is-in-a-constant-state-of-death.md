@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Website is in a Constant State of Death."
+title: "Your Website is in a Constant State of Death"
 categories: bamboo
 author: "Garrett Boatman"
 excerpt: "Why a website isn’t done when it’s done."

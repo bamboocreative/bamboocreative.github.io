@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Congratulations, CJ."
+title:  "Congratulations, CJ"
 date:   2013-12-13 12:00:00
 categories: bamboo 
 author: Bamboo
