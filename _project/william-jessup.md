@@ -9,10 +9,11 @@ services: Branding, Marketing, Design, Web, Photography
 feat-order: 5
 order: 7
 ---
+In the Sacramento area, William Jessup University is the only accredited private university offering four-year bachelor’s degrees. Following a recent multi-million dollar expansion and the highest enrollment in its history, Bamboo was commissioned to capture this momentum and position WJU as an innovator in high education.
 
-In the Sacramento area, William Jessup University is the only accredited private university offering four-year bachelor’s degrees. Following a recent multi-million dollar expansion and the highest enrollment in its history, Bamboo was commissioned to capture this momentum and position WJU as an innovative leader in online technology.
+William Jessup University celebrated their 75th Anniversary this fall and in honor of this milestone, they dedicated an entire edition of their Jessup Magazine to telling this story. In 1939, determined to make a difference, the Jessup family started San Jose Bible College in the Bay with a couple dozen students and today their legacy continues in Rocklin as William Jessup University with well over 1,000 students. Here at Bamboo Creative, we took this compelling history and designed the nostalgic experience their readers would walk through upon receiving the magazine.
 
-##### We implemented this in a number of ways: 
+##### In addition to the Jessup Magazine, we implemented this new positioning in a number of ways:
 
 We created a centralized media site as the new “digital center” for the university. 
 
