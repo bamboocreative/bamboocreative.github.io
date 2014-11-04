@@ -332,7 +332,7 @@ AddDefaultCharset utf-8
 
 # <IfModule mod_rewrite.c>
 #    RewriteCond %{SERVER_PORT} !^443
-#    RewriteRule ^ https://example-domain-please-change-me.com%{REQUEST_URI} [R=301,L]
+#    RewriteRule ^ https://bamboocreative.com%{REQUEST_URI} [R=301,L]
 # </IfModule>
 
 # ------------------------------------------------------------------------------
