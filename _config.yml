@@ -1,7 +1,7 @@
 # Site settings
 title: Bamboo Creative
 tagline: Executing beautiful ideas in Northern California. We push our clients to exceed their goals. Sometimes, that includes creative strategy, branding, design and product development.
-url: "http://bamboocreative.com" # the base hostname & protocol for your site
+url: "https://bamboocreative.com" # the base hostname & protocol for your site
 
 # Social
 socialimg: /images/social.jpg

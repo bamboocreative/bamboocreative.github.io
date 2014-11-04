@@ -5,22 +5,6 @@
 # to the main server config file (usually called `httpd.conf`), you should add
 # this logic there: http://httpd.apache.org/docs/current/howto/htaccess.html.
 
-# ##############################################################################
-# # CROSS-ORIGIN RESOURCE SHARING (CORS)                                       #
-# ##############################################################################
-
-# ------------------------------------------------------------------------------
-# | Cross-domain AJAX requests                                                 |
-# ------------------------------------------------------------------------------
-
-# Enable cross-origin AJAX requests.
-# http://code.google.com/p/html5security/wiki/CrossOriginRequestSecurity
-# http://enable-cors.org/
-
-# <IfModule mod_headers.c>
-#    Header set Access-Control-Allow-Origin "*"
-# </IfModule>
-
 # ------------------------------------------------------------------------------
 # | CORS-enabled images                                                        |
 # ------------------------------------------------------------------------------
@@ -330,10 +314,10 @@ AddDefaultCharset utf-8
 # prevent `https://www.example.com` when your certificate only allows
 # `https://secure.example.com`.
 
-# <IfModule mod_rewrite.c>
-#    RewriteCond %{SERVER_PORT} !^443
-#    RewriteRule ^ https://bamboocreative.com%{REQUEST_URI} [R=301,L]
-# </IfModule>
+<IfModule mod_rewrite.c>
+    RewriteCond %{SERVER_PORT} !^443
+    RewriteRule ^ https://bamboocreative.com%{REQUEST_URI} [R=301,L]
+</IfModule>
 
 # ------------------------------------------------------------------------------
 # | HTTP Strict Transport Security (HSTS)                                      |
