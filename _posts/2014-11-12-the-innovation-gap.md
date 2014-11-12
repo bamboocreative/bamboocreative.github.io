@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Innovation Gap: Part 1"
+date:   2014-11-12 12:00:00
 categories: bamboo
 author: "CJ Alvarado"
 excerpt: "We’re all talking about the same word we all don’t mean mean the same thing. And that is creating a huge problem."
