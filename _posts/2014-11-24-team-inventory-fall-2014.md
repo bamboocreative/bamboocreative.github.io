@@ -4,10 +4,10 @@ title: "Team Inventory: Fall 2014"
 categories: bamboo
 author: "Bamboo"
 excerpt: "We took a little time this past week to take an inventory of our team and reflect on where we are in this season."
-image: 
+image: /images/posts/inventory.png
 ---
 
-![Your website's on fire](/images/posts/inventory.png){: .feat-img}
+![Making, Cooking, Drinking, Reading and Wanting](/images/posts/inventory.png){: .feat-img}
 
 This year we are so thankful for the team we have here at Bamboo. From executive meetings and drawing boards to [waffle making](http://instagram.com/p/vrdlsLGG6D/) and [ping pong](http://instagram.com/p/mn68C8GG8I/), we stick together. We took a little time this past week to take an inventory of our team and reflect on where we are in this season.
 
