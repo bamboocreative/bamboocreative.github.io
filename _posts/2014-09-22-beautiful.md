@@ -6,7 +6,7 @@ categories: bamboo
 author: "Bamboo"
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."
 image: /images/posts/beautiful.jpg
-redirect_from: /blog/Beautiful/
+redirect_from: /Beautiful/
 ---
 
 ![Beautiful Things](/images/posts/beautiful.jpg){: .feat-img}
