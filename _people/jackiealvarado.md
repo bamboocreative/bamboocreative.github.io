@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: jackie.jpg
 name: Jackie Alvarado
 title: Bamboo Admin

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: garrett.jpg
 name: Garrett Boatman
 title: Lead Developer

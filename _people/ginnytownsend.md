@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: ginny.jpg
 name: Ginny Townsend
 title: Marketing & Communications

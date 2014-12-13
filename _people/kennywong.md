@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: kenny.jpg
 name: Kenny Wong
 title: Designer

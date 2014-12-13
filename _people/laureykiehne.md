@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: laurey.jpg
 name: Laurey Kiehne
 title: Social Media Marketing

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: jen.jpg
 name: Jennifer Ybarra
 title: Designer

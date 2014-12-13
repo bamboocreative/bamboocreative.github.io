@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: ben.jpg
 name: Ben De Rienzo
 title: Art Director

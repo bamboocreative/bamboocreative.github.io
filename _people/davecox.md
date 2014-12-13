@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: dave.jpg
 name: Dave Cox
 title: Creative Strategist at Elevendy

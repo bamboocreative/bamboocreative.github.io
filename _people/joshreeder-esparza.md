@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: josh.jpg
 name: Josh Reeder-Esparza
 title: Web Developer

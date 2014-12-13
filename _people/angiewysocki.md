@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: angie.jpg
 name: Angie Wysocki
 title: Client Services

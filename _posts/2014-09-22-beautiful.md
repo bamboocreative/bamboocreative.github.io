@@ -3,7 +3,7 @@ layout: post
 title: "Beautiful"
 date:   2014-09-22 12:00:00
 categories: bamboo
-author: "Bamboo"
+author: cjalvarado
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."
 image: /images/posts/beautiful.jpg
 redirect_from: /Beautiful/

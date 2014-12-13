@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: emily.jpg
 name: Emily Lokteff
 title: Marketing Research

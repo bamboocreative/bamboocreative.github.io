@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: jonathon.jpg
 name: Jonathon Gray
 title: Lead Developer, Snippet App

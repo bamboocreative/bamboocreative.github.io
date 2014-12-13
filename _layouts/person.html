@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="page single-person" role="main">
+
+	<header class="person-header">
+		<img class="person-image" alt="{{page.name}}" src="/images/people/{{page.image}}">
+		<h1 class="person-name">{{ page.name }}</h1>
+		<p class="person-bio">{{page.bio}}</p>
+		<div class="person-social">
+			{% for user in page.social %}
+				{% include social.html %}
+			{% endfor %}
+		</div>
+	</header>
+	{% for post in posts %}
+        <section class="post-excerpt">
+            <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | markdownify }}</p>
+            <p class="excerpt-footer">{{ post.author }} wrote this on <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>.</p>
+        </section>
+    {% endfor %}
+	    {% include pagination.html %} 
+	<section class="proj-content">
+		{{ content }}
+	</section>
+	
+</article>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: jake.jpg
 name: Jake Elia
 title: Product Development & Strategy

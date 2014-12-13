@@ -103,3 +103,35 @@
 	width: 50px;
 	margin: .5em 0 .25em;
 }
+
+
+.single-person{
+	
+	margin-top: -1em !important;
+	
+	.person-header{
+		text-align: center;
+	}
+	
+	.person-image{
+		max-width: 140px;
+		border-radius: 100%;
+	}
+	
+	.person-name{
+		font-size: 1.6em;
+		margin-bottom: 0;
+	}
+
+	.person-bio{
+		display: block;
+		max-width: 440px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+	
+	.person-social{			
+	}
+	
+}
