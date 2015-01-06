@@ -2,7 +2,12 @@
 layout: project
 title: Booklaunch.io
 slug: booklaunch
-image: logo.svg 
+image: logo.svg
+authors: 
+  cjalvarado
+  benderienzo
+  jakeelia
+  
 website: https://booklaunch.io/
 prettywebsite: booklaunch.io
 services: Branding, Web, Design, Marketing, Labs

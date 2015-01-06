@@ -14,13 +14,29 @@ layout: default
 			{% endfor %}
 		</div>
 	</header>
-	{% for post in posts %}
-        <section class="post-excerpt">
-            <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt | markdownify }}</p>
-            <p class="excerpt-footer">{{ post.author }} wrote this on <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>.</p>
-        </section>
-    {% endfor %}
+	<section class="author-content">
+		<section class="author-posts">
+			<span>Blog Posts</span>
+			{% for post in site.posts %}
+		        {% if post.author == page.author %}
+		        <section class="post-excerpt">
+		            <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+		            <p>{{ post.excerpt | markdownify }}</p>
+		            <p class="excerpt-footer">{{ post.date | date: "%B %d, %Y" }}</p>
+		        </section>
+		        {% endif %}
+		    {% endfor %}
+		</section>
+		<section class="author-projects">
+			<span>Projects</span>
+			{% for post in site.project %}
+		        {% if post.authors == page.author %}
+					<h3>{{post.title}}</h3>
+		        {% endif %}
+		    {% endfor %}
+		</section>
+		
+	</section>
 	    {% include pagination.html %} 
 	<section class="proj-content">
 		{{ content }}

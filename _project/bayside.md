@@ -8,6 +8,9 @@ prettywebsite: baysideonline.com
 services: Web, Design
 feat-order: 4
 order: 4
+author: 
+  cjalvarado
+  garrettboatman 
 ---
 
 As one of the largest churches in Northern California, Bayside is an extremely fluid and dynamic organization, managing multiple site locations with dozens of departments and an executive team that is consistently planning and executing major community outreach efforts. 
