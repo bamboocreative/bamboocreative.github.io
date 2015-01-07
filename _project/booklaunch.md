@@ -4,8 +4,8 @@ title: Booklaunch.io
 slug: booklaunch
 image: logo.svg
 authors: 
-  cjalvarado
   benderienzo
+  cjalvarado
   jakeelia
   
 website: https://booklaunch.io/

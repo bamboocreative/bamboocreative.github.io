@@ -3,6 +3,11 @@ layout: project
 title: Line 6
 slug: line-6
 image: logo.svg 
+authors:
+  cjalvarado
+  ginnytownsend
+  nathandavis
+  
 website: http://line6.com/
 prettywebsite: line6.com
 services: Design, Marketing

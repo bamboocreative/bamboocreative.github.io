@@ -3,6 +3,12 @@ layout: project
 title: Bayside Church
 slug: bayside
 image: logo.svg 
+authors:
+  cjalvarado
+  garrettboatman
+  ginnytownsend
+  joshreederesparza
+  
 website: http://www.baysideonline.com
 prettywebsite: baysideonline.com
 services: Web, Design

@@ -3,6 +3,11 @@ layout: project
 title: Richard Ellis
 slug: richard-ellis
 image: logo.svg 
+authors:
+  benderienzo
+  garrettboatman
+  jakeelia
+  
 website: http://www.richardellistalks.com
 prettywebsite: richardellistalks.com
 services: Design, Web

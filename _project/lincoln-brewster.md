@@ -3,6 +3,11 @@ layout: project
 title: Lincoln Brewster
 slug: lincoln-brewster
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  garrettboatman
+
 website: http://lincolnbrewster.com
 prettywebsite: lincolnbrewster.com
 services: Graphic Design, Web

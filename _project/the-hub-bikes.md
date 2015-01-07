@@ -3,6 +3,12 @@ layout: project
 title: The Hub Bikes
 slug: the-hub
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  jakeelia
+  ginnytownsend
+  
 website: 
 services: Branding, Marketing
 order: 17

@@ -3,6 +3,12 @@ layout: project
 title: Lists.io
 slug: listsio
 image: logo.svg 
+authors:
+  benderienzo
+  garrettboatman
+  jakeelia
+  joshreederesparza
+  
 website: lists.io
 prettywebsite: lists.io
 services: Product, Design, Web

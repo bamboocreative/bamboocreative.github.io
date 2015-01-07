@@ -2,6 +2,7 @@
 layout: person
 image: josh.jpg
 name: Josh Reeder-Esparza
+author: joshreederesparza
 title: Web Developer
 order: 8
 

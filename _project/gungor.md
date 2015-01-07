@@ -3,6 +3,9 @@ layout: project
 title: Gungor
 slug: gungor
 image: logo.svg 
+authors:
+  benderienzo
+
 website: 
 services: Design
 order: 15

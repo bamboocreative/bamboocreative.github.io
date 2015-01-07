@@ -3,6 +3,10 @@ layout: project
 title: White Hat Studios
 slug: white-hat
 image: logo.svg 
+authors:
+  garrettboatman
+  ginnytownsend
+
 website: http://whitehatstudios.co/
 prettywebsite: whitehatstudios.co
 services: Branding

@@ -3,6 +3,12 @@ layout: project
 title: Stanford University
 slug: stanford
 image: logo.svg 
+authors:
+  cjalvarado
+  davecox
+  dustinljung
+  ginnytownsend
+  
 website: http://stanford.edu
 prettywebsite: stanford.edu
 services: Branding, Technology

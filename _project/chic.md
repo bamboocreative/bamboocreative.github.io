@@ -3,6 +3,14 @@ layout: project
 title: CHIC
 slug: chic
 image: logo.svg 
+authors:
+  angiewysocki
+  cjalvarado
+  emilylokteff
+  ginnytownsend
+  joshreederesparza
+  nathandavis
+  
 website: http://chic2015.org/
 prettywebsite: chic2015.org
 services: Design, Branding, Marketing

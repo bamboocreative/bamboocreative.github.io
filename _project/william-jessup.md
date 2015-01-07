@@ -3,6 +3,13 @@ layout: project
 title: William Jessup University
 slug: wju
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  garrettboatman
+  ginnytownsend
+  jenniferybarra
+  
 website: http://www.jessup.edu/
 prettywebsite: jessup.edu
 services: Branding, Marketing, Design, Web, Photography

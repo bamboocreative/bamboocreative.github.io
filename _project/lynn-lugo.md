@@ -3,6 +3,10 @@ layout: project
 title: Lynn Lugo
 slug: lynn-lugo
 image: logo.svg 
+authors:
+  benderienzo
+  garrettboatman
+  
 website: http://www.lynnlugo.com/
 prettywebsite: lynnlugo.com
 services: Web

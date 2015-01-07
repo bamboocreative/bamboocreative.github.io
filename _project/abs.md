@@ -2,7 +2,13 @@
 layout: project
 title: American Bible Society
 slug: abs
-image: logo.svg 
+image: logo.svg
+authors:
+  benderienzo
+  cjalvarado
+  garrettboatman
+  jakeelia
+
 website: www.americanbible.org
 prettywebsite: americanbible.org
 services: App, Experience, Interactive, Design

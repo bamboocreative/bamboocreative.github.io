@@ -3,6 +3,12 @@ layout: project
 title: Courage Worldwide
 slug: courage-worldwide
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  ginnytownsend
+  jakeelia
+
 website: 
 services: Branding, Design
 order: 20

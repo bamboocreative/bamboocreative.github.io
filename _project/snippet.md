@@ -3,6 +3,12 @@ layout: project
 title: The Snippet App
 slug: snippet
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  jakeelia
+  jonathongray
+  
 website: http://thesnippetapp.com
 prettywebsite: thesnippetapp.com
 services: Web, App Development, Design, Labs

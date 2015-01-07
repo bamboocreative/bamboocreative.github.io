@@ -3,6 +3,14 @@ layout: project
 title: Zocalo
 slug: zocalo
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  emilylokteff
+  garrettboatman
+  ginnytownsend
+  joshreederesparza
+
 website: http://zocalosacramento.com/
 prettywebsite: zocalosacramento.com
 services: Web, Marketing, Design, Photography

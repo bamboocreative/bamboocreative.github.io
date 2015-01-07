@@ -2,6 +2,7 @@
 layout: person
 image: kenny.jpg
 name: Kenny Wong
+author: kennywong
 title: Designer
 order: 12
 

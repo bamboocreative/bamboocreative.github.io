@@ -3,6 +3,9 @@ layout: project
 title: Hope Quotient
 slug: hope-quotient
 image: logo.svg 
+authors:
+  garrettboatman
+
 website: http://hopequotient.com/
 prettywebsite: hopequotient.com
 services: Web, E-Commerce

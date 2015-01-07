@@ -2,6 +2,7 @@
 layout: person
 image: ginny.jpg
 name: Ginny Townsend
+author: ginnytownsend
 title: Marketing & Communications
 order: 2
 

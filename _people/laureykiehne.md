@@ -2,6 +2,7 @@
 layout: person
 image: laurey.jpg
 name: Laurey Kiehne
+author: laureykiehne
 title: Social Media Marketing
 order: 13
 

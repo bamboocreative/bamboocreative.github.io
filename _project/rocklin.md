@@ -3,6 +3,12 @@ layout: project
 title: Rocklin
 slug: rocklin
 image: logo.svg 
+authors:
+  benderienzo
+  cjalvarado
+  ginnytownsend
+  jakeelia
+  
 website: http://wearerocklin.com/
 prettywebsite: wearerocklin.com
 services: Branding

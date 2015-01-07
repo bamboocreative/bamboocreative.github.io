@@ -3,6 +3,18 @@ layout: project
 title: Thrive Conference
 slug: thrive
 image: logo.svg 
+authors:
+  angiewysocki
+  benderienzo
+  cjalvarado
+  emilylokteff
+  ginnytownsend
+  garrettboatman
+  jakeelia
+  joshreederesparza
+  laureykiehne
+  nathandavis
+  
 website: http://thriveconference.org/
 prettywebsite: thriveconference.org
 services: Web, Marketing

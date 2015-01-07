@@ -2,6 +2,7 @@
 layout: person
 image: alejandro.jpg
 name: Alejandro Reyes
+author: alejandroreyes
 title: Social Strategy
 order: 16
 
