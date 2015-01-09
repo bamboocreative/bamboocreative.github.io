@@ -4,9 +4,14 @@ title: Booklaunch.io
 slug: booklaunch
 image: logo.svg
 authors: 
-  benderienzo
-  cjalvarado
-  jakeelia
+  - id: benderienzo
+    role: Art Direction
+  - id: cjalvarado
+    role: CEO
+  - id: jakeelia
+    role: Product & Development
+  - id: jonathongray
+    role: Web Developement
   
 website: https://booklaunch.io/
 prettywebsite: booklaunch.io

@@ -30,9 +30,12 @@ layout: default
 		<section class="author-projects">
 			<span>Projects</span>
 			{% for post in site.project %}
-		        {% if post.authors == page.author %}
-					<h3>{{post.title}}</h3>
-		        {% endif %}
+				{% for author in post.authors %}
+					{% if author.id == page.author %}
+						<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
+						{{author.role}}
+					{% endif %}
+				{% endfor %}
 		    {% endfor %}
 		</section>
 		
