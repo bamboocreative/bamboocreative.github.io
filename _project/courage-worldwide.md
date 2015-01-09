@@ -4,11 +4,15 @@ title: Courage Worldwide
 slug: courage-worldwide
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  ginnytownsend
-  jakeelia
-
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: jakeelia
+    role: 
+    
 website: 
 services: Branding, Design
 order: 20

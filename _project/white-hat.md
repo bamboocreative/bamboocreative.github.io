@@ -4,9 +4,10 @@ title: White Hat Studios
 slug: white-hat
 image: logo.svg 
 authors:
-  garrettboatman
-  ginnytownsend
-
+  - id: garrettboatman
+    role: 
+  - id: ginnytownsend
+    role: 
 website: http://whitehatstudios.co/
 prettywebsite: whitehatstudios.co
 services: Branding

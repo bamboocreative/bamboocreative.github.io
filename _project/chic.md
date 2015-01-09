@@ -4,12 +4,18 @@ title: CHIC
 slug: chic
 image: logo.svg 
 authors:
-  angiewysocki
-  cjalvarado
-  emilylokteff
-  ginnytownsend
-  joshreederesparza
-  nathandavis
+  - id: angiewysocki
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: emilylokteff
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: joshreederesparza
+    role: 
+  - id: nathandavis
+    role: 
   
 website: http://chic2015.org/
 prettywebsite: chic2015.org

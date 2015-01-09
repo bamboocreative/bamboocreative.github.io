@@ -4,11 +4,14 @@ title: Bayside Church
 slug: bayside
 image: logo.svg 
 authors:
-  cjalvarado
-  garrettboatman
-  ginnytownsend
-  joshreederesparza
-  
+  - id: cjalvarado
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: joshreederesparza
+    role: 
 website: http://www.baysideonline.com
 prettywebsite: baysideonline.com
 services: Web, Design

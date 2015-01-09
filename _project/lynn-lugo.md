@@ -4,9 +4,10 @@ title: Lynn Lugo
 slug: lynn-lugo
 image: logo.svg 
 authors:
-  benderienzo
-  garrettboatman
-  
+  - id: benderienzo
+    role: 
+  - id: garrettboatman
+    role: 
 website: http://www.lynnlugo.com/
 prettywebsite: lynnlugo.com
 services: Web

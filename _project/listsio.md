@@ -4,11 +4,14 @@ title: Lists.io
 slug: listsio
 image: logo.svg 
 authors:
-  benderienzo
-  garrettboatman
-  jakeelia
-  joshreederesparza
-  
+  - id: benderienzo
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: jakeelia
+    role: 
+  - id: joshreederesparza
+    role:   
 website: lists.io
 prettywebsite: lists.io
 services: Product, Design, Web

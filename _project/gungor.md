@@ -4,7 +4,8 @@ title: Gungor
 slug: gungor
 image: logo.svg 
 authors:
-  benderienzo
+  - id: benderienzo
+    role: Art Director
 
 website: 
 services: Design

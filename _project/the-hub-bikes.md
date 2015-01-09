@@ -4,11 +4,14 @@ title: The Hub Bikes
 slug: the-hub
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  jakeelia
-  ginnytownsend
-  
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: jakeelia
+    role: 
+  - id: ginnytownsend
+    role: 
 website: 
 services: Branding, Marketing
 order: 17

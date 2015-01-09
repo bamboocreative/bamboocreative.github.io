@@ -4,12 +4,16 @@ title: William Jessup University
 slug: wju
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  garrettboatman
-  ginnytownsend
-  jenniferybarra
-  
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: jenniferybarra
+    role: 
 website: http://www.jessup.edu/
 prettywebsite: jessup.edu
 services: Branding, Marketing, Design, Web, Photography

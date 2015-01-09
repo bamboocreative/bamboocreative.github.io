@@ -4,17 +4,26 @@ title: Thrive Conference
 slug: thrive
 image: logo.svg 
 authors:
-  angiewysocki
-  benderienzo
-  cjalvarado
-  emilylokteff
-  ginnytownsend
-  garrettboatman
-  jakeelia
-  joshreederesparza
-  laureykiehne
-  nathandavis
-  
+  - id: angiewysocki
+    role: 
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: emilylokteff
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: jakeelia
+    role: 
+  - id: joshreederesparza
+    role: 
+  - id: laureykiehne
+    role: 
+  - id: nathandavis
+    role: 
 website: http://thriveconference.org/
 prettywebsite: thriveconference.org
 services: Web, Marketing

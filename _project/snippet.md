@@ -4,10 +4,13 @@ title: The Snippet App
 slug: snippet
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  jakeelia
-  jonathongray
+  - id: benderienzo
+    role: Art Direction
+  - id: cjalvarado
+    role: CEO
+  - id: jakeelia
+    role:
+  - id: jonathongray
   
 website: http://thesnippetapp.com
 prettywebsite: thesnippetapp.com

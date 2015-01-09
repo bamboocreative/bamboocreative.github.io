@@ -16,7 +16,7 @@ layout: default
 	</header>
 	<section class="author-content">
 		<section class="author-posts">
-			<span>Blog Posts</span>
+			<div class="title-box">Blog Posts</div>
 			{% for post in site.posts %}
 		        {% if post.author == page.author %}
 		        <section class="post-excerpt">
@@ -28,12 +28,14 @@ layout: default
 		    {% endfor %}
 		</section>
 		<section class="author-projects">
-			<span>Projects</span>
+			<div class="title-box">Projects</div>
 			{% for post in site.project %}
 				{% for author in post.authors %}
 					{% if author.id == page.author %}
-						<a href="{{post.url}}"><h3>{{post.title}}</h3></a>
-						{{author.role}}
+    					<a href="{{post.url}}" class="project">	
+                            <img alt="{{post.title}}" src="/images/client-assets/{{post.slug}}/{{post.image}}">
+                            <span>Role: {{author.role}}</span>
+    		            </a>
 					{% endif %}
 				{% endfor %}
 		    {% endfor %}

@@ -4,13 +4,18 @@ title: Zocalo
 slug: zocalo
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  emilylokteff
-  garrettboatman
-  ginnytownsend
-  joshreederesparza
-
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: emilylokteff
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: joshreederesparza
+    role: 
 website: http://zocalosacramento.com/
 prettywebsite: zocalosacramento.com
 services: Web, Marketing, Design, Photography

@@ -4,11 +4,14 @@ title: Stanford University
 slug: stanford
 image: logo.svg 
 authors:
-  cjalvarado
-  davecox
-  dustinljung
-  ginnytownsend
-  
+  - id: cjalvarado
+    role: 
+  - id: davecox
+    role: 
+  - id: dustinljung
+    role: 
+  - id: ginnytownsend
+    role: 
 website: http://stanford.edu
 prettywebsite: stanford.edu
 services: Branding, Technology

@@ -4,11 +4,14 @@ title: Rocklin
 slug: rocklin
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  ginnytownsend
-  jakeelia
-  
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: ginnytownsend
+    role: 
+  - id: jakeelia
+    role: 
 website: http://wearerocklin.com/
 prettywebsite: wearerocklin.com
 services: Branding

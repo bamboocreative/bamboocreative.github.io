@@ -4,11 +4,14 @@ title: My Secure Advantage
 slug: msa
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  garrettboatman
-  jakeelia
-  
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: jakeelia
+    role: 
 website: 
 services: Branding
 order: 21

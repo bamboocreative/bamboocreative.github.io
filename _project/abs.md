@@ -4,11 +4,14 @@ title: American Bible Society
 slug: abs
 image: logo.svg
 authors:
-  benderienzo
-  cjalvarado
-  garrettboatman
-  jakeelia
-
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: garrettboatman
+    role: 
+  - id: jakeelia
+    role: 
 website: www.americanbible.org
 prettywebsite: americanbible.org
 services: App, Experience, Interactive, Design

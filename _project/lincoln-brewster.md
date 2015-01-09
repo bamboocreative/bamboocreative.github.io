@@ -4,10 +4,12 @@ title: Lincoln Brewster
 slug: lincoln-brewster
 image: logo.svg 
 authors:
-  benderienzo
-  cjalvarado
-  garrettboatman
-
+  - id: benderienzo
+    role: 
+  - id: cjalvarado
+    role: 
+  - id: garrettboatman
+    role: 
 website: http://lincolnbrewster.com
 prettywebsite: lincolnbrewster.com
 services: Graphic Design, Web

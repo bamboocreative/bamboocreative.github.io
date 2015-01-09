@@ -4,8 +4,8 @@ title: Hope Quotient
 slug: hope-quotient
 image: logo.svg 
 authors:
-  garrettboatman
-
+  - id: garrettboatman
+    role:
 website: http://hopequotient.com/
 prettywebsite: hopequotient.com
 services: Web, E-Commerce
