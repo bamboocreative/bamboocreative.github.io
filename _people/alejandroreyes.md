@@ -2,6 +2,7 @@
 layout: default
 image: alejandro.jpg
 name: Alejandro Reyes
+author: alejandroreyes
 title: Social Strategy
 order: 15
 

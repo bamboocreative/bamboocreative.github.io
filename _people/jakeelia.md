@@ -2,6 +2,7 @@
 layout: default
 image: jake.jpg
 name: Jake Elia
+author: jakeelia
 title: Product Development & Strategy
 order: 9
 

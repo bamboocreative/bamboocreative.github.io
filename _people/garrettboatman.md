@@ -2,6 +2,7 @@
 layout: default
 image: garrett.jpg
 name: Garrett Boatman
+author: garrettboatman
 title: Lead Developer
 order: 6
 

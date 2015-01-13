@@ -2,6 +2,7 @@
 layout: default
 image: jonathon.jpg
 name: Jonathon Gray
+author: jonathongray
 title: Lead Developer, Snippet App
 order: 10
 

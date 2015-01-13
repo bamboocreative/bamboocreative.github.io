@@ -2,6 +2,7 @@
 layout: default
 image: jackie.jpg
 name: Jackie Alvarado
+author: jackiealvarado
 title: Bamboo Admin
 order: 8
 

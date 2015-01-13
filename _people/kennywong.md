@@ -2,6 +2,7 @@
 layout: default
 image: kenny.jpg
 name: Kenny Wong
+author: kennywong
 title: Designer
 order: 17
 

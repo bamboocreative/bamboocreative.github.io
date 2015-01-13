@@ -2,6 +2,7 @@
 layout: default
 image: ben.jpg
 name: Ben De Rienzo
+author: benderienzo
 title: Art Director
 order: 7
 
