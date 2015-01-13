@@ -2,8 +2,9 @@
 layout: default
 image: dustin.jpg
 name: Dustin Ljung
-title: Managing Director
-order: 4
+author: dustinljung
+title: Client Services at Elevendy
+order: 3
 
 social:
     

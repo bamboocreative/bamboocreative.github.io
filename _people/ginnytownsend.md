@@ -2,8 +2,9 @@
 layout: default
 image: ginny.jpg
 name: Ginny Townsend
+author: ginnytownsend
 title: Marketing & Communications
-order: 2
+order: 5
 
 social: 
   - account: twitter
