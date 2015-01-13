@@ -3,7 +3,7 @@ layout: default
 image: jackie.jpg
 name: Jackie Alvarado
 title: Bamboo Admin
-order: 5
+order: 8
 
 social: 
   - account: twitter

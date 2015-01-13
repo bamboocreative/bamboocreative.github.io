@@ -3,7 +3,7 @@ layout: default
 image: alejandro.jpg
 name: Alejandro Reyes
 title: Social Strategy
-order: 16
+order: 15
 
 social:
   - account: instagram

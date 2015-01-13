@@ -3,7 +3,7 @@ layout: default
 image: kenny.jpg
 name: Kenny Wong
 title: Designer
-order: 12
+order: 17
 
 social: 
   - account: twitter
