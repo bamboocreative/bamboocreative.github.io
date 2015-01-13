@@ -4,7 +4,7 @@ image: ben.jpg
 name: Ben De Rienzo
 author: benderienzo
 title: Art Director
-order: 4
+order: 7
 
 social: 
   - account: twitter

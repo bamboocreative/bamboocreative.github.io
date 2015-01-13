@@ -4,7 +4,7 @@ image: jackie.jpg
 name: Jackie Alvarado
 author: jackiealvarado
 title: Bamboo Admin
-order: 5
+order: 8
 
 social: 
   - account: twitter

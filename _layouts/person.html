@@ -28,13 +28,13 @@ layout: default
 		    {% endfor %}
 		</section>
 		<section class="author-projects">
-			<div class="title-box">Projects</div>
+			<div class="title-box">Projects</div><br>
 			{% for post in site.project %}
 				{% for author in post.authors %}
 					{% if author.id == page.author %}
     					<a href="{{post.url}}" class="project">	
                             <img alt="{{post.title}}" src="/images/client-assets/{{post.slug}}/{{post.image}}">
-                            <span>Role: {{author.role}}</span>
+                            <!-- <span>Role: {{author.role}}</span> -->
     		            </a>
 					{% endif %}
 				{% endfor %}

@@ -136,9 +136,13 @@
 	
 }
 .title-box{
-    border: 1px solid;
-    padding: 10px 12.9%;
-    display: inline-block
+    border: 1px solid #353535;
+    text-align: center;
+    @include span-columns(6);
+    @include omega;
+    padding: 0.6em 0;
+    margin: 0 auto;
+    float: none;
 }
 .author-content{
     
@@ -179,19 +183,30 @@
 	@include media(max-width $mamabear){    
     	@include span-columns(12);
         @include shift(0);
-    
+    }
+    .title-box{
+        margin-bottom: 1em;
     }
     .project{
-        @include span-columns(12);
-        margin-bottom: 20px;
+        
+        @include span-columns(6);  
         border-bottom: 1px solid #ccc;
-        padding: 1.7em 4em;
         color: $font-color;
         text-align: center;
         text-decoration: none;
+        border-right: 1px solid transparent;
+        padding:2em 0em;
+        @include omega;
+        
+        &:nth-child(odd){
+            border-right: 1px solid #ccc;
+        }
         
         img{
             width: 100%;
+        }
+        &:last-child{
+            border-bottom: 0px;
         }
     }
 }

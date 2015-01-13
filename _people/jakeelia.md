@@ -4,7 +4,7 @@ image: jake.jpg
 name: Jake Elia
 author: jakeelia
 title: Product Development & Strategy
-order: 7
+order: 9
 
 social: 
   - account: twitter

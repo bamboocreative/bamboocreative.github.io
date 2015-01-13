@@ -4,7 +4,7 @@ image: emily.jpg
 name: Emily Lokteff
 author: emilylokteff
 title: Marketing Research
-order: 9
+order: 12
 
 social: 
   - account: twitter

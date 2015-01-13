@@ -4,7 +4,7 @@ image: kenny.jpg
 name: Kenny Wong
 author: kennywong
 title: Designer
-order: 12
+order: 17
 
 social: 
   - account: twitter

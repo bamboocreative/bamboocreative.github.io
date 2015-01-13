@@ -4,7 +4,7 @@ image: dave.jpg
 name: Dave Cox
 author: davecox
 title: Creative Strategist at Elevendy
-order: 15
+order: 2
 
 social:
   - account: instagram
