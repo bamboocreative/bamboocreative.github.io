@@ -2,8 +2,8 @@
 layout: default
 image: dave.jpg
 name: Dave Cox
-title: Creative Strategist at Elevendy
-order: 15
+title: COO & Executive Creative Director
+order: 3
 
 social:
   - account: instagram

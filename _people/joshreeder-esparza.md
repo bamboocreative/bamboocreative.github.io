@@ -3,18 +3,18 @@ layout: default
 image: josh.jpg
 name: Josh Reeder-Esparza
 title: Web Developer
-order: 8
+order: 11
 
 social: 
   - account: twitter
     username: jawshre
-  - account: facebook
-    username: jreederesparza
   - account: github
     username: joshre
   - account: instagram
     username: joshre
-  - account: spotify
+  - account: facebook
+    username: jreederesparza
+  - account: rdio
     username: joshre
     
 ---

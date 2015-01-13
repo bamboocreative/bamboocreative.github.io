@@ -3,7 +3,7 @@ layout: default
 image: garrett.jpg
 name: Garrett Boatman
 title: Lead Developer
-order: 3
+order: 6
 
 social: 
   - account: twitter
