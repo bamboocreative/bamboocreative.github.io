@@ -3,7 +3,7 @@ layout: default
 image: dave.jpg
 name: Dave Cox
 author: davecox
-title: Creative Strategist at Elevendy
+title: COO, Executive Creative Director
 order: 2
 
 social:
