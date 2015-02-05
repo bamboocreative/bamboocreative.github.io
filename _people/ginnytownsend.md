@@ -4,7 +4,7 @@ image: ginny.jpg
 name: Ginny Townsend
 author: ginnytownsend
 title: Marketing & Communications
-order: 5
+order: 14
 
 social: 
   - account: twitter
