@@ -15,7 +15,7 @@ social:
     username: joshre
   - account: instagram
     username: joshre
-  - account: spotify
+  - account: rdio
     username: joshre
     
 ---
