@@ -16,5 +16,6 @@ social:
     username: cjalvarado
   - account: spotify
     username: 1258104351
-    
+
+bio: ""
 ---

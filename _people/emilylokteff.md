@@ -15,5 +15,6 @@ social:
     username: emilylokteff
   - account: spotify
     username: 1235186594
-    
+
+bio: "Living that social media life. Classical pianist, spread sheet enthusiast, never seen without a travel mug full of tea."
 ---

@@ -11,5 +11,6 @@ social:
     username: lakiehne
   - account: instagram
     username: laureyanne
-    
+
+bio: "Helping people be social. Midwest Native. Loves the active life and anything involving the word holistic."
 ---

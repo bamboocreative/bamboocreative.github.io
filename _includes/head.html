@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Plain Descript -->
-	<title>{% if page.fulltitle %}{{page.fulltitle}}{% else %}{{page.title}} | {{site.title}}{% endif %}</title>
+	<title>{% if page.fulltitle %}{{page.fulltitle}}{% elsif page.name %}{{page.name}}{% else %}{{page.title}} | {{site.title}}{% endif %}</title>
 	<meta name="description" content="{% if page.excerpt %}{{page.excerpt}}{% else %}{{site.tagline}}{% endif %}">
 	<link rel="icon" type="image/png" href="/favicon.png">
 	

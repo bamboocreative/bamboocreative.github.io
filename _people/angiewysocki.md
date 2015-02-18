@@ -15,4 +15,6 @@ social:
     username: angiewysocki
   - account: spotify
     username: angiewysocki
+
+bio: "Charged with taking great care of all our clients. Works with the team to make sure that all our big ideas happen. Red Wine and anything gold is my jam."
 ---

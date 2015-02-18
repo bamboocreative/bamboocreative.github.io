@@ -10,4 +10,5 @@ social:
   - account: dribbble
     username: jenniferybarra
 
+bio: "Jen is a graphic designer. She makes things beautiful. she also has a contagious laugh that will make you smile."
 ---

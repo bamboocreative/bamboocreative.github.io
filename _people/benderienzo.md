@@ -15,5 +15,6 @@ social:
     username: derienzo777
   - account: dribbble
     username: derienzo777
-    
+
+bio: "Directs the art. Most likely to break out in song or dance—but, usually both. Puts red chili flakes on everything."  
 ---

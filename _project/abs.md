@@ -11,7 +11,8 @@ authors:
   - id: garrettboatman
     role: 
   - id: jakeelia
-    role: 
+    role:
+    
 website: www.americanbible.org
 prettywebsite: americanbible.org
 services: App, Experience, Interactive, Design

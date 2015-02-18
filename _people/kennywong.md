@@ -18,4 +18,5 @@ social:
   - account: spotify
     username: 1214137165
 
+bio: "A young, creative gun that fires on so many cylinders, Kenny G crafts equally using pen, paper or pixel. Fantastic hugger."
 ---

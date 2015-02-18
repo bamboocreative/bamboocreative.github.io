@@ -17,5 +17,6 @@ social:
     username: jdgray03
   - account: spotify
     username: jdgray03
-    
+
+bio: "Loves coffee, coding, and kittens. Expert in crafting beautiful code that gets its job done with ease and fluidity. Holder of many cups, rarely wears hats." 
 ---

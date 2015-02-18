@@ -17,5 +17,6 @@ social:
     username: garrettboatman
   - account: rdio
     username: garrettboatman
-    
+
+bio: ""
 ---

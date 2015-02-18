@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 image: ginny.jpg
 name: Ginny Townsend
 author: ginnytownsend
@@ -15,5 +15,6 @@ social:
     username: ginnystownsend
   - account: spotify
     username: 1253487778
-    
+
+bio: ""
 ---
