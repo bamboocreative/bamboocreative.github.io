@@ -2,7 +2,9 @@
 layout: project
 title: Lists.io
 slug: listsio
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

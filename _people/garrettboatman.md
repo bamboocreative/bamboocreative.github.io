@@ -18,5 +18,5 @@ social:
   - account: rdio
     username: garrettboatman
 
-bio: ""
+bio: "Quirky, nerdy girl who loves reading, adventure, Netflix. Willing to tell you everything you didn't want to know about Serial and New Girl."
 ---

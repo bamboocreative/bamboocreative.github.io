@@ -2,11 +2,10 @@
 layout: default
 ---
 
-<article class="page" role="main">
-
-	<header class="proj-header">
+<article class="project-wrap" role="main">
+	<header class="proj-header" {% if page.bg %}style="background-image:url('/images/client-assets/{{page.slug}}/bg.jpg');"{% endif %}>
 		<h1 class="proj-title">{{ page.title }}</h1>
-		<div class="proj-sercives">{{ page.services }}</div> 
+		<div class="proj-services">{{ page.services }}</div> 
 		{% if page.website %}
 			<div class="proj-url">
 			<a href="{{page.website}}">
@@ -16,7 +15,7 @@ layout: default
 		{% endif %}
 	</header>
 	
-	<section class="proj-content">
+	<section class="page proj-content">
 		{{ content }}
 	</section>
 	

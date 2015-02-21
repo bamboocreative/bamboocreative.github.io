@@ -17,5 +17,5 @@ social:
   - account: spotify
     username: 1258104351
 
-bio: ""
+bio: "Executive leadership married with an irrational drive to create beautiful and previously unseen solutions and products that solve the world's problems. Checks all the boxes, started from the bottom now he's... here."
 ---

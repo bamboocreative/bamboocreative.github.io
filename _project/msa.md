@@ -2,7 +2,9 @@
 layout: project
 title: My Secure Advantage
 slug: msa
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

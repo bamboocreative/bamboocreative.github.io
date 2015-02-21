@@ -2,7 +2,9 @@
 layout: project
 title: Gungor
 slug: gungor
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: Art Director

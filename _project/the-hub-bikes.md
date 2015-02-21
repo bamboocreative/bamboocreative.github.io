@@ -2,7 +2,9 @@
 layout: project
 title: The Hub Bikes
 slug: the-hub
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

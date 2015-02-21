@@ -2,7 +2,9 @@
 layout: project
 title: Hope Quotient
 slug: hope-quotient
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: garrettboatman
     role:

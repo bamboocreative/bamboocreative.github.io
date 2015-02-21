@@ -2,7 +2,9 @@
 layout: project
 title: White Hat Studios
 slug: white-hat
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: garrettboatman
     role: 

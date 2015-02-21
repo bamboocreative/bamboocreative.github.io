@@ -2,7 +2,9 @@
 layout: project
 title: Zocalo
 slug: zocalo
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

@@ -2,7 +2,9 @@
 layout: project
 title: Thrive Conference
 slug: thrive
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: angiewysocki
     role: 

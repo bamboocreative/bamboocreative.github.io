@@ -2,7 +2,9 @@
 layout: project
 title: Courage Worldwide
 slug: courage-worldwide
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

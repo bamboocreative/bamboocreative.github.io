@@ -2,7 +2,9 @@
 layout: project
 title: Richard Ellis
 slug: richard-ellis
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 

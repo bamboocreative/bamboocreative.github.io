@@ -2,7 +2,9 @@
 layout: project
 title: Stanford University
 slug: stanford
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: cjalvarado
     role: 

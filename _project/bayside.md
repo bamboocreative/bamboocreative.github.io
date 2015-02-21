@@ -3,6 +3,8 @@ layout: project
 title: Bayside Church
 slug: bayside
 image: logo.svg 
+bg:
+
 authors:
   - id: cjalvarado
     role: 

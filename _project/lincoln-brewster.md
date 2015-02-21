@@ -2,7 +2,8 @@
 layout: project
 title: Lincoln Brewster
 slug: lincoln-brewster
-image: logo.svg 
+image: logo.svg
+bg:
 authors:
   - id: benderienzo
     role: 

@@ -3,6 +3,8 @@ layout: project
 title: American Bible Society
 slug: abs
 image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: 
@@ -12,7 +14,7 @@ authors:
     role: 
   - id: jakeelia
     role:
-    
+
 website: www.americanbible.org
 prettywebsite: americanbible.org
 services: App, Experience, Interactive, Design

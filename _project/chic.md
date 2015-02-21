@@ -2,7 +2,9 @@
 layout: project
 title: CHIC
 slug: chic
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: angiewysocki
     role: 

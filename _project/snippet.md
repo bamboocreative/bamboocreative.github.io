@@ -2,7 +2,9 @@
 layout: project
 title: The Snippet App
 slug: snippet
-image: logo.svg 
+image: logo.svg
+bg:
+
 authors:
   - id: benderienzo
     role: Art Direction

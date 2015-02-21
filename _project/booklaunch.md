@@ -3,6 +3,8 @@ layout: project
 title: Booklaunch.io
 slug: booklaunch
 image: logo.svg
+bg:
+
 authors: 
   - id: benderienzo
     role: Art Direction

@@ -11,9 +11,9 @@
 
 // These are variables 
 $font-size: 22px;
-$serif-font-family:  'expo-serif-pro', Helvetica, sans-serif;
-$sans-serif-font-family: 'Source Sans Pro', Helvetica, sans-serif;
-$font-color: #353535;
+$serif-font-family:  'Sentinel A', 'Sentinel B', Helvetica, sans-serif;
+$sans-serif-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
+$font-color: #6a6a6a;
 $font-color-light: #ababab;
 
 $max-width: 880px;
@@ -31,7 +31,7 @@ Between 1140px and 1300px: @include media(min-width $papabear max-width $monster
 */
 
 // Some Style Variables and what not
-$primary-color: #81e6d9;
+$primary-color: #3cbeaf;
 $border: 1px solid #ccc;
 $error: #de3535;
 $success: #d5f5d7;
