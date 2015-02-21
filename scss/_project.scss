@@ -150,3 +150,16 @@
 	}
 }
 
+.proj-stats{
+	
+	background-image: url('../images/proj.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: auto;
+
+	div {
+		@include span-columns(6);
+		@include shift(4);
+	}
+	height: auto;
+}

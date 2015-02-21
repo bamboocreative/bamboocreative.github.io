@@ -5,13 +5,22 @@ slug: line-6
 image: logo.svg
 bg: yes
 
+stats:
+ - number: 20<span>x</span>
+   copy: increase in web site user engagement
+ - number: 150%
+   copy: increase in pre-orders
+ - number: 10k
+   copy: users in 6 months
+
 authors:
   - id: cjalvarado
     role: 
   - id: ginnytownsend
     role: 
   - id: nathandavis
-    role:  
+    role:
+
 website: http://line6.com/
 prettywebsite: line6.com
 services: Design, Marketing
