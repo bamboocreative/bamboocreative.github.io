@@ -1,6 +1,11 @@
-{% for item in page.stats  %}
-	<div>
-		<h1>{{item.number}}</h1>
-		<span>{{item.copy}}</span>
-	</div>
-{% endfor %}
+<section class="proj-stats">
+	{% for item in page.stats  %}
+		<div class="stat-wrap">
+			<div class="big-num">
+				<span class="number">{{item.number}}</span>
+				<span class="unit">{{item.unit}}</span>
+			</div>
+			<div class="copy">{{item.copy}}</div>
+		</div>
+	{% endfor %}
+</section>

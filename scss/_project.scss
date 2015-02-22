@@ -150,16 +150,197 @@
 	}
 }
 
-.proj-stats{
-	
-	background-image: url('../images/proj.jpg');
-	background-size:cover;
-	background-repeat: no-repeat;
-	height: auto;
+.proj-stats
+{
+    padding: 4em 0;
 
-	div {
-		@include span-columns(6);
-		@include shift(4);
+    text-align: center;
+
+    background-image: url('../images/proj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include row;
+    .stat-wrap
+    {
+        @include row();
+        &:not(:last-child)
+        {
+            &:after
+            {
+                display: block;
+
+                width: 60%;
+                height: 2em;
+                margin: 2em auto;
+
+                border-bottom: 1px solid white;
+            }
+        }
+        .big-num
+        {
+            font-size: 6em;
+
+            text-align: right;
+
+            color: white;
+
+            @include span-columns(6 of 12);
+            @include media(max-width $mamabear)
+            {
+                font-size: 4em;
+
+                text-align: center;
+
+                @include span-columns(12 of 12);
+            }
+        }
+        .number
+        {
+            font-weight: 800;
+        }
+        .unit
+        {
+            font-weight: 100;
+
+            margin-right: .1em;
+            margin-left: -.3em;
+        }
+        .copy
+        {
+            font-family: $serif-font-family;
+            font-size: 1.9em;
+            font-style: italic;
+            line-height: 1em;
+
+            padding-top: 1.6em;
+
+            text-align: left;
+
+            color: $primary-color;
+
+            @include span-columns(4 of 12);
+            @include media(max-width $mamabear)
+            {
+                padding: 0;
+
+                text-align: center;
+
+                @include span-columns(12 of 12);
+            }
+        }
+    }
+}
+.proj-testimonial{
+	
+	@include row;
+	padding: 2em 0;
+	
+	background-color: $font-color-light;
+	background-size: contain;
+	background-repeat: no-repeat;
+	@include media(max-width $mamabear){
+		background-image: none !important; 
 	}
-	height: auto;
+	.quote{
+			font-family: $serif-font-family;
+			font-weight: 100;
+			font-style: italic;
+			font-size: 1.5em;
+			text-align: right;
+			@include span-columns(6 of 12);
+			@include shift(4);
+			@include media(max-width $mamabear){
+				font-size: 1.8em;
+				text-align: center;
+				@include span-columns(8 of 12);
+				@include shift(2);
+			}
+		}
+	
+	.name{
+			color: $primary-color;
+			font-size: 1em;
+			text-align: right;
+			font-weight: 600;
+			margin-top: .3em;
+			@include span-columns(6 of 12);
+			@include shift(4);
+			@include media(max-width $mamabear){
+				font-size: 1.3em;
+				text-align: center;
+				@include span-columns(8 of 12);
+				@include shift(2);
+			}
+		}
+}
+.proj-pag
+{
+    padding: 2em 0;
+
+    @include row;
+    .previous,
+    .next
+    {
+        @include span-columns(3 of 12);
+        a
+        {
+            font-family: $serif-font-family;
+            font-size: 1.4em;
+            font-style: italic;
+            line-height: 1em;
+
+            float: left;
+
+            text-decoration: none;
+
+            color: #cbcbcb;
+        }
+    }
+    .previous
+    {
+        a
+        {
+            &:before
+            {
+                font-family: $serif-font-family;
+                font-size: 1.2em;
+                line-height: 1em;
+
+                content: '<';
+
+                color: #cbcbcb;
+                margin-right: 0.3em;
+padding-left: 0.5em;
+            }
+        }
+    }
+    .button
+    {
+        text-align: center;
+
+        @include span-columns(4 of 12);
+        @include shift(1);
+    }
+    .next
+    {
+        float: right;
+
+        text-align: right;
+        a
+        {
+            &:after
+            {
+                font-family: $serif-font-family;
+                font-size: 1.2em;
+                line-height: 1em;
+
+                content: '>';
+
+                color: #cbcbcb;
+                margin-left: 0.3em;
+				padding-right: 0.5em;
+            }
+        }
+    }
 }

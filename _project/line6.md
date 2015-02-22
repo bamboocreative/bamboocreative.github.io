@@ -6,12 +6,19 @@ image: logo.svg
 bg: yes
 
 stats:
- - number: 20<span>x</span>
+ - number: 20
+   unit: x
    copy: increase in web site user engagement
- - number: 150%
+ - number: 150
+   unit: '%'
    copy: increase in pre-orders
- - number: 10k
+ - number: 10
+   unit: k 
    copy: users in 6 months
+
+testimonial:
+  - name: "Rick Stedman, Line 6 VP Marketing"
+    quote: "Working with Bamboo was a dream. They are the best. 10 million-x return on our investment. Do it!"
 
 authors:
   - id: cjalvarado

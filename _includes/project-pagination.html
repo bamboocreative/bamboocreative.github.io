@@ -1,0 +1,18 @@
+{% assign projects = site.project | sort: 'order' %}
+<section class="proj-pag">
+	
+	<!-- Previous Project -->
+	<div class="previous">
+		{% assign before = page.order | minus:2 %}
+		{% for post in projects offset:before limit:1 %}
+			<a href="{{post.url}}">{{post.title}}</a>
+		{% endfor %}
+	</div>
+	<a class="button" href="/projects">Back To Work</a>
+	<!-- Next Project -->
+	<div class="next">
+		{% for post in projects offset:page.order limit:1 %}
+		  	<a href="{{post.url}}">{{post.title}}</a>
+		{% endfor %}
+	</div>
+</section>

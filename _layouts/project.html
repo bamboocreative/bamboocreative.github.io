@@ -6,17 +6,23 @@ layout: default
 	<header class="proj-header" {% if page.bg %}style="background-image:url('/images/client-assets/{{page.slug}}/bg.jpg');"{% endif %}>
 		<h1 class="proj-title">{{ page.title }}</h1>
 		<div class="proj-services">{{ page.services }}</div> 
-		{% if page.website %}
-			<div class="proj-url">
-			<a href="{{page.website}}">
-			{% if page.prettywebsite %}{{ page.prettywebsite }}{% else %}{{ page.website }}{% endif %}
-			</a>
-			</div>
-		{% endif %}
+	{% if page.website %}
+		<div class="proj-url">
+		<a href="{{page.website}}">
+		{% if page.prettywebsite %}{{ page.prettywebsite }}{% else %}{{ page.website }}{% endif %}
+		</a>
+		</div>
+	{% endif %}
 	</header>
+
 	<section class="page proj-content">
 		{{ content }}
 	</section>
-	<!-- Not working yet  -->
-	<!-- <section class="proj-stats">{% include stats.html %}</section> -->
+	
+	{% if page.stats %}{% include stats.html %}{% endif %}
+
+	{% if page.testimonial %}{% include testimonial.html %}{% endif %}
+
+	{% include project-pagination.html %}
+
 </article>
