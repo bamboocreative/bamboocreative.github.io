@@ -25,7 +25,7 @@
 			
 			color: #fff;
 			background: rgba(129, 230, 217, .9);
-			@include transition(.3s opacity);
+			@include transition(.4s opacity);
 			
 			@include media($mamabear){
 				position: absolute;
