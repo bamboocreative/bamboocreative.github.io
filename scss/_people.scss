@@ -216,12 +216,17 @@
         &:nth-child(odd){
             border-right: 1px solid #ccc;
         }
-        
-        img{
-            width: 100%;
-        }
         &:last-child{
             border-bottom: 0px;
         }
+        &:hover{
+			background: $primary-color;
+			
+			.fill-path{
+				*{
+				fill: white !important;
+			}
+			}
+		}
     }
 }

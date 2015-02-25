@@ -32,8 +32,9 @@ layout: default
 			{% for post in site.project %}
 				{% for author in post.authors %}
 					{% if author.id == page.author %}
-    					<a href="{{post.url}}" class="project">	
-                            <img alt="{{post.title}}" src="/images/client-assets/{{post.slug}}/{{post.image}}">
+                            <a href="{{post.url}}" class="project">	
+								{% include /logos/{{post.slug}}/logo.svg %}
+							</a>
                             <!-- <span>Role: {{author.role}}</span> -->
     		            </a>
 					{% endif %}
