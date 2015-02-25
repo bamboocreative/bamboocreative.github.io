@@ -63,7 +63,12 @@
 			.person-title{
 				font-family: $serif-font-family;
 			}
-			
+			.person-button{
+				border: 2px solid white;
+				padding: 0.2em 0.5em;
+				margin-top: 25px;
+				display: inline-block;
+			}
 			.person-social{
 				font-size: 1.3em;
 				a{
