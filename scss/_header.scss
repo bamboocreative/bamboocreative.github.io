@@ -82,7 +82,7 @@ header.header{
 	-webkit-overflow-scrolling: touch;
 	@include transform(translateY(-100%) translate3d(0, 0, 0));
 	@include transition(.5s all $ease-out-quart);
-	@include media(max-width $mamabear){top: 75px; padding-bottom: 75px;}
+	@include media(max-width $mamabear){top: 70px; padding-bottom: 75px;}
 	&.active{
 		opacity: 1 !important;
 		z-index: 2;

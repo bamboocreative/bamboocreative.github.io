@@ -29,7 +29,11 @@
 			span{
 				color: $font-color;
 			}
-			
+			.fill-path{
+				*{
+				fill: white !important;
+			}
+			}
 		}
 		
 		img{
