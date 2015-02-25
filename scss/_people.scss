@@ -22,17 +22,16 @@
 			
 			left: 0;
 			width: 100%;
-			
+			z-index: 3;
 			color: #fff;
-			background: rgba(129, 230, 217, .9);
+			background: $primary-color;
 			@include transition(.4s opacity);
 			
 			@include media($mamabear){
 				position: absolute;
 				top: 0;
-				padding: .5em;
+				padding: 3em 1em 1em 1em;
 				height: 100%;
-				padding-top: 80px;
 				opacity: 0;
 			}
 			
@@ -61,6 +60,9 @@
 				line-height: 1em;
 				font-size: 1.3em;
 			}
+			.person-title{
+				font-family: $serif-font-family;
+			}
 			
 			.person-social{
 				font-size: 1.3em;
@@ -71,7 +73,14 @@
 					margin-top: 10px;
 				}
 			}
-			
+			.button{
+				color: $primary-color !important;
+				margin-top: .5em;
+				&:hover{
+					color: white !important;
+					border: 2px solid white;
+				}
+			}
 		
 			&:hover{
 				opacity: 1;

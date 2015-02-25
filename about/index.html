@@ -13,13 +13,15 @@ title: About
 	{% assign people = site.people | sort: 'order' %}
 	{% for person in people %}
 	<div class="person">	
+	<a href="{{person.url}}">
 		<img alt="{{person.name}}" src="/images/people/{{person.image}}">
 		<div class="person-overlay">
 			<h4 class="person-name">{{person.name}}</h4>
 			<span class="break"></span><br>
 			<span class="person-title">{{person.title}}</span><br />
-			<a style="color: #fff;" href="{{person.url}}">View Profile</a>
+			<span>View Profile</span>
 		</div>
+		</a>
 	</div>
 	{% cycle 'add rows': nil, nil, '</div><div class="people-archive">' %}
 	
