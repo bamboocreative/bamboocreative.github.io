@@ -10,7 +10,7 @@ fulltitle: Bamboo Creative | Executing beautiful ideas in Northern CA
     	    {% assign projects = site.project | sort: 'feat-order' %}
            	{% for project in projects %}
     		    {% if project.feat-order %}
-                <img alt="{{project.title}}" src="/images/client-assets/{{project.slug}}/logo.svg">
+                	{% include /logos/{{project.slug}}/logo.svg %}
     		    {% endif %}
             {% endfor %} 
 	</div>
