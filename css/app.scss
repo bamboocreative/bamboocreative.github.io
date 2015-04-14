@@ -101,19 +101,10 @@ $spotify: 	#81b71a !default;
 @import "people";
 @import "contact";
 
-.page{
-	width: 100%;
-	max-width: $max-width;
-	margin: 0 auto;
-	padding: 0 1em;
-	margin-bottom: 4em;
-	
-	img{
-		// Responsivable images!
-		max-width: 100%;
-	}
-	
-}
+$babybear: 321px;
+$mamabear: 769px;
+$papabear: 1140px;
+$monsterbear: 1300px;
 
 /* Sticky footer */
 html,body{
