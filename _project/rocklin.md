@@ -1,9 +1,10 @@
 ---
 layout: project
-title: Rocklin
+title: City of Rocklin
+tagline: A project tagline goest here
 slug: rocklin
-image: logo.svg
-bg:
+logo: logo.svg
+feature_image: https://unsplash.imgix.net/photo-1430620081187-c59647bac29e?fit=crop&fm=jpg&h=700&q=75&w=1050
 
 authors:
   - id: benderienzo
@@ -16,7 +17,11 @@ authors:
     role: 
 website: http://wearerocklin.com/
 prettywebsite: wearerocklin.com
-services: Branding
+services: Branding, Logo Design
+
+homepage_grid: true
+homepage_grid_order: 3
+
 order: 8
 ---
 

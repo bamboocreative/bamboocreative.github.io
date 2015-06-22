@@ -1,9 +1,10 @@
 ---
 layout: project
 title: Stanford University
+tagline: We worked with Stanford on this and that
 slug: stanford
-image: logo.svg
-bg:
+logo: logo.svg
+feature_image: https://ununsplash.imgix.net/photo-1428976343495-f2c66e701b2b?fit=crop&fm=jpg&h=1575&q=75&w=1050
 
 authors:
   - id: cjalvarado
@@ -18,6 +19,12 @@ website: http://stanford.edu
 prettywebsite: stanford.edu
 services: Branding, Technology
 feat-order: 2
+
+
+homepage_feature: false
+homepage_grid: true
+homepage_grid_order: 1
+
 order: 5
 ---
 

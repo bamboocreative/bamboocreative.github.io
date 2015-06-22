@@ -1,18 +1,71 @@
 ---
 layout: page
 fulltitle: Bamboo Creative | Executing beautiful ideas in Northern CA
+
 ---
-<div class="home-tag"> 
-	<h1>Unleash your company's creative potential.</h1>
+
+
+<section class="section-hero">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop>
+            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Coverr-office.mp4" type="video/mp4" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Coverr-office.mp4" type="video/webm" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" alt="Bamboo Creative">
+        </div>
+    </div>
+    <h1 class="tagline">for the<span class="tagline-bold">GREATNESS</span>of others</h1>
+</section>
+
+
+
+<section class="section-services">
+	
+	<h3>We are a creative firm in Northern California pushing ourselves and clients to execute <a title="Beautiful" href="/blog/beautiful/">beautiful</a> ideas. We delve into creative strategy, branding, design and product development.</h3>
+	
 	<p>We are a creative firm in Northern California pushing ourselves and clients to execute <a title="Beautiful" href="/blog/beautiful/">beautiful</a> ideas. We delve into creative strategy, branding, design and product development.</p>
-	<span>Some of our trusted clients:</span>
-	<div class="feat-clients">
-    	    {% assign projects = site.project | sort: 'feat-order' %}
-           	{% for project in projects %}
-    		    {% if project.feat-order %}
-                	{% include /logos/{{project.slug}}/logo.svg %}
-    		    {% endif %}
-            {% endfor %} 
+	<p><a title="#" href="#">Learn more about our services</a></p>
+	
+</section>
+
+
+{% include project-feature.html type='home' limit=1 %}
+
+{% include project-grid.html type='home' limit=5 %}
+
+
+<section class="section-team">
+	<div class="team-container">
+		<h3>Sameness <strong>=</strong> Lameness</h3>
+		<p>We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product development.</p>
+		<a href="#" class="button">Meet the Team</a>
 	</div>
-	<a class="button" href="/projects">Our Work</a>
-</div>
+	<div class="feature-team">
+		<div class="team-member">
+			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
+		</div>
+		<div class="team-member">
+			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
+		</div>
+		<div class="team-member">
+			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
+		</div>
+		<div class="team-member">
+			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="section-quote quote-light quote-center">
+	<div class="quote">
+		<blockquote>"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product."</blockquote>
+		<div class="quote-credit">— Karen Garner, City of Rocklin</div>
+	</div>
+</section>
+
+<section class="section-cta">
+	<a href="#" class="button">View all our work</a>
+	<a href="#" class="button">Get started with us</a>
+</section>

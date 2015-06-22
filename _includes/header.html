@@ -1,27 +1,15 @@
 <div class="web-wrapper"> <!-- opens here, closes before the footer -->
 	<header class="header">
 	    <section class="page">
-		    <a href="/"><h1 class="logo">Bamboo Creative</h1></a>
-		    <a class="menu-button" href="javascript:void(0)"><div class="menu-icon"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div><span>MENU</span></a>
-		    <div style="opacity: 0;" class="full-nav">
-			    <nav class="site-nav" role="navigation">
+		    <a href="/" class="logo" title="Bamboo Creative Home"><h1 class="logo-image">Bamboo Creative</h1></a>
+		     <nav class="site-nav" role="navigation">
 			        <ul>
-			        	<li><a href="/about">About Us</a></li>
-			        	<li><a href="/projects">Work</a></li>
-			        	<li><a href="/contact">Contact</a></li>
-				        <li><a href="/blog">Blog</a></li>
-				        <li></li>
+				        <li><a href="/projects" title="our work">our work</a></li>
+			        	<li><a href="/process" title="what we do">what we do</a></li>
+			        	<li><a href="/team" title="about us">our team</a></li>
+			        	<li><a href="/contact" title="contact">talk to us</a></li>
+			        	<li></li>
 			        </ul>
 			    </nav>
-                <div class="page"><span>from our blog</span></div>
-                <ul class="page menu-posts">
-			        {% for post in site.posts offset: 0 limit: 8  %}
-			        <li>
-			            <a href="{{ post.url }}">{{ post.title }}</a>
-                        <span>{{post.author}}</span>
-			         </li>
-                    {% endfor %}
-			    </ul>
-		    </div>
 	    </section>
 	</header>

@@ -1,0 +1,29 @@
+.center {
+	text-align: center;
+}
+
+.hidden {
+	line-height: 0px !important;
+	text-indent: -9999px;
+	margin: 0px;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+/* Sticky footer */
+html,body{
+	height: 100%;
+}
+
+.web-wrapper{
+	min-height: 100%;
+	margin-bottom: -3.5em;
+	
+	&:after{
+		content: "";
+		display: block;
+		height: 3.5em;
+	}
+}

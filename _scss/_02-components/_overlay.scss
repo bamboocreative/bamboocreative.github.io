@@ -1,0 +1,36 @@
+.background-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	overflow: hidden;
+	@include transition(all .4s $ease-in-out-quad);
+}
+
+.background-image-hover {
+	@include transform(scale(1.03, 1.03));
+	opacity: .8;
+}
+
+.overlay { 
+	visibility: hidden;
+	opacity: 0;
+	background-color: rgba(0,0,0, 0.7);
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	@include transition(all .4s $ease-in-out-quad);
+}
+
+.show-overlay {
+	visibility: visible;
+	opacity: 1;
+}

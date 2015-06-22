@@ -13,7 +13,7 @@ instagram: feeltheboo
 
 # Contact
 phone: 1 (855) trybamboo
-email: admin
+email: hello
 
 
 # Blog Settings
@@ -29,7 +29,7 @@ gems:
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: scss
+  sass_dir: _scss
   style: :compressed
   
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]

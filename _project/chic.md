@@ -1,9 +1,10 @@
 ---
 layout: project
 title: CHIC
+tagline: The best conference ever! 
 slug: chic
-image: logo.svg
-bg:
+logo: logo.svg
+feature_image: https://unsplash.imgix.net/photo-1428765048792-aa4bdde46fea?fit=crop&fm=jpg&h=600&q=75&w=1050
 
 authors:
   - id: angiewysocki
@@ -22,6 +23,12 @@ authors:
 website: http://chic2015.org/
 prettywebsite: chic2015.org
 services: Design, Branding, Marketing
+
+featured: true
+homepage_feature: true
+homepage_grid: true
+homepage_grid_order: 5
+
 order: 10
 ---
 

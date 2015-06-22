@@ -1,0 +1,26 @@
+---
+layout: page
+title: About
+---
+
+<section class="page-header">
+	<h2 class="page-title">Our Team</h2>
+	<p class="page-subtitle">We joke that we are never short on ideas, but truthfully we aren’t. We challenge ourselves and our team to never let an idea go unexplored. New ideas are delicate and dangerous, you never know what they may turn in to.</p>
+</section>
+
+<div class="people-archive">
+	{% assign people = site.people | sort: 'order' %}
+	{% for person in people %}
+	<div class="person">	
+		<div class="person-wrapper">
+			<h4 class="person-name">{{person.name}}</h4>
+			<hr>
+			<span class="person-title">{{person.title}}</span>
+		</div>
+		<div class="person-background" style="background-image: url('/images/people/{{person.image}}')"></div>
+		<div class="person-overlay"></div>
+	</div>
+	{% cycle 'add rows': nil, nil, '</div><div class="people-archive">' %}
+	
+	{% endfor %}
+</div>

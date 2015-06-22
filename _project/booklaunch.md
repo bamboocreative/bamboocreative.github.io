@@ -1,9 +1,10 @@
 ---
 layout: project
+tagline: A project tagline goes here
 title: Booklaunch.io
 slug: booklaunch
-image: logo.svg
-bg:
+logo: logo.svg
+feature_image: https://ununsplash.imgix.net/photo-1430126833726-4a091c572f3c?fit=crop&fm=jpg&h=750&q=75&w=1050
 
 authors: 
   - id: benderienzo
@@ -18,6 +19,11 @@ authors:
 website: https://booklaunch.io/
 prettywebsite: booklaunch.io
 services: Branding, Web, Design, Marketing, Labs
+
+homepage_feature: false
+homepage_grid: true
+homepage_grid_order: 2
+
 order: 3
 ---
 
