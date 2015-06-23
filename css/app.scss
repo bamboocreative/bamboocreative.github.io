@@ -19,9 +19,12 @@
 @import "_02-components/project-grid";
 @import "_02-components/testimonial";
 @import "_03-layout/header";
+@import "_03-layout/footer";
 @import "_04-pages/base";
 @import "_04-pages/home";
+@import "_04-pages/team";
 @import "_04-pages/project";
+@import "_04-pages/services";
 
 @import "main";
 
@@ -75,7 +78,6 @@ $monsterbear: 1300px;
 @import "pagination";
 @import "post";
 @import "blog";
-@import "people";
 @import "contact";
 
 

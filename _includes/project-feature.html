@@ -7,7 +7,7 @@
 
 {% for project in projects | limit: include.limit | offset: include.offset %}
 <a class="project-link" href="{{project.url}}">
-	<section class="section-project full-feature">
+	<section class="section-project full-feature  {{include.class}}">
 		
 		<div class="project-info-wrapper">
 			<div class="project-info">
@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="project-background" style="background-image: url('{{project.feature_image}}')"></div>
-		<div class="project-overlay"></div>
+		<div class="project-overlay {{include.showOverlay}}"></div>
 	
 	</section>
 </a>

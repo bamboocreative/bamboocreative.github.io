@@ -22,7 +22,7 @@
     position: relative;
     
     .project-overlay {
-	    background-color: rgba(0, 0, 0, 0.3);
+	    background-color: rgba(0, 0, 0, 0.55);
     }
 
     .project-title {
@@ -36,7 +36,7 @@
         font-size: .7em;
         font-weight: 500;
         text-transform: uppercase;
-        color: $primary-color;
+        color: white;
         font-style: italic;
         font-family: $base-serif-font;
         margin-top: 10px;
@@ -72,7 +72,7 @@
     
     > * {
 	    @include outer-container(768px);
-	    padding: 0 1em;
+	    padding: 0 1rem;
 	    font-family: $base-serif-font;
     }
     
@@ -82,36 +82,126 @@
 		margin: 10vh 0;
 		padding: 10% 0;
 		padding: 10vh 0;
+		
+		&.no-margin {
+			margin: 0 !important;
+		}
+		&.no-margin-top {
+			margin-top: 0 !important;
+		}
+		&.no-margin-bottom {
+			margin-bottom: 0 !important;
+		}
+		
+		&.no-padding-top {
+			padding-top: 0 !important;
+		}
+		&.no-padding-bottom {
+			padding-bottom: 0 !important;
+		}
+		
+		&.no-padding {
+			padding: 0 !important;
+		}
     }
 
     .pullquote {
         font-size: 1.2em;
         line-height: 1.6;
     }
+    
+    h4 {
+	    margin-bottom: 0;
+	    
+	    + p {
+		    margin-top: 0;
+	    }
+    }
 }
 
 
 section.project-image-full {
 	padding: 0;
+
 	img {
-		
+	}
+}
+
+section.project-video {
+	
+	padding: 0;
+	.video-wrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 	}
 }
 
 section.project-image-half {
-	@include outer-container;
+	@include outer-container();
 	padding: 5% 0;
 	padding: 5vh 0;
+	
+	&.full-width {
+		@include outer-container(100%);
+		padding-bottom: 0;
+		padding-top: 0;
+		
+		.project-column-left {
+			@include span-columns(6);
+			height: 800px;
+			
+		}
+		.project-column-right {
+			@include span-columns(5);
+			padding: 2rem;
+		}
+	}
 	.project-column-left {
 		@include span-columns(7);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	.project-column-right {
 		@include span-columns(5);
 	}
 	
 	img {
-		
+		visibility: hidden;
+		opacity: 0;
 	}
+}
+
+.project-image-column {
+	
+	&.images-three {
+		.column-image {
+			width: 33.3333333%;
+			float: left;
+		}
+	}
+	
+	.column-image {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 800px;
+		
+		img {
+			visibility: hidden;
+			opacity: 0;
+		}
+	}
+	
 }
 
 .project-stats {
@@ -121,6 +211,14 @@ section.project-image-half {
     background-repeat: no-repeat;
     background-size: cover;
     @include row;
+    
+    &.has-background {
+	     .big-num {
+            color: white;
+            @include span-columns(6 of 12);
+        }
+ 
+    }
 
     .stat-wrap {
         @include row;
@@ -138,8 +236,10 @@ section.project-image-half {
         .big-num {
             font-size: 6em;
             text-align: right;
-            color: white;
-            @include span-columns(6 of 12);
+            @include span-columns(4 of 12);
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
 
             @include media(max-width $screen-sm) {
                 font-size: 4em;
@@ -163,10 +263,12 @@ section.project-image-half {
             font-size: 2.1em;
             font-style: italic;
             line-height: 1em;
-            padding-top: 1.6em;
             text-align: left;
             color: $primary-color;
             @include span-columns(4 of 12);
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
 
             @include media(max-width $screen-sm) {
                 padding: 0;

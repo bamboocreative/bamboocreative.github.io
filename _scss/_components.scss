@@ -28,24 +28,6 @@ img {
 }
 
 // Footer
-footer#footer {
-    padding: 1em 0;
-    margin-top: -3.1em;
-    position: relative;
-    background-color: #818181;
-    text-align: center;
-    color: white;
-    font-family: $serif-font-family;
-
-    .pipe {
-        padding: 0 1em;
-    }
-
-    .page {
-        margin: 2px auto;
-    }
-}
-
 .fourohfour {
     img {
         max-width: 600px !important;

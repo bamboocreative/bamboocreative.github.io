@@ -1,0 +1,64 @@
+section.services {
+	@include outer-container(100%);
+	@include clearfix;
+	
+	.service-wrapper {
+		width: 50%;
+		height: 500px;
+		float: left;
+		display: table;
+		text-align: center;
+		cursor: crosshair;
+		
+		&:nth-child(2n){
+			@include clearfix;
+		}
+		
+		&:hover {
+			.service-info {
+				
+				
+				h3 {
+					color: white;
+					@include transform(translateY(0))
+				}
+				
+				p {
+					color: white;
+					visibility: visible;
+					opacity: 1;	
+				}
+				
+				.service-overlay {
+					@extend .show-overlay;
+				}
+
+				
+				
+			}
+		}
+		
+	}
+	
+	.service-info {
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		padding: 5%;		
+		
+		h3 {
+			@include transition(all .2s $ease-in-out-quad);
+			@include transform(translateY(100px))	
+		}
+		
+		p {
+			visibility: hidden;
+			opacity: 0;	
+			@include transition(all .3s $ease-in-out-quad);		
+		}
+	}
+	
+	.service-overlay {
+		@extend .overlay;
+	}
+}

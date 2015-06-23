@@ -65,14 +65,15 @@ Each of these campaign consists of a series of emails, landing pages and digital
 
 {% include project-image-full.html image=page.image-1 %}
 
-{% include testimonial.html text="\"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product.\"" credit="—Jake Elia, Some Company" color="dark" position="quote-center"%}
+{% include testimonial.html text="\"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product.\"" credit="—Jake Elia, Some Company" class="quote-center dark"%}
 
 {% include project-image-half.html text="<p class='pullquote'>After designing Line 6's new website, Line 6 approached Bamboo Creative to design.</p><p>After designing Line 6's new website, Line 6 approached Bamboo Creative to design their new nurture marketing campaigns for some of their innovative products such as AMPLIFi, a revolutionary new bluetooth-enabled cloud-synced amp system, among other products.</p>" image=page.image-2 %}
 
-{% include stats.html stats=page.stats background=page.stats_background %}
+{% include stats.html stats=page.stats class='has-background' background=page.stats_background %}
 
 After designing Line 6's new website, Line 6 approached Bamboo Creative to design their new nurture marketing campaigns for some of their innovative products such as AMPLIFi, a revolutionary new bluetooth-enabled cloud-synced amp system, among other products. 
 
-{% include project-image-full.html image=page.image-3 %}
+{% include project-image-full.html class="no-margin-bottom" image=page.image-3 %}
+{% include project-image-full.html class="no-margin-top" image=page.image-3 %}
 
-{% include stats.html stats=page.stats-1 background=page.stats_background-1 %}
+{% include stats.html stats=page.stats-1 class='' background='' %}

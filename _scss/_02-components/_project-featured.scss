@@ -61,5 +61,9 @@
 	.project-background {
 		@extend .background-image;
 	}
+	
+	&.show-featured-overlay {
+		color: white;
+	}
 }
 

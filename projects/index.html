@@ -10,10 +10,12 @@ fulltitle: Our Work
 </section>
 
 
-{% include project-feature.html type='' limit=1 offset=0 %}
+{% include project-feature.html class="show-featured-overlay" showOverlay="show-overlay" type='' limit=1 offset=0 %}
 
 {% include project-grid.html type='' limit=10 %}
  
-{% include testimonial.html text="\"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product.\"" credit="—Jake Elia, Some Company" color="dark" position="quote-center"%}
+{% include testimonial.html text="\"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product.\"" credit="—Jake Elia, Some Company" class="quote-center dark"%}
 
 {% include project-feature.html type='' limit=1 offset=1 %}
+
+{% include footer-cta.html text="Become one of our case studies" %}
