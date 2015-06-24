@@ -1,0 +1,103 @@
+.page {
+    width: 100%;
+    //max-width: $max-width;
+    margin: 0 auto;
+    //padding: 0 1em;
+    //margin-bottom: 4em;
+
+/*
+    @include media(min-width $monsterbear) {
+        max-width: 80vw;
+
+        h1 {
+            font-size: 5.3vw;
+            margin-top: -0.3em;
+        }
+    }
+*/
+
+    img {
+        // Responsivable images!
+        max-width: 100%;
+    }
+}
+
+img {
+    // Responsivable images!
+    max-width: 100%;
+}
+
+// Footer
+.fourohfour {
+    img {
+        max-width: 600px !important;
+        width: 100%;
+    }
+    text-align: center;
+}
+
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+// Table Styles
+// Tables should be wrapped with '<div class="table-wrapper"></div>'
+.table-wrapper {
+    width: 100%;
+    overflow: scroll;
+}
+
+table {
+    width: 100%;
+    font-size: $base-font-size;
+    min-width: 700px;
+    margin: 1em 0;
+
+    thead {
+        font-family: $sans-serif-font-family;
+        background: $font-color;
+        color: #fff;
+
+        th {
+            padding: 10px 0;
+        }
+    }
+
+    tbody {
+        tr {
+            &:nth-child(odd) {
+                background: #eee;
+            }
+        }
+    }
+
+    td {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+ul {
+    list-style-type: square;
+}
+
+.clearfix {
+    clear: both;
+}
+
+ol {
+    list-style-position: inside;
+}

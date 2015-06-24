@@ -2,53 +2,31 @@
 ---
 
 // These are Libraries
-@import "bourbon/bourbon";
-@import "neat/neat";
+@import "_07-vendors/bourbon/bourbon";
+@import "_07-vendors/neat/neat";
+@import "_07-vendors/normalize";
 
-// These are resets
-@import "normalize";
+@import "_06-utils/color-palette";
+@import "_06-utils/variables";
+
+
+@import "_01-base/base";
+@import "_01-base/typography";
+@import "_01-base/fonts";
+@import "_02-components/overlay";
+@import "_02-components/buttons";
+@import "_02-components/project-featured";
+@import "_02-components/project-grid";
+@import "_02-components/testimonial";
+@import "_03-layout/header";
+@import "_03-layout/footer";
+@import "_04-pages/base";
+@import "_04-pages/home";
+@import "_04-pages/team";
+@import "_04-pages/project";
+@import "_04-pages/services";
+
 @import "main";
-
-// These are variables 
-$font-size: 22px;
-$serif-font-family:  'Sentinel A', 'Sentinel B', Helvetica, sans-serif;
-$sans-serif-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
-$font-color: #6a6a6a;
-// $font-color-light: #ababab;
-$font-color-light: #e5e5e5;
-
-$max-width: 880px;
-
-// Breakpoints
-$babybear: 321px;
-$mamabear: 769px;
-$papabear: 1140px;
-$monsterbear: 1300px;
-/*
-MEDIA QUERY EXAMPLES
-Smaller than 321px: @include media(max-width $babybear){ ..CSS HERE.. }
-Larger than 769px: @include media($mamabear){ ..CSS HERE.. }
-Between 1140px and 1300px: @include media(min-width $papabear max-width $monsterbear){ ..CSS HERE.. }
-*/
-
-// Some Style Variables and what not
-$primary-color: #3cbeaf;
-$border: 1px solid #ccc;
-$error: #de3535;
-$success: #d5f5d7;
-
-/* Social Icons */
-$twitter: 	#78cdf0 !default;
-$facebook: 	#537bbd !default;
-$instagram: #517fa4 !default;
-$youtube: 	#d34836 !default;
-$pinterest:	#cb2027 !default;
-$google: 	#dd4b39 !default;
-$email:		lighten($font-color, 15%);
-$rdio: 		#006ed2 !default;
-$dribbble:	#ea4c89 !default;
-$github: 	#333333 !default;
-$spotify: 	#81b71a !default;
 
 .so-icon, .person-social a{
 	color: #fff;
@@ -72,6 +50,7 @@ $spotify: 	#81b71a !default;
 	
 }
 
+/*
 .social, .person-social{
 	.twitter{background: $twitter; i{left: 1px; top: 7px;} &:hover{background: darken($twitter, 15%)}}
 	.facebook{background: $facebook; i{top: 7px;} &:hover{background: darken($facebook, 15%)}}
@@ -86,61 +65,19 @@ $spotify: 	#81b71a !default;
 	
 	
 	.i-email{background: $email; i{left: 3px; top: 6px;} &:hover{background: darken($email, 10%)}}
-	/* End Social Icons */
 }
+*/
+
+$babybear: 321px;
+$mamabear: 769px;
+$papabear: 1140px;
+$monsterbear: 1300px;
 
 @import "components";
-@import "type";
-@import "fonts";
 @import "forms";
-@import "header";
 @import "pagination";
 @import "post";
-@import "project";
 @import "blog";
-@import "people";
 @import "contact";
 
-.page{
-	width: 100%;
-	max-width: $max-width;
-	margin: 0 auto;
-	padding: 0 1em;
-	margin-bottom: 4em;
-	
-	img{
-		// Responsivable images!
-		max-width: 100%;
-	}
-	
-}
 
-/* Sticky footer */
-html,body{
-	height: 100%;
-}
-
-.web-wrapper{
-	min-height: 100%;
-	margin-bottom: -3.5em;
-	
-	&:after{
-		content: "";
-		display: block;
-		height: 3.5em;
-	}
-}
-
-*{
-	-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
-}
-
-.center{
-	text-align: center;
-}
-
-.hidden{
-	line-height: 0px !important;
-	text-indent: -9999px;
-	margin: 0px;
-}

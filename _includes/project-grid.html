@@ -1,0 +1,26 @@
+{% if include.type == 'home' %}
+	{% assign projects = site.project | where:"homepage_grid",true | sort: "homepage_grid_order" %}
+{% else %}
+	{% assign projects = site.project | sort: "order" %}
+{% endif %}
+<section class="section-project grid-feature">
+	
+	{% for project in projects | limit:include.limit | offset: include.offset %}
+		<div class="project">
+			<a class="project-link" href="{{project.url}}">	
+			<div class="project-info-wrapper">
+				<div class="project-info">
+					<div class="project-services">{{project.services}}</div>
+					<hr>
+					<div class="project-name">{{project.title}}</div>
+					<hr>
+					<div class="button">View Case Study</div>
+				</div>
+			</div>
+			<div class="project-background" style="background-image: url('{{project.feature_image}}')"></div>
+			<div class="project-overlay"></div>
+			</a>
+		</div>
+	{% endfor %}
+</section>
+

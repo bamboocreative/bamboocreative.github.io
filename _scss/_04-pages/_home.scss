@@ -1,0 +1,133 @@
+.section-hero {
+	@include clearfix;
+	margin-top: -100px;
+	position: relative;
+	padding: 25% 0 15% 0;
+	padding: 25vh 0 15vh 0;
+
+	.video-container {
+	    position: absolute;
+	    top	: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    width: 100%;
+	    overflow: hidden;
+	    height: 100%;
+	    z-index: -1;
+		
+		video {
+			@include media(max-width $screen-sm) { 
+				margin-left: -50%;
+			}
+		}
+		
+		.poster {
+		    position: absolute;
+		    top	: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    width: 100%;
+		    
+		    img {
+			    width: 100%;
+		    }
+		}
+		
+		.filter {
+			position: absolute;
+		    top	: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background-color: rgba(0, 0, 0, 0.31);
+		    
+		}
+	}
+		
+	.tagline {
+		font-family: $serif-font-family;
+		font-weight: 100;
+		font-style: italic;
+		font-size: 5rem;
+		margin: 0;
+		z-index: 10;
+		color: white;
+		@include outer-container;
+		@include media(max-width $screen-sm) { 
+			padding: 0 1em;
+		}
+		@include media(max-width $screen-lg) { 
+			padding: 0 1em;
+		}
+		
+		.tagline-bold {
+			font-weight: 600;
+			display: block;
+		}
+	}
+	
+}
+
+.section-services {
+	@include outer-container;
+	padding: 5% 1em;
+	h3 {
+		font-family: $serif-font-family;
+		font-weight: 200;
+		line-height: 1.3;
+	}
+	p {
+		font-family: $serif-font-family;
+		font-weight: 400;
+	}
+}
+
+.section-team {
+	padding: 10% 1em;
+	padding: 10vh 1em;
+	text-align: center;
+	
+	.team-container {
+		@include outer-container;
+	}
+	h3 {
+		font-family: $serif-font-family;
+		font-weight: 200;
+		line-height: 1.3;
+		font-size: 4rem;
+		margin-bottom: 20px;
+		
+		strong {
+			color: #69b696;
+		}
+	}
+	p {
+		font-family: $serif-font-family;
+		font-weight: 400;
+		font-size: 1.6rem;
+	}
+	
+	.feature-team {
+		@include row();
+		margin: 80px 40px 0 40px;;
+	}
+	.team-member{
+		@include span-columns(3);
+		
+	}
+}
+
+
+.section-cta {
+	background-color: #69b696;
+	padding: 5% 1em;
+	padding: 5vh 1em;
+	text-align: center;
+	
+	.button {
+		border-color: white;
+		color: white;
+	}
+}

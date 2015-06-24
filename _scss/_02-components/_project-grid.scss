@@ -1,0 +1,127 @@
+
+.section-project.grid-feature {
+	
+	$grid-max-height: 300px;
+	
+	@include clearfix;
+	position: relative;
+	overflow: hidden;
+
+	.project-link {
+		width: 100%;
+		display: table-cell;
+		position: relative;
+		vertical-align: middle;
+		
+		&:hover {
+			.project-info {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+		
+	}
+	
+	.project-callout {
+		width: 50%;	
+		height: $grid-max-height * 2;
+		
+		.project-info {
+			max-height: $grid-max-height * 2;
+		}
+		.project-name {
+			margin: 40px 0;
+			font-size: 2.5rem;
+		}
+		
+		.project-services {
+			margin: 40px 0;
+			font-size: 1rem;
+		}
+	}
+	
+	.project {
+		width: 25%;		
+		position: relative;
+		height: $grid-max-height;
+		overflow: hidden;
+		float: left;
+		display: table;
+		
+		//6 16 26	
+		&:nth-child(10n + 6) {
+			@extend .project-callout;
+			float: right
+		}
+		
+		//1, 11, 21, 31,
+		&:nth-child(10n + 1) {
+			@extend .project-callout;
+
+		}
+
+
+		&:nth-child(5n) {
+			@include clearfix;
+		}
+
+	}
+	
+	.project-info {
+		opacity: 0;
+		visibility: hidden;
+		@include transition(all .2s $ease-in-out-quad);
+		text-align: center;
+		padding: 2.5%;
+		color: white;
+		max-height: $grid-max-height;
+		
+		hr {
+			width: 20%;
+			margin: 0 auto;
+		}
+	}
+	
+	.project-name {
+		margin: 20px 0;
+		font-size: 1.6rem;
+		font-weight: 600;
+		line-height: 1.2;
+		text-transform: uppercase;
+	}
+	
+	.project-services {
+		margin: 20px 0;
+		font-size: .75rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		font-style: italic;
+	}
+	
+	.project-background {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		top:0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -2;
+		overflow: hidden;
+		@include transition(all .4s $ease-in-out-quad);
+		
+	}
+	
+	.button {
+		margin-top: 20px;
+		font-family: $serif-font-family;
+		font-weight: 600;
+		font-size: 1.1rem;
+		padding: 0;
+		border: none;
+		text-transform: uppercase;
+		display: inline-block;
+		
+	}
+}

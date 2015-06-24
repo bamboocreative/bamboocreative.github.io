@@ -1,0 +1,8 @@
+<section class="project-image-column {{include.class}}">
+{% for image in include.images %}
+<div class="column-image" style="background-image: url('{{image}}')">
+<img src="{{image}}" alt="{{page.title}}">
+</div>
+{% endfor %}
+</section>
+

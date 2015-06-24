@@ -1,0 +1,17 @@
+.button {
+	margin: 30px 0;
+	border: 1px solid $primary-color;
+	font-family: $serif-font-family;
+	font-weight: 600;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 20px 50px;
+	
+}
+
+a.button {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}

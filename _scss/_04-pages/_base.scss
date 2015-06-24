@@ -1,0 +1,27 @@
+section.page-header {
+	@include outer-container();
+	text-align: center;
+	margin-bottom: 40px;
+	
+	.page-title {
+		display: inline-block;
+		padding: 10px 40px;
+		border-bottom: 3px solid $action-color;
+		margin-bottom: 20px;
+		font-weight: 400;
+	}
+	
+	.page-subtitle {
+		font-weight: 200;
+		font-family: $base-serif-font;
+		font-style: italic;
+		font-size: 1.7rem;
+		margin-top: 20px;
+	}
+	
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}

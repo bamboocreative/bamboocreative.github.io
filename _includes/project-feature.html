@@ -1,0 +1,26 @@
+{% if include.type == 'home' %}
+	{% assign projects = site.project |  where:"homepage_feature",true %}
+{% else %}
+	{% assign projects = site.project | where:"featured",true, | sort: "order" %}
+{% endif %}
+
+
+{% for project in projects | limit: include.limit | offset: include.offset %}
+<a class="project-link" href="{{project.url}}">
+	<section class="section-project full-feature  {{include.class}}">
+		
+		<div class="project-info-wrapper">
+			<div class="project-info">
+				<div class="project-title">{{project.title}}</div>
+				<div class="project-tagline">{{project.tagline}}</div>
+				<div class="project-services">{{project.services}}</div>
+				<div class="button">View Case Study</div>
+			</div>
+		</div>
+		<div class="project-background" style="background-image: url('{{project.feature_image}}')"></div>
+		<div class="project-overlay {{include.showOverlay}}"></div>
+	
+	</section>
+</a>
+{% endfor %}
+

@@ -1,0 +1,30 @@
+footer#footer {
+	padding: 7% 0px;
+    padding: 7vh 0px;
+    position: relative;
+    background-color: #eee;
+    text-align: center;
+    font-family: $base-sans-font;
+    font-size: .8rem;
+    opacity: .7;
+   	text-transform: uppercase;
+   
+    
+	.footer-contact {
+		@include row();
+			
+		div {
+			@include span-columns(4);
+			@include omega();
+			
+			@include media(max-width $screen-sm) {
+				@include span-columns(12);
+				margin: 10px 0;
+			}
+			
+		}		
+	}
+    .pipe {
+        padding: 0 1em;
+    }
+}

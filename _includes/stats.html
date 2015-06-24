@@ -1,5 +1,5 @@
-<section class="proj-stats">
-	{% for item in page.stats  %}
+<section class="project-stats {{include.class}}" style="background-image: url('{{include.background}}')">
+	{% for item in include.stats  %}
 		<div class="stat-wrap">
 			<div class="big-num">
 				<span class="number">{{item.number}}</span>

@@ -18,5 +18,5 @@ social:
   - account: rdio
     username: joshre
 
-bio: "Able-bodied and ready for whatever the team throws at him. Capable of more than he knows, like a walnut meant to be president one day. Sweater vest aficionado, enjoys a smart pantsuit."  
+bio: "Able-bodied and ready for whatever the team throws at him. Capable of more than he knows, like a walnut meant to be president one day. Watches everything with captions on, loves good beer & streetfood."  
 ---
