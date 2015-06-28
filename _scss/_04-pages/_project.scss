@@ -122,6 +122,7 @@
 
 section.project-image-full {
 	padding: 0;
+	text-align: center;
 
 	img {
 	}
@@ -236,13 +237,22 @@ section.project-image-half {
         .big-num {
             font-size: 6em;
             text-align: right;
-            @include span-columns(4 of 12);
+            @include span-columns(5 of 12);
             float: none;
             display: inline-block;
             vertical-align: middle;
+            
+            
+            @include media(max-width $screen-lg) {
+                font-size: 4em;
+            }
+            
+            @include media(max-width $screen-md) {
+                font-size: 3.5em;
+            }
 
             @include media(max-width $screen-sm) {
-                font-size: 4em;
+                font-size: 3em;
                 text-align: center;
                 @include span-columns(12 of 12);
             }
@@ -256,6 +266,7 @@ section.project-image-half {
             font-weight: 100;
             margin-right: .1em;
             margin-left: -.1em;
+            
         }
 
         .copy {
@@ -269,9 +280,18 @@ section.project-image-half {
             float: none;
             display: inline-block;
             vertical-align: middle;
+            
+            @include media(max-width $screen-lg) {
+                font-size: 1.8em;
+            }
+            
+            @include media(max-width $screen-md) {
+                font-size: 1.5em;
+            }
 
             @include media(max-width $screen-sm) {
                 padding: 0;
+                font-size: 1.3em;
                 text-align: center;
                 @include span-columns(12 of 12);
             }

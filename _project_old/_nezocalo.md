@@ -8,18 +8,15 @@ website: http://zocalosacramento.com/
 prettywebsite: zocalo.com
 services: Branding, Creative Implementation, Design Thinking
 
-feature_image: /images/projects/kings/kings-1.jpg
+feature_image: /images/projects/zocalo/zocalo-1.jpg
+stats-background: /images/projects/zocalo/zocalo-7.jpg
 
-image-1: /images/projects/kings/kings-1.jpg
-image-2: /images/projects/kings/kings-2.jpg
-image-3: /images/projects/kings/kings-3.jpg
-image-4: /images/projects/kings/kings-4.jpg
-
-gallery-1: 
-  - /images/projects/kings/kings-1.jpg
-  - /images/projects/kings/kings-2.jpg
-  - /images/projects/kings/kings-4.jpg
-
+image-1: /images/projects/zocalo/zocalo-1.jpg
+image-2: /images/projects/zocalo/zocalo-2.jpg
+image-3: /images/projects/zocalo/zocalo-3.jpg
+image-4: /images/projects/zocalo/zocalo-4.jpg
+image-5: /images/projects/zocalo/zocalo-5.jpg
+image-6: /images/projects/zocalo/zocalo-6.jpg
 
 stats:
  - number: 10
@@ -35,9 +32,9 @@ stats:
    unit: %
    copy: Facebook fan base growth
 
-featured: true
-homepage_grid: true
-homepage_grid_order: 4
+featured: false
+homepage_grid: false
+homepage_grid_order: null
 
 order: 2
 ---
@@ -65,7 +62,7 @@ With a capable resource in mind, we designed a shield in 3D that would be create
 During our time working with Zocalo we were able to help them establish a brand story that effected every part of their organization. From their menu, and uniforms, to the decor and equipment- every aspect of the Zocalo experience was changed. 
 {: .center }
 
-{% include stats.html class="" stats=page.stats %}
+{% include stats.html class="" stats=page.stats background=stats-background %}
 
-{% include project-image-column.html class="images-three" images=page.gallery-1 %}
+
 
