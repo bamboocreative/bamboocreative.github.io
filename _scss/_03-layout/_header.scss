@@ -25,12 +25,32 @@ header.header{
 	
 }
 
+.mobile-menu-button {
+	float: right;
+	padding-top: 15px;
+	display: none;
+	@include media(max-width $screen-sm){
+		display: block;
+	}
+	
+}
+
 nav.site-nav{
 	font-family: $serif-font-family;
 	font-weight: 200;
 	font-style: italic;
 	line-height: 1;
 	position: relative;
+	@include media(max-width $screen-sm){
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+		background-color: white;
+		display: none;
+	}
+	
+	
 	ul{
 		float: right;
 		display: block;
@@ -39,11 +59,22 @@ nav.site-nav{
 		width: 50%;
 		text-align: justify;
 		font-size: 0;
+		@include media(max-width $screen-sm){
+			width: 100%;
+			float: none;
+			text-align: center;
+		}
 		
 		li {
 			display: inline-block;
-			  font-size: 1.7rem;
-			  margin: 0;
+			font-size: 1.7rem;
+			margin: 0;
+			@include media(max-width $screen-sm){
+				padding: 10px 0;
+				&:last-child {
+					display: none;
+				}
+			}
 			
 			a {
 				text-decoration: none;

@@ -24,8 +24,11 @@
 		line-height: 1.7;
 		font-family: $base-serif-font;
 		font-weight: 200;
-		padding: 0;
+		padding: 0 1em;
 		margin: 0 0 30px 0;;
+		@include media(max-width $screen-sm) { 
+			font-size: 1.4rem;	
+		}
 	}
 	
 	.quote-credit {
@@ -35,5 +38,10 @@
 		text-transform: uppercase;
 		letter-spacing: .1rem;
 		opacity: .7;
+		padding-left: 1em;
+		padding-right: 1em;
+		@include media(max-width $screen-sm) { 
+			font-size: 0.7rem;	
+		}
 	}
 }

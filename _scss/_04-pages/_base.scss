@@ -9,6 +9,10 @@ section.page-header {
 		border-bottom: 3px solid $action-color;
 		margin-bottom: 20px;
 		font-weight: 400;
+		@include media(max-width $screen-sm) { 
+			font-size: 2rem;
+			margin-top: 0;
+		}
 	}
 	
 	.page-subtitle {
@@ -17,6 +21,9 @@ section.page-header {
 		font-style: italic;
 		font-size: 1.7rem;
 		margin-top: 20px;
+		@include media(max-width $screen-sm) { 
+			font-size: 1.2rem;
+		}
 	}
 	
 }

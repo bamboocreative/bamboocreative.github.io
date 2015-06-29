@@ -1,0 +1,45 @@
+.page-hire-us {
+	
+	.page-header {
+		margin-bottom: 0;
+	}
+}
+
+
+form {
+	@include outer-container(50%);
+	margin-bottom: 40px;
+	
+	input, textarea, input[type="text"] {
+		background: #eeeeee;
+		border: none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100%;
+		max-width: 750px;
+		display: block;
+		resize: none;
+		font-size: 1rem;
+		padding: 1rem;
+		@include placeholder {
+			color: darken(map-get($gray, faded), 20%);
+			font-weight: 500;
+		}
+		@include media(max-width $screen-sm){
+			margin: 10px 0;
+		}
+	}
+	
+	textarea {
+		min-height: 150px;
+	}
+	
+	.button {
+		margin: 10px auto;
+		display: block;
+		@include media(max-width $screen-sm){
+			margin: 10px 0;
+		}
+	}
+
+}

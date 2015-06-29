@@ -1,21 +1,19 @@
 .pagination{
     font-size: 1.1em;
     
-    *{
+    * {
         color: white;
         background-color: $primary-color;
-        @include size(30px);
         font-size: .85em;
         text-align: center;
         border-radius: 30px;
         display: inline-block;
         border: 1px solid transparent;
         line-height: 1.4em;
-        -webkit-font-smoothing: antialiased;
     }
 
 
-    a{
+    a {
         @include transition(all .3s $ease-out-quint);
         
         &:hover{

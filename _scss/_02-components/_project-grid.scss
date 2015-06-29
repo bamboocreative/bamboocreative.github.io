@@ -26,6 +26,10 @@
 		width: 50%;	
 		height: $grid-max-height * 2;
 		
+		@include media(max-width $screen-sm) { 
+			width: 100%;	
+		}
+		
 		.project-info {
 			max-height: $grid-max-height * 2;
 		}
@@ -47,6 +51,11 @@
 		overflow: hidden;
 		float: left;
 		display: table;
+		
+		@include media(max-width $screen-sm) { 
+			width: 100%;	
+		}
+		
 		
 		//6 16 26	
 		&:nth-child(10n + 6) {

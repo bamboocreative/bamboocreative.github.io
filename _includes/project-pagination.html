@@ -5,14 +5,20 @@
 	<div class="previous">
 		{% assign before = page.order | minus:2 %}
 		{% for post in projects offset:before limit:1 %}
-			<a href="{{post.url}}">{{post.title}}</a>
+			<a href="{{post.url}}">Prev</a>
 		{% endfor %}
 	</div>
 	<a class="button" href="/projects">Ready to work with us?</a>
 	<!-- Next Project -->
+	<div class="previous mobile-only">
+		{% assign before = page.order | minus:2 %}
+		{% for post in projects offset:before limit:1 %}
+			<a href="{{post.url}}">Prev</a>
+		{% endfor %}
+	</div>
 	<div class="next">
 		{% for post in projects offset:page.order limit:1 %}
-		  	<a href="{{post.url}}">{{post.title}}</a>
+		  	<a href="{{post.url}}">Next</a>
 		{% endfor %}
 	</div>
 </section>

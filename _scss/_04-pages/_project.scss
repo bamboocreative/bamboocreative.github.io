@@ -21,6 +21,11 @@
     padding: 20vh 0 15vh 0;
     position: relative;
     
+    @include media(max-width $screen-sm) { 
+		padding: 10% 0  7.5% 0;
+		padding: 10vh 0 7.5vh 0;
+	}
+    
     .project-overlay {
 	    background-color: rgba(0, 0, 0, 0.55);
     }
@@ -30,6 +35,9 @@
         font-family: $base-sans-font;
         color: white;
         margin-bottom: 10px;
+        @include media(max-width $screen-sm) { 
+			font-size: 2em;
+		}
     }
 
     .project-services {
@@ -41,6 +49,9 @@
         font-family: $base-serif-font;
         margin-top: 10px;
         letter-spacing: .05rem;
+        @include media(max-width $screen-sm) { 
+			font-size: .6em;
+		}
 
         &:after {
             content: '';
@@ -74,6 +85,9 @@
 	    @include outer-container(768px);
 	    padding: 0 1rem;
 	    font-family: $base-serif-font;
+	    @include media(max-width $screen-sm) { 
+			@include outer-container(100%);
+		}
     }
     
     > section {
@@ -82,6 +96,12 @@
 		margin: 10vh 0;
 		padding: 10% 0;
 		padding: 10vh 0;
+		@include media(max-width $screen-sm) { 
+			margin: 5% 0;
+			margin: 5vh 0;
+			padding: 5% 0;
+			padding: 5vh 0;
+		}
 		
 		&.no-margin {
 			margin: 0 !important;
@@ -159,11 +179,20 @@ section.project-image-half {
 		.project-column-left {
 			@include span-columns(6);
 			height: 800px;
+			@include media(max-width $screen-sm) { 
+				@include span-columns(12);
+				@include omega();
+				height: 400px;
+			}
 			
 		}
 		.project-column-right {
 			@include span-columns(5);
 			padding: 2rem;
+			@include media(max-width $screen-sm) { 
+				@include span-columns(12);
+				@include omega();
+			}
 		}
 	}
 	.project-column-left {
@@ -171,9 +200,18 @@ section.project-image-half {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		@include media(max-width $screen-sm) { 
+			@include span-columns(12);
+			@include omega();
+			background-size: contain;
+		}
 	}
 	.project-column-right {
 		@include span-columns(5);
+		@include media(max-width $screen-sm) { 
+			@include span-columns(12);
+			@include omega();
+		}
 	}
 	
 	img {
@@ -188,6 +226,9 @@ section.project-image-half {
 		.column-image {
 			width: 33.3333333%;
 			float: left;
+			@include media(max-width $screen-sm) {
+	           width: 100%;
+	        }
 		}
 	}
 	
@@ -196,6 +237,9 @@ section.project-image-half {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 800px;
+		@include media(max-width $screen-sm) {
+           height: 400px;
+        }
 		
 		img {
 			visibility: hidden;
@@ -306,7 +350,11 @@ section.project-image-half {
 
     .previous,
     .next {
-        @include span-columns(3 of 12);
+        @include span-columns(4 of 12);
+        
+        @include media(max-width $screen-sm) {
+            @include span-columns(6 of 12);
+        }
 
         a {
             font-family: $serif-font-family;
@@ -316,7 +364,17 @@ section.project-image-half {
             float: left;
             text-decoration: none;
             color: #cbcbcb;
+            @include media(max-width $screen-sm) {
+	            display: block;
+	            width: 100%;
+	            
+	        }
         }
+    }
+    
+    .next {
+	    text-align: right;
+	    float: right;
     }
 
     .previous {
@@ -331,12 +389,25 @@ section.project-image-half {
                 padding-left: 0.5em;
             }
         }
+        @include media(max-width $screen-sm) {
+            display: none;
+        }
+        
+        &.mobile-only {
+	        display: none;
+	        @include media(max-width $screen-sm) {
+	            display: block;
+	        }
+        }
     }
 
     .button {
         text-align: center;
         @include span-columns(4 of 12);
-        @include shift(1);
+        @include media(max-width $screen-sm) {
+            @include span-columns(10 of 12);
+            @include shift(1);
+        }
     }
 
     .next {

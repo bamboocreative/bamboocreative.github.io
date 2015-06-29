@@ -15,9 +15,9 @@ image-4: /images/projects/rocklin/rocklin-4.jpg
 
 featured: true
 homepage_grid: true
-homepage_grid_order: 2
+homepage_grid_order: 0
 
-order: 2
+order: 1
 
 ---
 

@@ -29,7 +29,7 @@ featured: true
 homepage_grid: true
 homepage_grid_order: 4
 
-order: 2
+order: 10
 ---
 ### Opportunity
 Jelly Belly needed a strong visual campaign to push to their international audience. Due to the challenges of translation, these images would need to convey the true-to-life real fruit flavor of Jelly Belly Jelly Beans, without relying on words.

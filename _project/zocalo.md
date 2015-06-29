@@ -37,7 +37,7 @@ featured: false
 homepage_grid: false
 homepage_grid_order: 4
 
-order: 2
+order: 4
 
 ---
 
