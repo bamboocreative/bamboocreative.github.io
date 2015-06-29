@@ -8,9 +8,11 @@
 {% for project in projects | limit: include.limit | offset: include.offset %}
 <a class="project-link" href="{{project.url}}">
 	<section class="section-project full-feature  {{include.class}}">
-		
 		<div class="project-info-wrapper">
 			<div class="project-info">
+				{% if include.type == 'next-project' %}
+					<div class="next-project-badge">Next Project</div>
+				{% endif %}
 				<div class="project-title">{{project.title}}</div>
 				<div class="project-tagline">{{project.tagline}}</div>
 				<div class="project-services">{{project.services}}</div>

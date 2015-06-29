@@ -23,6 +23,15 @@
 	@extend .overlay;
 }
 
+.next-project-badge {
+	background-color: rgba(105, 181, 150, 0.70);
+	display: inline-block;
+	font-size: 1rem;
+	padding: 10px 30px;
+	font-family: $base-serif-font;
+	font-style: italic;
+}
+
 
 .section-project.full-feature {
 	

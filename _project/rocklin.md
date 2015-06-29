@@ -21,7 +21,7 @@ order: 1
 
 ---
 
-### Opportunity:
+### Opportunity
 Rocklin is a growing city located just outside of Sacramento, and quickly becoming one of the best cities in the nation for young families. 
 {: .pullquote }
 

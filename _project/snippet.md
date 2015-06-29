@@ -33,7 +33,7 @@ featured: true
 homepage_grid: true
 homepage_grid_order: 4
 
-order: 5
+order: 8
 
 ---
 
