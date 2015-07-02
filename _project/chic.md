@@ -73,5 +73,7 @@ During our time working with CHIC we were able to build their social audience by
 
 {% include project-image-full.html class="no-margin-top" image=page.image-3 %}
 
+{% include footer-cta.html text="How can we help tell your story?" %}
+
 
 

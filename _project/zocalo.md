@@ -68,3 +68,6 @@ During our time working with Zocalo we were able to help them establish a brand 
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
 
 {% include project-image-full.html class="no-margin-top" image=page.image-6 %}
+
+{% include footer-cta.html text="Let's grab some fish tacos and chat" %}
+

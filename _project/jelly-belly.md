@@ -65,3 +65,4 @@ The first series of images was so wildly loved a second set of images for a foll
 {% include project-image-full.html class="no-margin-top no-margin-bottom" image=page.image-3 %}
 {% include project-image-full.html class="no-margin-top no-margin-bottom" image=page.image-5 %}
 
+{% include footer-cta.html text="Let's do something sweet together" %}

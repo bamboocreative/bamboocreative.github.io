@@ -58,4 +58,6 @@ A renewed visual identity, adopted throughout the entire city. Would love to sho
 
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
 
+{% include footer-cta.html text="Ready to come for a visit?" %}
+
 

@@ -70,3 +70,5 @@ With a capable resource in mind, we designed a shield in 3D that would be create
 {% include stats.html class="" stats=page.stats %}
 
 {% include project-image-full.html class="image-fixed" image=page.image-6 %}
+
+{% include footer-cta.html text="How about a little one on one?" %}

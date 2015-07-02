@@ -62,3 +62,5 @@ In addition, the images we produced for the special box set of Tom Clancy's Spli
 
 {% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
 
+{% include footer-cta.html text="Ready to up your game?" %}
+

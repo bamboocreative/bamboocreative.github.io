@@ -59,4 +59,5 @@ We finished this project with two very happy clients, anytime we can do that it'
 
 {% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
 
+{% include footer-cta.html text="Let's heat things up together" %}
 
