@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Jelly Belly Candy Co.
 tagline: A quality-focused candy company responsible for the world's first true-to-life real fruit flavored jelly beans.
 slug: sacramento-kings

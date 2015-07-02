@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Sacramento Kings
 tagline: An NBA team with a local feel, playing on a national stage.
 slug: sacramento-kings

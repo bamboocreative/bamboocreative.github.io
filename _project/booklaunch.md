@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Booklaunch
 tagline: Tagline
 slug: booklaunch

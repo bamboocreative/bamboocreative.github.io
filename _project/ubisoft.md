@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Ubisoft
 tagline: Creator of Assassin's Creed, Just Dance, Tom Clancy's video game series, Far Cry, Watch Dogs and many other world renowned games.
 slug: ubisoft

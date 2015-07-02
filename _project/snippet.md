@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Snippet App
 tagline: Tagline
 slug: snippet

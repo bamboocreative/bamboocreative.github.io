@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Tim Tadder & Pelican Gear
 tagline: An incredible photographer and his client walk into a bar...
 slug: pelican

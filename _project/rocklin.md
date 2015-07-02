@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: City of Rocklin
 tagline: A vibrant city in the heart of Northern California, ripe for increasing their street cred.
 slug: rocklin

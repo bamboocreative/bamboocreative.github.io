@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: CHIC Conference
 tagline: CHIC Conference is a triennial event for High School students hosted by the Evangelical Covenant Church. 
 slug: chic

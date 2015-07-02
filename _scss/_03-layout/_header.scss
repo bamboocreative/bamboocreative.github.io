@@ -13,6 +13,18 @@ h1.logo-image{
 	text-indent: -9999px;
 }
 
+body.header-light {
+	h1.logo-image { 
+		background-image: url('../images/logo-white.png');
+	}
+	nav.site-nav ul li a {
+		color: white;
+		&:hover {
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
 header.header{
 	padding: 1em;
 	@include clearfix;
@@ -78,8 +90,15 @@ nav.site-nav{
 			
 			a {
 				text-decoration: none;
-				color: $font-color-light;
+				color: $action-color;
 				font-size: 1.7rem;
+				padding-bottom: 10px;
+				@include transition(all .4s $ease-in-out-quad);
+				
+				&:hover {
+					border-bottom: 2px solid $action-color;
+				}
+				
 			}
        
 			&:last-child{

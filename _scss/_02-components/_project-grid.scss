@@ -19,6 +19,12 @@
 				visibility: visible;
 			}
 		}
+		&.locked {
+			&:hover {
+				border-bottom: 3px inset  $action-color;
+				border-top: 3px inset  $action-color;
+			}
+		}
 		
 	}
 	
@@ -132,5 +138,34 @@
 		text-transform: uppercase;
 		display: inline-block;
 		
+	}
+	
+	.lock-wrapper{
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			width: 25px;
+			margin-right: 10px;
+		}
+		p {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 1.1rem;
+			text-align: left;
+			font-family: $base-serif-font;
+			font-style: italic;
+			color: $action-color;
+			font-weight: 600;
+			line-height: 1;
+			
+			.locked-small {
+				font-size: .6rem;
+				letter-spacing: 1.3px;
+				color: white;
+				font-family: $base-sans-font;
+				font-weight: 200;
+				font-style: normal;
+			}
+		}
 	}
 }

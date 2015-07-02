@@ -1,5 +1,6 @@
 ---
 layout: project
+body-class: header-light
 title: Zocalo
 tagline: Transform the ordinary act of eating into an extraordinary experience.
 slug: zocalo
