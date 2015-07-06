@@ -27,8 +27,8 @@ gallery:
  - /images/projects/pelican/pelican-7.jpg
 
 featured: true
-homepage_grid: true
-homepage_grid_order: 2
+homepage_grid: false
+homepage_grid_order: 0
 
 order: 6
 
