@@ -7,8 +7,8 @@
 	
 	overflow: hidden;
 	@include media(max-width $screen-sm){
-		padding: 15% 0 5% 0;
-		padding: 15vh 0 5vh 0;
+		padding: 80px 0;
+		min-height: 600px;
 	}
 	
 	.video-wrapper {
@@ -47,7 +47,7 @@
 			padding: 300px 5%;
 		}
 		@include media(max-width $screen-sm) { 
-			padding: 200px 5%;
+			padding: 15% 5%;
 		}
 	}
 	
