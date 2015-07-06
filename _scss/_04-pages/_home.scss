@@ -36,21 +36,6 @@
 			@include media(max-width $screen-lg) { 
 				margin-left: -35%;
 			}
-			
-			/*
-			
-			@include media(min-width $screen-md) { 
-				width: 100%;
-			}
-			@include media(max-width $screen-sm) { 
-				margin-left: -50%;
-				max-height: 135%;
-			}
-			@include media(max-width $screen-md) { 
-				margin-left: -25%;
-				max-height: 150%;
-			}
-			*/
 		}
 	}
 		
@@ -228,7 +213,6 @@
 				width: 10px;
 				top: -28px;
 			}
-			
 		}
 		
 		.team-member-name {
@@ -257,7 +241,32 @@
 		}
 		&.ben {
 			@include team-line(50%, 48%);
-		}				
+		}
+		&.brian {
+			@include team-line(50%, 45%);
+		}
+		&.josh {
+			@include team-line(50%, 45%);
+		}
+		&.laurey {
+			@include team-line(50%, 42%);
+		}
+		
+		&.jake {
+			@include team-line(28%, 25%);
+		}
+		&.emily {
+			@include team-line(50%, 45%);
+		}
+		
+		&.byebye {
+			@extend .animated;
+			@extend .bounceOut;
+		}
+		&.hellothere {
+			@extend .animated;
+			@extend .bounceIn;
+		}			
 	}
 }
 

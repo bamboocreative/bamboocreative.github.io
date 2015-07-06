@@ -6,7 +6,6 @@ body-class: header-light
 
 ---
 
-<script type="text/javascript" src="/js/video.js"></script>
 <section class="section-hero">
 	<div class="video-wrapper">
 	    <div class="video-container">
@@ -60,6 +59,7 @@ body-class: header-light
 
 {% include project-grid.html type='home' limit=5 %}
 
+{% assign people = site.people %}
 
 <section class="section-team">
 	<div class="team-container">
@@ -67,8 +67,18 @@ body-class: header-light
 		<p>We're collectors of people, histories, and experiences. There is no Bamboo archetype except to seek out people who are hungry to make an impact and who play well with others.</p>
 		<a href="/team" title="Our Team" class="button">Meet the Team</a>
 	</div>
+	
+	<div class="all-team" style="display: none;">
+		{% for person in people %}
+		<div class="team-member hellothere {{person.name | downcase | truncatewords: 1, '' }}">
+			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
+			<img class="team-line" src="/images/team-line.png">
+			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
+		</div>
+		{% endfor %}
+	</div>
+	
 	<div class="feature-team">
-		{% assign people = site.people %}
 		{% for person in people | limit: 4 %}
 		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}">
 			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
