@@ -1,5 +1,6 @@
 $primary-color: #3cbeaf;
-$action-color: #69b696;
+$action-color: #3cbeaf;
+
 $border: 1px solid #ccc;
 $error: #de3535;
 $success: #d5f5d7;
@@ -30,9 +31,11 @@ $color: (
 	
 );
 
-//$blue : #70abc6;
-//$grey : #898989;
-//#6d6d6d;
+$teal: (
+	light: 		#69b696,
+	main: 		#3cbeaf,
+	dark: 		#000000,
+);
 
 $blue: (
 	faded: 			#000000,
@@ -44,11 +47,8 @@ $blue: (
 
 // Gray
 $gray: (
-	faded: 			#ededed,
-	subdued: 		#000000,
-	main: 			#6d6d6d,
-	mainOne: 		#000000,
-	mainTwo: 		#000000,
+	light: 			#dadada,
+	main: 			#9a9a9a,
 	dark: 			#4a4a4a,
 	
 );

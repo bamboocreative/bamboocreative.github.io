@@ -17,9 +17,9 @@ image-3: /images/projects/ubisoft/ubisoft-3.jpg
 image-6: /images/projects/ubisoft/ubisoft-6.jpg
 
 gallery:
- - /images/projects/ubisoft/ubisoft-4.jpg
- - /images/projects/ubisoft/ubisoft-5.jpg
  - /images/projects/ubisoft/ubisoft-7.jpg
+ - /images/projects/ubisoft/ubisoft-5.jpg
+ - /images/projects/ubisoft/ubisoft-4.jpg
 
 featured: true
 homepage_grid: true
@@ -38,7 +38,9 @@ Ubisoft makes badass games and needs Key Art and advertising campaign ideas to h
 ### Solutions
 Elevendy (Bamboo's high-end production arm) employed a mix of our design-thinking methodology, brand development, and implementation tactics to drive significant results to Ubisoft's internal marketing team. 
 
-{% include testimonial.html text="\"If these guys were a cookie, they would be the 11-foot wide, black and white, macadamia nut, chocolate chunk, raspberry swirl, topped with foie gras, rare white truffles, and badass sprinkles. They are that awesome!\"" credit="-Brian Tippie, Associate Creative Director - Ubisoft" class="quote-center" %}
+{% include testimonial.html text="\"If these guys were a cookie, they would be the 11-foot wide, black and white, macadamia nut, chocolate chunk, raspberry swirl, topped with foie gras, rare white truffles, and badass sprinkles. They are that awesome!\"" credit="-Brian Tippie, Associate Creative Director - Ubisoft" class="quote-center no-margin-bottom" %}
+
+{% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
 
 #### 360 degree advertising campaign development
 The Elevendy team was heavily involved in multiple client-led ideation meetings to identify and develop campaign themes, strategies, and creative executions of every aspect of the pending campaigns. Beyond those meetings we assisted with pitch deck design, campaign element creation on spec, tv spot copywriting, tv spot storyboards, and large OOH experience design
@@ -51,16 +53,10 @@ From ideation and conceptualization through development and creation, the Eleven
 # Outcomes
 {: .center }
 
-During our time working with Ubisoft, we helped their internal marketing department win key pieces of business for a bevy of titles like Tom Clancy's Splinter Cell: Blacklist, Assassin's Creed 3/4/5, Spartacus: Legends, Tom Clancy's The Division, ZombiU, FarCry 4, and others.
+{% include project-image-half.html text="<p>During our time working with Ubisoft, we helped their internal marketing department win key pieces of business for a bevy of titles like Tom Clancy's Splinter Cell: Blacklist, Assassin's Creed 3/4/5, Spartacus: Legends, Tom Clancy's The Division, ZombiU, FarCry 4, and others.</p><p>In addition, the images we produced for the special box set of Tom Clancy's Splinter Cell: Blacklist Limited Edition won the prestigious 'Best Cool S***' award at the 2014 GMS Awards.</p>" image=page.image-3 class="no-margin-top" %}
 
-In addition, the images we produced for the special box set of Tom Clancy's Splinter Cell: Blacklist Limited Edition won the prestigious "Best Cool S***" award at the 2014 GMS Awards.
-{: .center } 
+{% include testimonial.html text="\"The team at Elevendy makes us look good! They play well with my lead Art Directors and are able to channel whatever personality type they require, and more importantly, deliver on the quality, quantity, time, and budget. We've worked with them on multiple key art projects within the videogame industry and they ALWAYS take it to the next level.\"" credit="-Michael Hammond, Creative Director - Ubisoft" class="quote-center dark no-margin-bottom" %}
 
-{% include testimonial.html text="\"The team at Elevendy makes us look good! They play well with my lead Art Directors and are able to channel whatever personality type they require, and more importantly, deliver on the quality, quantity, time, and budget. We've worked with them on multiple key art projects within the videogame industry and they ALWAYS take it to the next level.\"" credit="-Michael Hammond, Creative Director - Ubisoft" class="quote-center dark" %}
 
-{% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-3 %}
-
-{% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
-
-{% include footer-cta.html text="Ready to up your game?" %}
+{% include footer-cta.html text="Ready to up your game?" class="no-margin-top" %}
 

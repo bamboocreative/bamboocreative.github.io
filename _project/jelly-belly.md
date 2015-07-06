@@ -59,10 +59,12 @@ For Jelly Belly's domestic market, we provided copy writing for an eventual ad c
 # Outcomes 
 {: .center }
 The first series of images was so wildly loved a second set of images for a follow-up campaign were requested. Both are shown on this page. Brand understanding in foreign countries has had a measurable improvement.
-{: .center }
 
-{% include project-image-full.html class=" no-margin-bottom" image=page.image-4 %}
-{% include project-image-full.html class="no-margin-top no-margin-bottom" image=page.image-3 %}
-{% include project-image-full.html class="no-margin-top no-margin-bottom" image=page.image-5 %}
 
-{% include footer-cta.html text="Let's do something sweet together" %}
+{% include project-image-full.html class="padding-bottom" image=page.image-4 %}
+
+{% include project-image-full.html class="padding" image=page.image-3 %}
+
+{% include project-image-full.html class="no-margin-bottom padding" image=page.image-5 %}
+
+{% include footer-cta.html text="Let's do something sweet together" class="no-margin-top" %}

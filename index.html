@@ -6,18 +6,24 @@ body-class: header-light
 
 ---
 
-
+<script type="text/javascript" src="/js/video.js"></script>
 <section class="section-hero">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop>
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Coverr-office.mp4" type="video/mp4" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Coverr-office.mp4" type="video/webm" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-            <img src="https://s3-us-west-2.amazonaws.com/coverr/poster/Coverr-office_thumb.jpg" alt="Bamboo Creative">
-        </div>
-    </div>
+	<div class="video-wrapper">
+	    <div class="video-container">
+		    <video id="example_video_1" class="video-js vjs-default-skin" preload="auto" width="auto" height="auto" poster="/images/video-cover.png"
+	  data-setup='{"controls": false, "autoplay" : true, "loop": "true", "controls": false }'>
+			   <source src="/images/home-video.mp4" type='video/mp4' />
+			   <source src="/images/home-video.webm" type='video/webm' />
+	<!-- 		   <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' /> -->
+			</video>
+	<!--
+	        <video autoplay loop>
+	            <source src="/images/home-video.mp4" type="video/mp4" poster="/images/video-cover.png" />Your browser does not support the video tag. I suggest you upgrade your browser.
+	            <source src="/images/home-video.webm" type="video/webm" poster="/images/video-cover.png" />Your browser does not support the video tag. I suggest you upgrade your browser.
+	        </video>
+	-->
+	    </div>
+	</div>
     <div class="tagline-wrapper">
 	    <h1 class="tagline-hero">Every brand can be GREAT.</h1>
 	    <p class="tagline">We believe all brands (and the people behind them) possess greatness, it just needs to be uncovered, dusted off, and put on display.</p>
@@ -62,27 +68,18 @@ body-class: header-light
 		<a href="/team" title="Our Team" class="button">Meet the Team</a>
 	</div>
 	<div class="feature-team">
-		<div class="team-member">
-			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
+		{% assign people = site.people %}
+		{% for person in people | limit: 4 %}
+		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}">
+			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
+			<img class="team-line" src="/images/team-line.png">
+			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
 		</div>
-		<div class="team-member">
-			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
-		</div>
-		<div class="team-member">
-			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
-		</div>
-		<div class="team-member">
-			<img src="https://pbs.twimg.com/profile_images/560882994039513088/TiqOkKN6.jpeg" alt="">
-		</div>
+		{% endfor %}
 	</div>
 </section>
 
-<section class="section-quote quote-light quote-center">
-	<div class="quote">
-		<blockquote>"We are a creative firm in Northern California pushing ourselves and clients to execute ideas. We delve into creative strategy, branding, design and product."</blockquote>
-		<div class="quote-credit">— Karen Garner, City of Rocklin</div>
-	</div>
-</section>
+{% include testimonial.html text="\"From the moment we partnered, to the latest scores of industry awards... the symbiotic fusion of collaborative creativity, storytelling, and epic imaging has been a critical foundation point of dynamic shift in our brand development.\"" credit="—Craig Amazeen, SVP Broadcast/New Media & Brand Development, Sacramento Kings" class="quote-center light" %}
 
 <section class="section-cta">
 	<a href="/projects" class="button">View all our work</a>

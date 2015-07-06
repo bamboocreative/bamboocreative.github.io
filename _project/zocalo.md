@@ -55,6 +55,8 @@ Bamboo launched a brand project with the Zocalo team in order to help bring some
 
 {% include project-image-full.html class="image-fixed" image=page.image-3 %}
 
+{% include testimonial.html text="\"As our restaurant started to expand into more locations, we needed to get a better handle on our brand and ensure that we could continue growth. We needed new ideas so we turned to Bamboo. They're branding work not only helped us refine our external message but also provided the internal focus and clarity that had eluded us for years. We needed to believe in ourselves again. Sales are up. Morale is up and we're more excited about the future than ever before!\"" credit="-Ryan Rose, Executive Chef, Zocalo" class="quote-center dark" %}
+
 #Outcomes
 {: .center }
 
@@ -63,11 +65,7 @@ During our time working with Zocalo we were able to help them establish a brand 
 
 {% include stats.html class="has-background no-margin-bottom" stats=page.stats background=page.stats-background %}
 
-{% include testimonial.html text="\"As our restaurant started to expand into more locations, we needed to get a better handle on our brand and ensure that we could continue growth. We needed new ideas so we turned to Bamboo. They're branding work not only helped us refine our external message but also provided the internal focus and clarity that had eluded us for years. We needed to believe in ourselves again. Sales are up. Morale is up and we're more excited about the future than ever before!\"" credit="-Ryan Rose, Executive Chef, Zocalo" class="quote-center" %}
-
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
 
-{% include project-image-full.html class="no-margin-top" image=page.image-6 %}
-
-{% include footer-cta.html text="Let's grab some fish tacos and chat" %}
+{% include footer-cta.html text="Let's grab some fish tacos and chat" class="no-margin-top" %}
 

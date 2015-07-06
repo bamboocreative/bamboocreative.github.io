@@ -19,9 +19,15 @@ body.header-light {
 	}
 	nav.site-nav ul li a {
 		color: white;
+		@include media(max-width $screen-sm){
+			color: map-get($teal, main);
+		}
 		&:hover {
 			border-bottom: 2px solid white;
 		}
+	}
+	.mobile-menu-button {
+		color: white;
 	}
 }
 
@@ -41,6 +47,8 @@ header.header{
 	float: right;
 	padding-top: 15px;
 	display: none;
+	font-size: 1.2rem;
+	text-decoration: none;
 	@include media(max-width $screen-sm){
 		display: block;
 	}
@@ -54,21 +62,39 @@ nav.site-nav{
 	line-height: 1;
 	position: relative;
 	@include media(max-width $screen-sm){
-		position: absolute;
-		top: 100px;
+		position: fixed;
+		top: 0;
 		left: 0;
 		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
 		background-color: white;
-		display: none;
+		@include transform(translateY(-100%) translate3d(0, 0, 0));
+		@include transition(all .4s $ease-in-out-quad);
+		
+	}
+	
+	&.show-mobile-nav {
+		display: block;
+		@include transform(translateY(0%) translate3d(0, 0, 0));
+	}
+	
+	.close-mobile-nav {
+		float: right;
+		padding: 20px;
+		font-size: 1.2rem;
+		a{text-decoration: none;}
 	}
 	
 	
-	ul{
+	ul {
 		float: right;
 		display: block;
 		margin: 0px auto;
 		padding: 10px 0;
-		width: 50%;
+		width: 60%;
 		text-align: justify;
 		font-size: 0;
 		@include media(max-width $screen-sm){
@@ -82,7 +108,8 @@ nav.site-nav{
 			font-size: 1.7rem;
 			margin: 0;
 			@include media(max-width $screen-sm){
-				padding: 10px 0;
+				padding: 20px 0;
+				border-bottom: 2px solid map-get($teal, main);
 				&:last-child {
 					display: none;
 				}
@@ -94,8 +121,13 @@ nav.site-nav{
 				font-size: 1.7rem;
 				padding-bottom: 10px;
 				@include transition(all .4s $ease-in-out-quad);
-				
+				@include media(max-width $screen-sm){
+					&:hover {
+						border-bottom: none;
+					}					
+				}
 				&:hover {
+					
 					border-bottom: 2px solid $action-color;
 				}
 				

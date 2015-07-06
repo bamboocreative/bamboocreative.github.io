@@ -2,7 +2,8 @@ footer#footer {
 	padding: 7% 0px;
     padding: 7vh 0px;
     position: relative;
-    background-color: #eee;
+    background-color: map-get($gray, dark);
+    color: map-get($gray, light);;
     text-align: center;
     font-family: $base-sans-font;
     font-size: .8rem;

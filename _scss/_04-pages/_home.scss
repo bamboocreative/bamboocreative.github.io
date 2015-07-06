@@ -2,12 +2,23 @@
 	@include clearfix;
 	margin-top: -100px;
 	position: relative;
-	padding: 30% 0 15% 0;
-	padding: 30vh 0 15vh 0;
+	height: 95%;
+	height: 95vh;
+	
+	overflow: hidden;
 	@include media(max-width $screen-sm){
 		padding: 15% 0 5% 0;
 		padding: 15vh 0 5vh 0;
 	}
+	
+	.video-wrapper {
+		
+	}
+	
+	//.video-js {padding-top: 56.25%}
+	.vjs-fullscreen {padding-top: 0px}
+	.vjs-control-bar {display: none;}
+	.vjs-caption-settings {display: none;}
 
 	.video-container {
 	    position: absolute;
@@ -21,38 +32,38 @@
 	    z-index: -1;
 		
 		video {
+			min-height: 100%;
+			@include media(max-width $screen-lg) { 
+				margin-left: -35%;
+			}
+			
+			/*
+			
+			@include media(min-width $screen-md) { 
+				width: 100%;
+			}
 			@include media(max-width $screen-sm) { 
 				margin-left: -50%;
+				max-height: 135%;
 			}
-		}
-		
-		.poster {
-		    position: absolute;
-		    top	: 0;
-		    left: 0;
-		    right: 0;
-		    bottom: 0;
-		    width: 100%;
-		    
-		    img {
-			    width: 100%;
-		    }
-		}
-		
-		.filter {
-			position: absolute;
-		    top	: 0;
-		    left: 0;
-		    right: 0;
-		    bottom: 0;
-		    background-color: rgba(0, 0, 0, 0.31);
-		    
+			@include media(max-width $screen-md) { 
+				margin-left: -25%;
+				max-height: 150%;
+			}
+			*/
 		}
 	}
 		
 		
 	.tagline-wrapper { 
 		@include outer-container;
+		padding: 350px 5%;
+		@include media(max-width $screen-md) { 
+			padding: 300px 5%;
+		}
+		@include media(max-width $screen-sm) { 
+			padding: 200px 5%;
+		}
 	}
 	
 	.tagline-hero {
@@ -68,8 +79,8 @@
 		@include media(max-width $screen-sm) { 
 			font-size: 2.5rem;
 		}
-		@include media(max-width $screen-lg) { 
-			
+		@include media(max-width $screen-md) { 
+			@include span-columns(12);
 		}
 
 	}
@@ -81,6 +92,10 @@
 		font-style: italic;
 		font-size: 1.7rem;
 		color: white;
+		@include media(max-width $screen-md) { 
+			@include span-columns(12);
+		}
+		
 	}
 	
 }
@@ -113,6 +128,9 @@
 	
 	.service-wrapper {
 		@include span-columns(4);
+		@include media(max-width $screen-sm) { 
+			@include span-columns(12);
+		}
 		
 		h3 {
 			font-family: $base-sans-font;
@@ -123,6 +141,21 @@
 			padding-bottom: 15px;
 		}
 	}
+}
+
+@mixin team-line($line, $name) {
+	.team-line{
+		left: $line;
+		@include media(max-width $screen-md) { 
+		}
+	}
+	.team-member-name{
+		left: $name;
+		@include media(max-width $screen-md) { 
+			left: $name - 3;
+		}
+	}
+ 
 }
 
 .section-team {
@@ -164,21 +197,75 @@
 	
 	.feature-team {
 		@include row();
-		margin: 80px 40px 0 40px;;
+		margin: 120px 40px 0 40px;
+		@include media(max-width $screen-sm) { 
+			margin: 80px 0 0 0;
+		}
 	}
 	.team-member{
 		@include span-columns(3);
+		position: relative;
+				
 		@include media(max-width $screen-sm) { 
-			@include span-columns(6);
+			@include span-columns(4);
 			@include omega();
 		}
 		
+		&:last-child {
+			@include media(max-width $screen-sm) { 
+				display: none;
+			}
+		}
+		
+		.team-line {
+			position: absolute;
+			top: -35px;
+			left: 50%;
+			width: 15px;
+			display: block;
+			margin: 0 auto;
+			@include media(max-width $screen-md) { 
+				width: 10px;
+				top: -28px;
+			}
+			
+		}
+		
+		.team-member-name {
+			position: absolute;
+			top: -65px;
+			left: 50%;
+			text-align: center;
+			color: map-get($teal, main);
+			font-size: 1.1rem;
+			@include media(max-width $screen-md) { 
+				top: -56px;
+			}
+		}
+		
+		&.cj {
+			@include team-line(56%, 54.5%);
+		}
+		&.dave {
+			@include team-line(45%, 41%);
+		}
+		&.dustin {
+			@include team-line(55%, 50%);
+		}
+		&.angie {
+			@include team-line(45%, 40%);
+		}
+		&.ben {
+			@include team-line(50%, 48%);
+		}				
 	}
 }
 
 
+
+
 .section-cta {
-	background-color: #69b696;
+	background-color: map-get($teal, main);
 	padding: 5% 1em;
 	padding: 5vh 1em;
 	text-align: center;
@@ -186,10 +273,17 @@
 	.button {
 		border-color: white;
 		color: white;
+		
+		&:hover {
+			background-color: white;
+			color: map-get($teal, main);
+		}
 		@include media(max-width $screen-sm) { 
 			width: 100%;
 			padding: 20px 0;
 			margin: 5px 0;
+			font-size: .9rem;
+			max-width: 90%;
 		}
 	}
 }

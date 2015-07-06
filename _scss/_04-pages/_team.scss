@@ -1,7 +1,7 @@
 .people-archive {
 	@include outer-container;
 	+ .section-cta {
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 	
 	.person {
@@ -15,6 +15,10 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		overflow: hidden;
+		
+		@include media(max-width $screen-sm){
+			width: 100%;
+		}
 				
 		&:hover {
 			.person-overlay {
@@ -68,16 +72,6 @@
 			}
 			
 		}
-
-		
-		/*
-		@include media(max-width $mamabear){
-			@include span-columns(6);
-			margin-right: 0;
-			width: 100%;
-			height: auto;			
-		}
-		*/
 
 	}
 	

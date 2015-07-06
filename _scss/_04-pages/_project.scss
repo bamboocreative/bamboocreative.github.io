@@ -134,6 +134,13 @@
         line-height: 1.6;
     }
     
+    h1 {
+	    margin-top: 120px;
+	    @include media(max-width $screen-sm) { 
+			 margin-top: 80px;
+		}
+    }
+    
     h4 {
 	    margin-bottom: 0;
 	    
@@ -147,13 +154,20 @@
 section.project-image-full {
 	padding: 0;
 	text-align: center;
+	
+	&.padding {
+		margin: 10px 0;
+	}
+	&.padding-bottom {
+		margin-bottom: 10px;
+	}
 
 	img {
 	}
 }
 
 section.project-video {
-	
+	@include outer-container;
 	padding: 0;
 	.video-wrapper {
 		position: relative;
@@ -192,7 +206,7 @@ section.project-image-half {
 		}
 		.project-column-right {
 			@include span-columns(5);
-			padding: 2rem;
+			padding: 2.5%;
 			@include media(max-width $screen-sm) { 
 				@include span-columns(12);
 				@include omega();
@@ -212,6 +226,7 @@ section.project-image-half {
 	}
 	.project-column-right {
 		@include span-columns(5);
+		padding: 1em;
 		@include media(max-width $screen-sm) { 
 			@include span-columns(12);
 			@include omega();
@@ -262,11 +277,15 @@ section.project-image-half {
     @include row;
     
     &.has-background {
-	     .big-num {
-            color: white;
-            @include span-columns(6 of 12);
-        }
- 
+	    .stat-wrap { 
+			.big-num {
+				color: white;
+			}
+			
+			.copy { 
+				color: map-get($gray, light);
+			}
+		}
     }
 
     .stat-wrap {

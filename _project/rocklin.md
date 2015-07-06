@@ -39,10 +39,10 @@ We received input from over 500 stakeholders throughout the city. One-on-one int
 #### Phase Two: Brand Development
 In an exhaustive strategy session led by Bamboo brand experts, City stakeholders went through numerous exercises proven to uncover the key elements of a successful brand. Informed by the strategy session, our team developed Rocklin's new brand map, outlining a new Core Purpose, Positioning Statement, and Value Proposition, among others. All brand elements were aimed at both external perceptions and internal culture shifts. 
 
+{% include project-image-full.html class="" image=page.image-3 %}
+
 #### A Modern Identity With Historic Roots
 At the end of phase two, we embarked on the process to develop a new logo and visual identity for Rocklin. Armed with our finalized brand map, Bamboo's design team iterated on numerous logo options that would visually deliver on the promises and tenets of the new brand. After careful consideration, the city chose a logo that represented their vibrant, modern spirit with a respectful nod to their historic granite mining history.
-
-{% include project-image-full.html class="" image=page.image-3 %}
 
 #### Phase Three: Implementation
 We believe even the best brand strategy will fall short if it lacks a clear, prioritized implementation plan. We provided Rocklin city leaders with dozens of strategies and tactics in order to launch the new brand and continue delivering on its promises for years to come. Implementation items covered both internal and external actions. Our guidelines for internal brand rollout created cohesion among department separated by physical space, and created tremendous buy-in from all parties. 
@@ -53,7 +53,7 @@ Working with a city requires balancing the needs of a multitude of different dep
 # Outcomes
 {: .center }
 
-A renewed visual identity, adopted throughout the entire city. Would love to show sketches, if possible, and then show the logo in a lot of different contexts, including on trucks. A microsite, including video and photo production, to accompany a State of the City address and provide a lunching point for the new brand. Show an image of the WeAreRocklin site. Could also show the billboard and print ad. Brand Guidelines Document. Not sure if we should include this, or if we can show anything.
+A renewed visual identity, adopted throughout the entire city. Would love to show sketches, if possible, and then show the logo in a lot of different contexts, including on trucks. A microsite, including video and photo production, to accompany a State of the City address and provide a lunching point for the new brand.
 {: .center } 
 
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}

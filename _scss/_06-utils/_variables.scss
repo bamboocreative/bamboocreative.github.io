@@ -3,14 +3,14 @@ $base-serif-font:  'Sentinel A', 'Sentinel B', Helvetica, sans-serif;
 $base-sans-font: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
 $sans-serif-font-family: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B', Helvetica, sans-serif;
 
-$font-color: #4c4c4c;
-$font-color-light: #e5e5e5;
+$font-color: map-get($gray, dark);
+$font-color-light: map-get($gray, main);
 $link-color: $action-color;
 
 $heading-font-family: $base-serif-font;
 $heading-font-weight: 600;
 
-$max-width: 960px;
+$max-width: 1080px;
 
 /*
 $max-width: (

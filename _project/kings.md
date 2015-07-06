@@ -17,6 +17,7 @@ image-3: /images/projects/kings/kings-3.jpg
 image-4: /images/projects/kings/kings-4.jpg
 image-5: /images/projects/kings/kings-5.jpg
 image-6: /images/projects/kings/kings-6.jpg
+image-7: /images/projects/kings/kings-7.jpg
 
 video-1: <iframe src="https://player.vimeo.com/video/61934190?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -43,7 +44,7 @@ Our charge was to build a campaign that would build true fan excitement and turn
 ### Solutions
 Elevendy (a Bamboo skunkworks company) worked diligently to develop a mix of solutions that would serve to reinvigorate the fanbase and pave the way for a potential record-setting sale of the franchise.
 
-{% include project-image-half.html text="<h4>Realign and refresh the brand</h4><p>We worked in concert with Kings creative leadership to build a compelling, authentic, and unique brand story that would serve as the foundation of our external efforts during the campaign. These are the Kings, the medieval Kings - not the kitchy, lame knights of the round table, but the gritty, focused, and determined \"Game of Thrones\" style Kings.</p><h4>Refreshed team logo</h4><p>A traditional clean-cut vector logo has no chance of looking or feeling authentic to the new storyline that was created. On the other hand, this is the logo of a franchise that has remained unchanged for nearly 30 years and carries a lot of the brands awareness. The logo refresh we completed kept all of the familiar elements while adding a depth and richness that stayed authentic with the new brand story. Acceptance was wide and it was quickly celebrated and embraced by all of the fans in the kingdom.</p>" image=page.image-2 class="full-width no-margin-bottom" %}
+{% include project-image-half.html text="<h4>Realign and refresh the brand</h4><p>We worked in concert with Kings creative leadership to build a compelling, authentic, and unique brand story that would serve as the foundation of our external efforts during the campaign. These are the Kings, the medieval Kings - not the kitchy, lame knights of the round table, but the gritty, focused, and determined \"Game of Thrones\" style Kings.</p><h4>Refreshed team logo</h4><p>A traditional clean-cut vector logo has no chance of looking or feeling authentic to the new storyline that was created. On the other hand, this is the logo of a franchise that has remained unchanged for nearly 30 years and carries a lot of the brands awareness. The logo refresh we completed kept all of the familiar elements while adding a depth and richness that stayed authentic with the new brand story. Acceptance was wide and it was quickly celebrated and embraced by all of the fans in the kingdom.</p>" image=page.image-2 class="" %}
 
 {% include testimonial.html text="\"From the moment we partnered with Elevendy, to the latest scores of industry awards... the symbiotic fusion of collaborative creativity, storytelling, and epic imaging has been a critical foundation point of dynamic shift in our brand development.\"" credit="- Craig Amazeen, SVP Broadcast/New Media & Brand Development, Sacramento Kings" class="quote-center dark no-margin-top" %}
 
@@ -52,6 +53,8 @@ We created a non-player based embodiment of the brand, complete with loads of sy
 
 #### Epic player photography to match campaign 
 Over 3 seasons our team worked in an expedited manner to take advantage of media day access to the players which meant having each player for only 8 minutes per year for all of the creative elements that would need to be produced. Our team worked like a well oiled machine to get players in, out, and on to their next station before their handlers gave us dirty looks. Beyond shoot day logistics our team mixed CGI, photo elements, and other assets to composite and retouch these highly stylized images.
+
+{% include project-image-full.html class="" image=page.image-7 %}
 
 #### A badass dance team calendar
 We couldn't let the players have ALL the fun... we worked with King's dance team staff to scout a legit castle location for all of our background elements. Dancer images were captured in our studio then composited and retouched by our imaging experts. Finally, we finished the project with print vendor selection, pre-press, and press-checks of the final work as it rolled off a beautiful multi-ton Heidelberg.
@@ -63,12 +66,8 @@ With a capable resource in mind, we designed a shield in 3D that would be create
 
 {% include project-image-full.html class="image-fixed" image=page.image-5 %}
 
-# Outcomes 
-{: .center }
-{% include project-video.html class="" video=page.video-1 %}
-
 {% include stats.html class="" stats=page.stats %}
 
-{% include project-image-full.html class="image-fixed" image=page.image-6 %}
+{% include project-video.html class="" video=page.video-1 %}
 
 {% include footer-cta.html text="How about a little one on one?" %}

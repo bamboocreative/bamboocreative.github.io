@@ -8,10 +8,20 @@
 	}
 }
 
+section.hire-us{
+	padding-bottom: 60px;
+	border-bottom: 2px solid lighten(map-get($gray, dark), 10%);
+}
+
 
 form {
 	@include outer-container(50%);
-	margin-bottom: 40px;
+	
+	
+	@include media(max-width $screen-sm){
+		@include outer-container(100%);
+		margin: 0 1em ;
+	}
 	
 	input, textarea, input[type="text"] {
 		background: #9a9a9a;

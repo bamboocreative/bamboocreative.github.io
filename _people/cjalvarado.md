@@ -1,6 +1,6 @@
 ---
 layout: person
-image: cj2.jpg
+image: cj.jpg
 name: CJ Alvarado
 author: cjalvarado
 title: Founder & CEO
