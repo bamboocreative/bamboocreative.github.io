@@ -1,1 +1,13 @@
-{% include project-feature.html class="show-featured-overlay" showOverlay="show-overlay" type='next-project' limit=1 offset=page.order %}
+{% assign projects = site.project  | where:"locked",!true | sort: "order" %}
+
+{% for project in projects | limit: include.limit | offset: include.offset %}
+
+	{% if page.title == project.title %}
+	
+		{% assign currentProjectIndex = forloop.index %}
+	
+	{% endif %}
+
+{% endfor %}
+
+{% include project-feature.html class="show-featured-overlay" showOverlay="show-overlay" type='next-project' limit=1 offset=currentProjectIndex %}

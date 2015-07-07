@@ -1,15 +1,22 @@
 {% if include.type == 'home' %}
+
 	{% assign projects = site.project |  where:"homepage_feature",true %}
+
 {% else if include.type == 'next-project' %}
-	{% assign projects = site.project |  where:"locked",!true, | sort: "order" %}
+
+	{% assign projects = site.project  | where:"locked", !true | sort: "order" %}
+
 {% else %}
+
 	{% assign projects = site.project | where:"featured",true, | sort: "order" %}
+
 {% endif %}
 
 {% for project in projects | limit: include.limit | offset: include.offset %}
 
+
 <a class="project-link" href="{{project.url}}">
-	<section class="section-project full-feature  {{include.class}}">
+	<section class="section-project full-feature {{include.class}}">
 		<div class="project-info-wrapper">
 			<div class="project-info">
 				{% if include.type == 'next-project' %}

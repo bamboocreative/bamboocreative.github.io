@@ -2,8 +2,7 @@
 	@include clearfix;
 	margin-top: -100px;
 	position: relative;
-	height: 95%;
-	height: 95vh;
+	height: 85%;
 	overflow: hidden;
 	@include media(max-width $screen-sm){
 		padding: 80px 0;
@@ -45,12 +44,23 @@
 		
 	.tagline-wrapper { 
 		@include outer-container;
-		padding: 350px 5%;
+		padding-bottom: 120px;
+		padding-top: 35%;
+		padding-bottom: 200px;
+		padding-left: 1em;
+		padding-right: 1em;
+		@include media(min-width $screen-lg) { 
+			padding-top: 35%;
+			padding-bottom: 200px;
+			padding-left: 0;
+			padding-right: 0;
+		}
 		@include media(max-width $screen-md) { 
-			padding: 300px 5%;
+			padding-top: 35%;
+			padding-bottom: 200px;
 		}
 		@include media(max-width $screen-sm) { 
-			padding: 15% 5%;
+			padding: 15% 1em;
 		}
 	}
 	
