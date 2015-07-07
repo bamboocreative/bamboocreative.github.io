@@ -9,6 +9,12 @@ footer#footer {
     font-size: .8rem;
     opacity: .7;
    	text-transform: uppercase;
+   	
+   	a {
+	   	&:hover {
+		   	color: white;
+	   	}
+   	}
    
     
 	.footer-contact {

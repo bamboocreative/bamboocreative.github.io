@@ -61,7 +61,7 @@ Brand Reinvigoration. Our team of branding experts love a turnaround. Even bette
 
 Unified communication strategy. By aligning UYWIs main communication mediums of email and social posts, we were able to boost engagement levels across the board. This shift to unified campaign-based messaging has had significant impact on audience retention and conversion.
 
-{% include footer-cta.html text="How about we make your cause, a movement?" %}
+{% include footer-cta.html text="HOW ABOUT WE MAKE YOUR CAUSE A MOVEMENT?" %}
 
 
 

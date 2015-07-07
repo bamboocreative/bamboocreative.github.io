@@ -18,7 +18,7 @@ $( document ).ready(function(){
 				
 		window.setInterval(function(){
 			
-			var randomPerson = Math.floor(Math.random() * 10) + 1;
+			var randomPerson = Math.floor(Math.random() * 9) + 1;
 			var randomSelection = Math.floor(Math.random() * 4) + 1;
 			var append = randomSelection;
 			
@@ -102,7 +102,7 @@ $( document ).ready(function(){
 		}).done(function(response){
 		
 			if(response.status === 'error'){
-				button.text('Try Again.');
+				button.text('Try Again');
 				setTimeout(function(){
 					button.text('Submit');
 				}, 2000)

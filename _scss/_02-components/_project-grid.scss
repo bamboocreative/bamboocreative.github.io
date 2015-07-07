@@ -1,14 +1,3 @@
-
-@mixin mobile-transition-projects($delay){
-	
-	@for $i from 1 through 24 {
-	  .project:nth-child(#{$i}n){ 
-		  @include transition-delay($delay * $i s);		  
-	  }
-	
-	}
-
-}
 .section-project.grid-feature {
 	
 	$grid-max-height: 300px;
@@ -72,7 +61,6 @@
 		
 		@include media(max-width $screen-sm) { 
 			width: 100%;
-			@include mobile-transition-projects(.1);
 			.project-info {
 				visibility: visible;
 				opacity: 1;
@@ -106,7 +94,7 @@
 	.project-info {
 		opacity: 0;
 		visibility: hidden;
-		@include transition(all .2s $ease-in-out-quad);
+		@include transition(all .1s $ease-in-out-quad);
 		text-align: center;
 		padding: 2.5%;
 		color: white;
@@ -148,7 +136,7 @@
 		left: 0;
 		z-index: -2;
 		overflow: hidden;
-		@include transition(all .4s $ease-in-out-quad);
+		@include transition(all .2s $ease-in-out-quad);
 		
 	}
 	
