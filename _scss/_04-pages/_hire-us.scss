@@ -20,7 +20,22 @@ form {
 	
 	@include media(max-width $screen-sm){
 		@include outer-container(100%);
-		margin: 0 1em ;
+		margin: 0 1.2em ;
+	}
+	
+	label {
+		position: relative;
+	}
+	
+	label span {
+		color: map-get($teal, main);
+		display: inline-block;
+		position: absolute;
+		top: 15px;
+		left: -20px;
+		@include media(max-width $screen-sm){
+			left: -15px;
+		}
 	}
 	
 	input, textarea, input[type="text"] {
@@ -37,6 +52,7 @@ form {
 		padding: 1rem;
 		font-family: $base-serif-font;
 		font-style: italic;
+		
 		@include placeholder {
 			color: white;
 			font-weight: 500;

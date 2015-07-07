@@ -34,4 +34,108 @@ $( document ).ready(function(){
 				
 	}
 	
+	$('.trigger-submit-form').click(function(event){
+		
+		event.preventDefault()
+		
+		var button = $(event.currentTarget);
+				
+		button.text('Sending...');
+		
+		var error = false;
+		
+		var HTMLMessage = '<h1>Boom! Incoming Project.</h1>';
+		
+		$('.form-input').each(function(){
+						
+			var input = $(this);
+			
+			if(!input.val()){
+				
+				input.addClass('shake');
+				
+				button.text('Try Again.');
+				
+				setTimeout(function(){
+					button.text('Submit');
+				}, 2000)
+				
+				error = true;
+				
+				return false;
+				
+			} else {
+				
+				HTMLMessage += '<p><strong>' + input.attr("name") + ':</strong> ' + input.val() + '</p>';
+			
+			}
+		});
+		
+		if(error){
+			return false;
+		}
+		
+		var urlBase = 'https://mandrillapp.com/api/1.0/messages/send.json';
+				
+		var messageObject = {
+		"key": 'vjo8DwJK5IArQHRAVpyjCA',
+		"message": {
+			"html": HTMLMessage,
+			"text": "",
+			"subject": "Let's Work Together",
+			"from_email": $('#email').val(),
+			"from_name": $('#name').val(),
+			"to": [{
+				"email": "jake@bamboocreative.com",
+				"name": "Dave Cox",
+				"type": "to"
+			}],
+			}
+		};
+		
+		$.ajax({
+			
+			type: "POST",
+			url: urlBase,
+			data: messageObject,
+		
+		}).done(function(response){
+		
+			if(response.status === 'error'){
+				button.text('Try Again.');
+				setTimeout(function(){
+					button.text('Submit');
+				}, 2000)
+			} else {
+				button.text('Success!');
+				showMessage('Phenomenal! Look forward to working with you soon.', 5000);
+				setTimeout(function(){
+					button.text('Submit');
+					$('.form-input').each(function(){
+						var input = $(this);
+						input.val('');
+					});
+				}, 5000)
+			}
+		
+		});		
+	});
+		
+	
+	$('.message').click(function(event){
+		$('body').removeClass('show-message');
+		$('.message .message-text').empty();
+	})
+	
+	var showMessage = function(message, hideIn){
+		$('.message .message-text').append(message);
+		$('body').addClass('show-message');
+		if(hideIn){
+			setTimeout(function(){
+				$('body').removeClass('show-message');
+				$('.message .message-text').empty();
+			}, hideIn)
+		}
+	}
+		
 });

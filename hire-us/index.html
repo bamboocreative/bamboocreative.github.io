@@ -12,13 +12,31 @@ body-class: page-hire-us header-light
 </section>
 
 <section class="hire-us">
-	<form>
-		<input type="text" placeholder="What is your name?">
-		<input type="text" placeholder="What is your email?">
-		<input type="text" placeholder="What is your phone number?">
-		<textarea placeholder="What would you like Bamboo to do for you?"></textarea>
-		<input type="text" placeholder="What is your budget?">
-		<input type="text" placeholder="How did you hear about us?">
-		<button class="button">Submit</button>
+	<form id="hire-us-form">
+		<label>
+			<span>&#42</span>
+			<input id="name" name="Name" class="form-input animated" type="text" placeholder="What is your name?">
+		</label>
+		<label>
+			<span>&#42</span>
+			<input id="email" name="Email"  class="form-input animated" type="text" placeholder="What is your email?">
+		</label>
+		<label>
+			<span>&#42</span>
+			<input id="phone" name="Phone" class="form-input animated" type="text" placeholder="What is your phone number?">
+		</label>
+		<label>
+			<span>&#42</span>
+			<textarea id="project" name="Project" class="form-input animated" placeholder="What would you like Bamboo to do for you?"></textarea>
+		</label>
+		<label>
+			<span>&#42</span>
+			<input id="budget" name="Budget" class="form-input animated" type="text" placeholder="What is your budget?">
+		</label>
+		<label>
+			<span>&#42</span>
+			<input id="reference" name="Reference" class="form-input animated" type="text" placeholder="How did you hear about us?">
+		</label>
+		<button class="button trigger-submit-form">Submit</button>
 	</form>
 </section>

@@ -9,6 +9,8 @@
 	padding: 20px 50px;
 	background-color: transparent;
 	@include transition(all .3s ease);
+	outline: none !important;
+	box-shadow: none !important;
 	
 	&:hover {
 		background-color: map-get($teal, main);
