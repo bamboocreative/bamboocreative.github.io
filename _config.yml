@@ -2,6 +2,7 @@
 title: Bamboo Creative
 tagline: Executing beautiful ideas in Northern California. We push our clients to exceed their goals. Sometimes, that includes creative strategy, branding, design and product development.
 url: "https://bamboocreative.com" # the base hostname & protocol for your site
+post_dirs: false
 
 # Social
 socialimg: /images/social.jpg
@@ -39,9 +40,12 @@ exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   project:
     output: true
+    permalink: /project/:path/
+    output_ext: false
+    
   people:
     output: true
-
+    
 # All Bamboo Employees
 authors:
   cjalvarado:

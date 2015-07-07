@@ -1,5 +1,6 @@
 .people-archive {
 	@include outer-container;
+	
 	+ .section-cta {
 		margin-top: 80px;
 	}
@@ -7,7 +8,7 @@
 	.person {
 		width: 33.333333%;
 		float: left;
-		height: 300px;
+		height: 350px;
 		margin-right: 0;
 		position: relative;
 		display: table;
@@ -16,8 +17,23 @@
 		background-size: cover;
 		overflow: hidden;
 		
+		&:nth-child(3n){
+			@include clearfix;
+		} 
+		
+		@include media(max-width $screen-md){
+			width: 50%;
+			height: 500px;
+			&:nth-child(2n){
+				@include clearfix;
+			} 
+		}
+		
 		@include media(max-width $screen-sm){
 			width: 100%;
+			&:nth-child(1n){
+				@include clearfix;
+			} 
 		}
 				
 		&:hover {

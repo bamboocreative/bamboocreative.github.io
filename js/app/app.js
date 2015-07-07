@@ -6,7 +6,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 
 
 $( document ).ready(function(){
-	
+		
 	document.addEventListener("touchstart", function(){}, true);
 	
 	
@@ -19,9 +19,8 @@ $( document ).ready(function(){
 		return false;
 	});
 	
-	if($('.feature-team').length){
-		console.log('run')
-		
+	if($('.feature-team').length && $(window).width() > 768){
+				
 		window.setInterval(function(){
 			
 			var randomPerson = Math.floor(Math.random() * 10) + 1;

@@ -59,7 +59,7 @@ body-class: header-light
 
 {% include project-grid.html type='home' limit=5 %}
 
-{% assign people = site.people %}
+{% assign people = site.people | sort: "order" %}
 
 <section class="section-team">
 	<div class="team-container">
@@ -79,7 +79,7 @@ body-class: header-light
 	</div>
 	
 	<div class="feature-team">
-		{% for person in people | limit: 4 %}
+		{% for person in people | limit: 4  %}
 		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}">
 			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
 			<img class="team-line" src="/images/team-line.png">

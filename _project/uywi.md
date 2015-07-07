@@ -2,7 +2,7 @@
 layout: project
 body-class: header-light
 title: Urban Youth Workers Institute
-tagline:  Urban Youth Workers Institute is a national non-profit organization that trains & resources urban youth workers to effectively evangelize and disciple youth in at-risk zip codes throughout the US.
+tagline: UYWI is a national non-profit that trains & resources urban youth workers who support at-risk youth.
 slug: uywi
 logo: logo.svg
 services: Branding, Design Thinking, Creative Implementation
@@ -47,19 +47,19 @@ The UYWI team needed support in creating ideas and a strategy to grow their nati
 {% include project-image-full.html class="" image=page.image-2 %}
 
 ### Solutions
-Bamboo guided the UYWI team through a branding process that helped define and solidify their story. Through this process they were able to gain language and focus that changed the way that they talk about their organization and why they exist. 
+Bamboo guided the UYWI team through a branding process that helped define and solidify their story. Through this process they were able to gain insights and focus their communications in a manner that changed the way that they speak about their organization and reason for existing. 
 
-{% include project-image-half.html text="<p>We also worked with their team to build the UYWI APP. This is the hub for their content distribution and was created to provide a way for UYWI to offer valuable content to every youth worker that is connected to their organization.</p><p>The UYWI Conference team partnered with us to market and fill their National Conference through email campaigns and social media management. The Bamboo team was onsite for their event and provided realtime social media coverage. </p>" image=page.image-3 class="" %}
+{% include project-image-half.html text="<p>We also worked with their team to build the UYWI APP. This is the hub for their content distribution and was created to provide a way for UYWI to offer valuable content to every youth worker that is connected to their organization.</p><p>The UYWI Conference team partnered with us to market and fill their National Conference through email campaigns and social media creative management. The Bamboo team was onsite for their event and provided realtime social media coverage.</p>" image=page.image-3 class="" %}
 
 
-{% include testimonial.html text="\"NO TEXT\"" credit="— NO TEXT" class="quote-center dark no-margin-bottom" %}
-
+{% include testimonial.html text="\"As a smaller organization, the cost of undergoing a branding project was not taken lightly. In the end, however, it’s one of the best financial decisions we’ve made. Bamboo completely un-stuck our organization and gave our team renewed vision and drive.\"" credit="—Larry Acosta, Founder & CEO, Urban Youth Workers International" class="quote-center dark no-margin-bottom" %}
 
 # Outcomes
 {: .center }
 
-NO USEABLE TEXT
-{: .center } 
+Brand Reinvigoration. Our team of branding experts love a turnaround. Even better  when that turnaround happens for an organization that exists to help at-risk youth make significant life changes. Through our brand development process we uncovered a focused direction for the brand both internally for UYWI Team and externally for donors.
+
+Unified communication strategy. By aligning UYWIs main communication mediums of email and social posts, we were able to boost engagement levels across the board. This shift to unified campaign-based messaging has had significant impact on audience retention and conversion.
 
 {% include footer-cta.html text="How about we make your cause, a movement?" %}
 

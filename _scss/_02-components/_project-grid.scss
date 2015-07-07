@@ -1,4 +1,14 @@
 
+@mixin mobile-transition-projects($delay){
+	
+	@for $i from 1 through 24 {
+	  .project:nth-child(#{$i}n){ 
+		  @include transition-delay($delay * $i s);		  
+	  }
+	
+	}
+
+}
 .section-project.grid-feature {
 	
 	$grid-max-height: 300px;
@@ -58,8 +68,19 @@
 		float: left;
 		display: table;
 		
+		
+		
 		@include media(max-width $screen-sm) { 
-			width: 100%;	
+			width: 100%;
+			@include mobile-transition-projects(.1);
+			.project-info {
+				visibility: visible;
+				opacity: 1;
+			}
+			.project-overlay{
+				visibility: visible;
+				opacity: .25;
+			}
 		}
 		
 		
@@ -90,6 +111,8 @@
 		padding: 2.5%;
 		color: white;
 		max-height: $grid-max-height;
+		
+		
 		
 		hr {
 			width: 20%;
@@ -138,6 +161,10 @@
 		border: none;
 		text-transform: uppercase;
 		display: inline-block;
+		background-color: transparent;
+		&:hover {
+			background-color: transparent;
+		}
 		
 	}
 	
@@ -170,3 +197,5 @@
 		}
 	}
 }
+
+

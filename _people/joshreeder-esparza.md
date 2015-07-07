@@ -4,7 +4,7 @@ image: josh.jpg
 name: Josh Reeder-Esparza
 author: joshreederesparza
 title: Web Developer
-order: 11
+order: 8
 
 social: 
   - account: twitter

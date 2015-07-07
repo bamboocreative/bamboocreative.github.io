@@ -4,11 +4,11 @@
 	position: relative;
 	height: 95%;
 	height: 95vh;
-	
 	overflow: hidden;
 	@include media(max-width $screen-sm){
 		padding: 80px 0;
 		min-height: 600px;
+		background-color: map-get($teal, main);
 	}
 	
 	.video-wrapper {
@@ -35,6 +35,9 @@
 			min-height: 100%;
 			@include media(max-width $screen-lg) { 
 				margin-left: -35%;
+			}
+			@include media(max-width $screen-sm) { 
+				display: none;
 			}
 		}
 	}

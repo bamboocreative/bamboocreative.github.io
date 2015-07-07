@@ -4,7 +4,7 @@ image: laurey.jpg
 name: Laurey Kiehne
 author: laureykiehne
 title: Social Media Marketing
-order: 13
+order: 3
 
 social: 
   - account: twitter
