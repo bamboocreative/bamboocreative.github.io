@@ -6,7 +6,6 @@ $( document ).ready(function(){
 	
 	
 	$('.trigger-menu').click(function(e){
-		console.log('do it')
 		e.preventDefault()
 		$('.site-nav').toggleClass('show-mobile-nav');
 		$('body').toggleClass('overflow-hidden');
@@ -22,10 +21,27 @@ $( document ).ready(function(){
 			var randomSelection = Math.floor(Math.random() * 4) + 1;
 			var append = randomSelection;
 			
-			$('.feature-team .team-member:nth-child(' + randomSelection +')').addClass('byebye');
+			var randomFeat = $('.feature-team .team-member:nth-child(' + randomSelection +')');
+			var randomAll = $('.all-team .team-member:nth-child(' + randomPerson +')');
+			var match = false;
+			
+			$('.feature-team .team-member').each(function(){
+				if( $(this).attr('data-name') === randomAll.attr('data-name')){
+					console.log('match');
+					match = true;
+					return false;
+				}
+			})
+			
+			if(match){
+				return false;
+			}
+			
+			randomFeat.addClass('byebye');
+			
 			setTimeout(function(){
-				$('.all-team .team-member:nth-child(' + randomPerson +')').clone().insertAfter('.feature-team .team-member:nth-child(' + randomSelection + ')');
-				$('.feature-team .team-member:nth-child(' + randomSelection +')').remove();
+				randomAll.clone().insertAfter('.feature-team .team-member:nth-child(' + randomSelection + ')');
+				randomFeat.remove();
 			}, 400);
 			
 			

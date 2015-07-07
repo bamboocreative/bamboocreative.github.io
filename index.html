@@ -70,7 +70,7 @@ body-class: header-light
 	
 	<div class="all-team" style="display: none;">
 		{% for person in people %}
-		<div class="team-member hellothere {{person.name | downcase | truncatewords: 1, '' }}">
+		<div class="team-member hellothere {{person.name | downcase | truncatewords: 1, '' }}" data-name="{{person.name | downcase | truncatewords: 1, '' }}">
 			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
 			<img class="team-line" src="/images/team-line.png">
 			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
@@ -80,7 +80,7 @@ body-class: header-light
 	
 	<div class="feature-team">
 		{% for person in people | limit: 4  %}
-		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}">
+		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}" data-name="{{person.name | downcase | truncatewords: 1, '' }}">
 			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
 			<img class="team-line" src="/images/team-line.png">
 			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
