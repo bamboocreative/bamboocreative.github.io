@@ -14,7 +14,6 @@
 
 .background-image-hover {
 	@include transform(scale(1.03, 1.03));
-	opacity: .8;
 }
 
 .overlay { 

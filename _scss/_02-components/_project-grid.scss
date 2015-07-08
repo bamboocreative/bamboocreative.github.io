@@ -11,6 +11,9 @@
 		display: table-cell;
 		position: relative;
 		vertical-align: middle;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		
 		&:hover {
 			.project-info {
@@ -30,6 +33,10 @@
 	.project-callout {
 		width: 50%;	
 		height: $grid-max-height * 2;
+		
+		.project-overlay {
+			height: $grid-max-height * 2;
+		}
 		
 		@include media(max-width $screen-sm) { 
 			width: 100%;	
@@ -57,7 +64,9 @@
 		float: left;
 		display: table;
 		
-		
+		.project-overlay {
+			height: $grid-max-height;
+		}
 		
 		@include media(max-width $screen-sm) { 
 			width: 100%;
@@ -89,6 +98,11 @@
 			@include clearfix;
 		}
 
+	}
+	
+	.project-info-wrapper{
+		position: relative;
+		z-index: 2;
 	}
 	
 	.project-info {

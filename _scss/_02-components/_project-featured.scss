@@ -6,10 +6,12 @@
 	color: $font-color;
 	@include transition(all .1s $ease-in-out-quad);
 	
+	
 	&:hover {
 		color: white;
+		@extend .background-image-hover;
 		.project-background {
-			@extend .background-image-hover;
+			
 		}
 		.project-overlay {
 			@extend .show-overlay;
