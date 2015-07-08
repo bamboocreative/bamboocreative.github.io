@@ -36,9 +36,36 @@ header.header{
 	@include clearfix;
 	position: relative;
 	z-index: 999;
+	
 			
 	.page{
 		@include outer-container();
+	}
+	
+	&.fixed-header {
+		position: fixed;
+		background-color: map-get($teal, main);
+		top: 0;
+		right: 0;
+		left: 0;
+		@include transition(all .1s $ease-in-out-quad);
+		@include transform(translateY(-100%) translate3d(0, 0, 0));
+		
+		h1.logo-image { 
+			background-image: url('../images/logo-white.png') !important;
+		}
+		nav.site-nav ul li a {
+			color: white !important;
+			
+			&:hover {
+				border-bottom: 2px solid white !important;
+			}
+		}
+				
+		&.show-header {
+			@include transition(all .4s $ease-in-out-quad);
+			@include transform(translateY(0) translate3d(0, 0, 0));
+		}
 	}
 	
 }
@@ -73,12 +100,17 @@ nav.site-nav{
 		background-color: white;
 		@include transform(translateY(-100%) translate3d(0, 0, 0));
 		@include transition(all .4s $ease-in-out-quad);
-		
+		&.no-mobile {
+			display: none;
+			opacity: 0;
+			visibility: hidden;
+		}
 	}
+	
 	
 	&.show-mobile-nav {
 		display: block;
-		@include transform(translateY(0%) translate3d(0, 0, 0));
+		@include transform(translateY(0) translate3d(0, 0, 0));
 		.close-mobile-nav {display: block; opacity: 1,}
 	}
 	

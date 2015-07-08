@@ -9,13 +9,43 @@ $( document ).ready(function(){
 		
 	document.addEventListener("touchstart", function(){}, true);
 	
+	if($('#header-mark').length){
+		var mark = $('#header-mark').offset().top;
+		var top = $(window).scrollTop();
+		
+		if(top > mark) {
+			setTimeout(function(){
+				$('.fixed-header').addClass('show-header');
+			}, 200)
+		}
+	}
 	
-	$('.trigger-menu').click(function(e){
-		e.preventDefault()
-		$('.site-nav').toggleClass('show-mobile-nav');
+	
+	
+	
+	$(document).scroll(function(){
+		if($('#header-mark').length){
+			mark = $('#header-mark').offset().top;
+			top = $(window).scrollTop();
+
+			if(top > mark) {
+				$('.fixed-header').addClass('show-header');
+			}
+			if(top < mark) {
+				$('.fixed-header').removeClass('show-header');
+			}
+		}
+	})
+		
+	
+	
+	$('.trigger-menu').click(function(event){
+		event.preventDefault();
+		$('.mobile-nav').toggleClass('show-mobile-nav');
 		$('body').toggleClass('overflow-hidden');
-	
-		return false;
+		if(top > mark) {
+			$('.fixed-header').toggleClass('show-header');
+		}
 	});
 	
 	if($('.feature-team').length && $(window).width() > 768){
