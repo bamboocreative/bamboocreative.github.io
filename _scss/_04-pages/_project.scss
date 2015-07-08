@@ -27,6 +27,7 @@
     
     .project-overlay {
 	    background-color: rgba(0, 0, 0, 0.55);
+	    z-index: -1;
     }
 
     .project-title {
