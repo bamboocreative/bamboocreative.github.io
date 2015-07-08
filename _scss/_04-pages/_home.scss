@@ -1,6 +1,7 @@
 .section-hero {
 	@include clearfix;
 	margin-top: -100px;
+	top: -100px;
 	position: relative;
 	height: 85%;
 	overflow: hidden;
