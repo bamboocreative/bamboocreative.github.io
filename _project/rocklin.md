@@ -4,7 +4,8 @@ body-class: header-light
 title: City of Rocklin
 tagline: A vibrant city in the heart of Northern California, ripe for increasing their street cred.
 slug: rocklin
-
+website: http://wearerocklin.com
+prettywebsite: wearerocklin.com
 logo: logo.svg
 services: Branding, Design Thinking, Creative Implementation
 
@@ -14,6 +15,8 @@ image-1: /images/projects/rocklin/rocklin-1.jpg
 image-2: /images/projects/rocklin/rocklin-2.jpg
 image-3: /images/projects/rocklin/rocklin-3.jpg
 image-4: /images/projects/rocklin/rocklin-4.jpg
+image-5: /images/projects/rocklin/rocklin-5.jpg
+image-6: /images/projects/rocklin/rocklin-6.jpg
 
 featured: true
 homepage_grid: true
@@ -50,11 +53,16 @@ We believe even the best brand strategy will fall short if it lacks a clear, pri
 
 Working with a city requires balancing the needs of a multitude of different departments and offices. To help each one manage their own communications efforts with the new brand, a comprehensive visual and communications guidelines document was provided. This document also ensured alignment and consistency in the new brand's utilization.
 
+{% include project-image-full.html class="no-margin-top no-margin-bottom" image=page.image-5 %}
 
 # Outcomes
 {: .center }
 
-A renewed visual identity, adopted throughout the entire city. Would love to show sketches, if possible, and then show the logo in a lot of different contexts, including on trucks. A microsite, including video and photo production, to accompany a State of the City address and provide a lunching point for the new brand.
+- A renewed visual identity, adopted throughout the entire city. 
+- A microsite, including video and photo production, to accompany a State of the City address and provide a lunching point for the new brand.  
+- Brand Guidelines Document, with recommendations for proper brand usage and document templates. 
+
+{% include project-image-full.html class="" image=page.image-6 %}
 
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
 

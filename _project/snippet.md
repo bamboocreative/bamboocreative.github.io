@@ -22,7 +22,7 @@ stats:
    copy: users joined Snippet
  - number: "#"
    unit: '6'
-   copy: Itunes Top Grossing Apps on launch
+   copy: iTunes Top Grossing Apps on launch
 
 featured: true
 homepage_grid: true
