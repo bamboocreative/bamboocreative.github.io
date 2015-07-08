@@ -49,26 +49,27 @@
 	.tagline-wrapper { 
 		@include outer-container;
 		padding-bottom: 120px;
-		padding-top: 35%;
+		padding-top: 45%;
 		padding-bottom: 200px;
 		padding-left: 1em;
 		padding-right: 1em;
 		@include media(min-width $screen-lg) { 
-			padding-top: 35%;
 			padding-bottom: 200px;
 			padding-left: 0;
 			padding-right: 0;
 		}
 		@include media(max-width $screen-md) { 
-			padding-top: 35%;
 			padding-bottom: 200px;
 		}
 		@include media(max-width $screen-sm) { 
-			padding: 15% 1em;
+			padding: 35% 1em;
+			padding-bottom: 60px;
 		}
-		@include media(min-width 1500px) { 
+
+		@include media(min-width 1700px) { 
 			padding-top: 35%;
 		}
+
 	}
 	
 	.tagline-hero {
