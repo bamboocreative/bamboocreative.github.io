@@ -16,6 +16,7 @@
 		background-size: cover;
 		
 		&:hover {
+			@extend .background-image-hover;
 			.project-info {
 				opacity: 1;
 				visibility: visible;

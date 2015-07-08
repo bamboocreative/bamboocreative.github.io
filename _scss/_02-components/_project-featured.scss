@@ -9,9 +9,8 @@
 	
 	&:hover {
 		color: white;
-		@extend .background-image-hover;
 		.project-background {
-			
+			@extend .background-image-hover;
 		}
 		.project-overlay {
 			@extend .show-overlay;
