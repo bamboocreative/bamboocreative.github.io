@@ -20,8 +20,8 @@ stats:
  - number: 30
    unit: K
    copy: users joined Snippet
- - number: "#6"
-   unit: ''
+ - number: "#"
+   unit: '6'
    copy: Itunes Top Grossing Apps on launch
 
 featured: true
