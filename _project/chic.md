@@ -61,7 +61,7 @@ Through this project we partnered with the CHIC team on several initiatives:
 - Ad Design
 - Content Strategy and Delivery
 
-{% include testimonial.html text="\"Trust me on this, Bamboo Marketing has a bigger vision for your company, event, or organization than even you do...Yes, that’s right; they are cooler than all of us, more tech-savey than all of us, more in-touch with cultural trends than all of us, and know without a doubt how to move your mission and vision forward.  Without their involvement in your project you’ll likely only meet half of your goals.  I recommend you go with Bamboo instead.  Good luck.\"" credit="— Tim Ciccone, Youth Ministry Leader, Evangelical Covenant Church" class="quote-center dark no-margin-bottom" %}
+{% include testimonial.html text="\"Trust me on this, Bamboo Marketing has a bigger vision for your company, event, or organization than even you do...Yes, that’s right; they are cooler than all of us, more tech-savvy than all of us, more in-touch with cultural trends than all of us, and know without a doubt how to move your mission and vision forward.  Without their involvement in your project you’ll likely only meet half of your goals.  I recommend you go with Bamboo instead.  Good luck.\"" credit="— Tim Ciccone, Youth Ministry Leader, Evangelical Covenant Church" class="quote-center dark no-margin-bottom" %}
 
 {% include project-image-full.html class="no-margin-top" image=page.image-4 %}
 
