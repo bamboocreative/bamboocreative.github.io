@@ -34,7 +34,7 @@ gems:
 markdown: kramdown
 sass:
   sass_dir: _scss
-  style: :compressed
+  style: :expanded
   
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 
