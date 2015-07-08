@@ -15,9 +15,11 @@ section.hire-us{
 
 
 form {
-	@include outer-container(50%);
+	@include outer-container(50%);	
 	
-	
+	@include media(min-width $screen-lg){
+		@include outer-container(30%);
+	}
 	@include media(max-width $screen-sm){
 		@include outer-container(100%);
 		margin: 0 1.2em ;
@@ -62,6 +64,10 @@ form {
 		}
 	}
 	
+	input:-webkit-autofill {
+		background-color: #9a9a9a !important;
+		color: white !important;
+	}
 	textarea {
 		min-height: 150px;
 	}

@@ -55,7 +55,6 @@ Working with a city requires balancing the needs of a multitude of different dep
 {: .center }
 
 A renewed visual identity, adopted throughout the entire city. Would love to show sketches, if possible, and then show the logo in a lot of different contexts, including on trucks. A microsite, including video and photo production, to accompany a State of the City address and provide a lunching point for the new brand.
-{: .center } 
 
 {% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
 

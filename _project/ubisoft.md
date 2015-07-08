@@ -38,9 +38,9 @@ Ubisoft makes badass games and needs Key Art and advertising campaign ideas to h
 ### Solutions
 Elevendy (Bamboo's high-end production arm) employed a mix of our design-thinking methodology, brand development, and implementation tactics to drive significant results to Ubisoft's internal marketing team. 
 
-{% include testimonial.html text="\"If these guys were a cookie, they would be the 11-foot wide, black and white, macadamia nut, chocolate chunk, raspberry swirl, topped with foie gras, rare white truffles, and badass sprinkles. They are that awesome!\"" credit="-Brian Tippie, Associate Creative Director - Ubisoft" class="quote-center no-margin-bottom" %}
+{% include testimonial.html text="\"If these guys were a cookie, they would be the 11-foot wide, black and white, macadamia nut, chocolate chunk, raspberry swirl, topped with foie gras, rare white truffles, and badass sprinkles. They are that awesome!\"" credit="-Brian Tippie, Associate Creative Director - Ubisoft" class="quote-center no-margin-bottom dark" %}
 
-{% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
+{% include project-image-column.html class="images-three no-margin-bottom no-margin-top no-padding-top" images=page.gallery %}
 
 #### 360 degree advertising campaign development
 The Elevendy team was heavily involved in multiple client-led ideation meetings to identify and develop campaign themes, strategies, and creative executions of every aspect of the pending campaigns. Beyond those meetings we assisted with pitch deck design, campaign element creation on spec, tv spot copywriting, tv spot storyboards, and large OOH experience design

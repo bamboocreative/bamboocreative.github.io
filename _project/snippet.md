@@ -7,7 +7,7 @@ slug: snippet
 logo: logo.svg
 website: http://thesnippetapp.com
 prettywebsite: thesnippetapp.com
-services: Branding, Creative Implementation, Design Thinking, Develpment
+services: Branding, Creative Implementation, Design Thinking, Development
 
 feature_image: /images/projects/snippet/snippet-1.jpg
 

@@ -27,7 +27,6 @@ $( document ).ready(function(){
 			
 			$('.feature-team .team-member').each(function(){
 				if( $(this).attr('data-name') === randomAll.attr('data-name')){
-					console.log('match');
 					match = true;
 					return false;
 				}
@@ -66,7 +65,7 @@ $( document ).ready(function(){
 						
 			var input = $(this);
 			
-			if(!input.val()){
+			if(input.attr('required') && !input.val()){
 				
 				input.addClass('shake');
 				
@@ -125,6 +124,7 @@ $( document ).ready(function(){
 			} else {
 				button.text('Success!');
 				showMessage('Phenomenal! Look forward to working with you soon.', 5000);
+				document.body.scrollTop = document.documentElement.scrollTop = 0;
 				setTimeout(function(){
 					button.text('Submit');
 					$('.form-input').each(function(){

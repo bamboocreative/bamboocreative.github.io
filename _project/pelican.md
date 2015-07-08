@@ -54,9 +54,8 @@ Elevendy (Bamboo's high-end production arm) worked directly with the images Tim 
 {: .center }
 
 The national ad campaign that these images launched received numerous accolades including 4 Gold ADDY awards. The work has been featured in curated galleries on Behance, and on 500px.com. Tim was ecstatic about the results because his client was overjoyed. In the end we made quite a few people look good to their stakeholders with these images, and sometimes...that's what it's all about.
-{: .center } 
 
-{% include project-image-column.html class="images-three no-margin-bottom no-margin-top" images=page.gallery %}
+{% include project-image-column.html class="images-three no-margin-bottom no-margin-top no-padding-bottom" images=page.gallery %}
 
-{% include footer-cta.html text="Let's heat things up together" %}
+{% include footer-cta.html text="Let's heat things up together"  class="no-margin-top"%}
 

@@ -162,6 +162,7 @@ section.project-image-full {
 	}
 
 	img {
+		width: 100%;
 	}
 }
 
@@ -303,10 +304,11 @@ section.project-image-half {
         .big-num {
             font-size: 6em;
             text-align: right;
-            @include span-columns(5 of 12);
             float: none;
             display: inline-block;
             vertical-align: middle;
+            max-width: 58%;
+            margin-right: 2%;
             
             
             @include media(max-width $screen-lg) {
@@ -320,7 +322,9 @@ section.project-image-half {
             @include media(max-width $screen-sm) {
                 font-size: 3em;
                 text-align: center;
-                @include span-columns(12 of 12);
+                width: 100%;
+                max-width: 100%;
+                margin-right: 0;
             }
         }
 
@@ -342,10 +346,10 @@ section.project-image-half {
             line-height: 1em;
             text-align: left;
             color: $primary-color;
-            @include span-columns(4 of 12);
             float: none;
             display: inline-block;
             vertical-align: middle;
+            max-width: 50%;
             
             @include media(max-width $screen-lg) {
                 font-size: 1.8em;
@@ -359,7 +363,8 @@ section.project-image-half {
                 padding: 0;
                 font-size: 1.3em;
                 text-align: center;
-                @include span-columns(12 of 12);
+                width: 100%;
+                max-width: 100%;
             }
         }
     }

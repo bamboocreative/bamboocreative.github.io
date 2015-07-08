@@ -42,7 +42,7 @@ order: 9
 
 ---
 
-### Opportunity:
+### Opportunity
 As Zocalo began growing to multiple locations it was clear that they needed a cohesive brand that enabled them to accurately tell their story. 
 {: .pullquote }
 
@@ -50,7 +50,7 @@ This story needed to be told through updated web and social media presences that
 
 {% include project-image-full.html class="" image=page.image-2 %}
 
-### Solutions:
+### Solutions
 Bamboo launched a brand project with the Zocalo team in order to help bring some cohesion and continuity to the story that is being told. The goal was to put solid language and tools in the hands of those that lead this restaurant.  Bamboo also created a new website and headed up the social media strategy to help build their online presence into something clear, cohesive, and effective. 
 
 {% include project-image-full.html class="image-fixed" image=page.image-3 %}
@@ -61,7 +61,6 @@ Bamboo launched a brand project with the Zocalo team in order to help bring some
 {: .center }
 
 During our time working with Zocalo we were able to help them establish a brand story that effected every part of their organization. From their menu, and uniforms, to the decor and equipment- every aspect of the Zocalo experience was changed.
-{: .center } 
 
 {% include stats.html class="has-background no-margin-bottom" stats=page.stats background=page.stats-background %}
 

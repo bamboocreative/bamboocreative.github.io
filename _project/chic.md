@@ -2,12 +2,12 @@
 layout: project
 body-class: header-light
 title: CHIC Conference
-tagline: CHIC Conference is a triennial event for High School students hosted by the Evangelical Covenant Church. 
+tagline: CHIC Conference is a triennial event for High School students hosted by the Evangelical Covenant Church.
 slug: chic
 logo: logo.svg
-services: Bradning, Design Thinking, Creative Implementation
-website: https://www.chic.com
-prettywebsite: chic.com
+services: Branding, Design Thinking, Creative Implementation
+website: http://chic2015.org
+prettywebsite: chic2015.com
 
 feature_image: /images/projects/chic/chic-1.jpg
 
@@ -40,7 +40,7 @@ order: 4
 ---
 
 ### Opportunity
-CHIC is an event that happens every 3 years. As they were preparing for their 2015 event they needed to attract a new audience that feels invested in the event and would register to attend. 
+CHIC is an event that happens every 3 years. As they were preparing for their 2015 event they needed to attract a new audience that feels invested in the event and would register to attend.
 {: .pullquote }
 
 This opportunity was even more important to the organization given the fact that the CHIC team had some internal confusion around the brand and story of the conference.
@@ -69,7 +69,6 @@ Through this project we partnered with the CHIC team on several initiatives:
 {: .center }
 
 During our time working with CHIC we were able to build their social audience by tripling their fan base on Facebook, doubling their followers on Twitter, and Tripling their followers on instagram. Over the course of 12 months we were able to reach 1.5 Million people through CHIC Social Media and design. 
-{: .center } 
 
 {% include project-image-full.html class="no-margin-top" image=page.image-3 %}
 

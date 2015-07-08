@@ -7,7 +7,7 @@ slug: sacramento-kings
 logo: logo.svg
 website: http://www.nba.com/kings
 prettywebsite: nba.com/kings
-services: Brand, Design Thinking, Creative Production
+services: Branding, Design Thinking, Creative Production
 
 feature_image: /images/projects/kings/kings-1.jpg
 
@@ -42,7 +42,7 @@ Our charge was to build a campaign that would build true fan excitement and turn
 {% include project-image-full.html class="no-margin-bottom" image=page.image-3 %}
 
 ### Solutions
-Elevendy (a Bamboo skunkworks company) worked diligently to develop a mix of solutions that would serve to reinvigorate the fanbase and pave the way for a potential record-setting sale of the franchise.
+Elevendy (Bamboo's high-end production arm) worked diligently to develop a mix of solutions that would serve to reinvigorate the fanbase and pave the way for a potential record-setting sale of the franchise.
 
 {% include project-image-half.html text="<h4>Realign and refresh the brand</h4><p>We worked in concert with Kings creative leadership to build a compelling, authentic, and unique brand story that would serve as the foundation of our external efforts during the campaign. These are the Kings, the medieval Kings - not the kitchy, lame knights of the round table, but the gritty, focused, and determined \"Game of Thrones\" style Kings.</p><h4>Refreshed team logo</h4><p>A traditional clean-cut vector logo has no chance of looking or feeling authentic to the new storyline that was created. On the other hand, this is the logo of a franchise that has remained unchanged for nearly 30 years and carries a lot of the brands awareness. The logo refresh we completed kept all of the familiar elements while adding a depth and richness that stayed authentic with the new brand story. Acceptance was wide and it was quickly celebrated and embraced by all of the fans in the kingdom.</p>" image=page.image-2 class="" %}
 
@@ -51,7 +51,7 @@ Elevendy (a Bamboo skunkworks company) worked diligently to develop a mix of sol
 #### Character design
 We created a non-player based embodiment of the brand, complete with loads of symbolic meaning for both fans and the ownership group that was delivered and unveiled to the fans via a visual campaign over OOH, magazine, TV, and in-game elements.
 
-#### Epic player photography to match campaign 
+#### Epic player photography to match campaign
 Over 3 seasons our team worked in an expedited manner to take advantage of media day access to the players which meant having each player for only 8 minutes per year for all of the creative elements that would need to be produced. Our team worked like a well oiled machine to get players in, out, and on to their next station before their handlers gave us dirty looks. Beyond shoot day logistics our team mixed CGI, photo elements, and other assets to composite and retouch these highly stylized images.
 
 {% include project-image-full.html class="" image=page.image-7 %}

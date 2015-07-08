@@ -113,8 +113,6 @@ nav.site-nav{
 			font-size: 1.7rem;
 			margin: 0;
 			@include media(max-width $screen-sm){
-				padding: 20px 0;
-				border-bottom: 2px solid map-get($teal, main);
 				&:last-child {
 					display: none;
 				}
@@ -127,13 +125,17 @@ nav.site-nav{
 				padding-bottom: 10px;
 				@include transition(all .4s $ease-in-out-quad);
 				@include media(max-width $screen-sm){
-					&:hover {
-						border-bottom: none;
+					display: block;
+					padding: 20px 0;
+					border-bottom: 1px solid map-get($teal, main);
+					&:hover, :active {
+						
+						background-color: map-get($teal, main);
+						color: white !important;
 					}					
 				}
 				&:hover {
-					
-					border-bottom: 2px solid $action-color;
+					border-bottom: 2px solid map-get($teal, main);
 				}
 				
 			}
