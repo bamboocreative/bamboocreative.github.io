@@ -39,6 +39,9 @@
 			@include media(max-width $screen-sm) { 
 				display: none;
 			}
+			@include media(min-width 1700px) { 
+				width: 100%;
+			}
 		}
 	}
 		
