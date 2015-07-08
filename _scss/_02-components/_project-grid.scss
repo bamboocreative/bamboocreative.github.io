@@ -1,5 +1,4 @@
 .section-project.grid-feature {
-	
 	$grid-max-height: 300px;
 	
 	@include clearfix;
@@ -17,6 +16,7 @@
 		
 		&:hover {
 			@extend .background-image-hover;
+			
 			.project-info {
 				opacity: 1;
 				visibility: visible;
@@ -77,7 +77,7 @@
 			}
 			.project-overlay{
 				visibility: visible;
-				opacity: .25;
+				opacity: .5;
 			}
 		}
 		

@@ -51,6 +51,8 @@
 	
 	.project-info {
 		@include span-columns(8);
+		position: relative;
+		z-index: 2;
 		@include media(max-width $screen-sm) { 
 			@include span-columns(12);
 		}
