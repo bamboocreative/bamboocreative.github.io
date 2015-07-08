@@ -3,6 +3,10 @@ body {
 }
 body.show-message {
 	@include transform(translateY(100px) translate3d(0, 0, 0));	
+	.message{
+		visibility: visible;
+		opacity: 1;
+	}
 }
 
 .message {
@@ -20,6 +24,8 @@ body.show-message {
 	@include transition(all .4s $ease-in-out-quad);
 	@include transform(translateY(-100%) translate3d(0, 0, 0));
 	font-family: $base-serif-font;
+	visibility: hidden;
+	opacity: 0;
 	
 	> {
 		font-size: .9rem;
