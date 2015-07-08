@@ -68,9 +68,7 @@ Through this project we partnered with the CHIC team on several initiatives:
 # Outcomes
 {: .center }
 
-During our time working with CHIC we were able to build their social audience by tripling their fan base on Facebook, doubling their followers on Twitter, and Tripling their followers on instagram. Over the course of 12 months we were able to reach 1.5 Million people through CHIC Social Media and design. 
-
-{% include project-image-full.html class="no-margin-top" image=page.image-3 %}
+{% include project-image-half.html text="<p>During our time working with CHIC we were able to build their social audience by tripling their fan base on Facebook, doubling their followers on Twitter, and Tripling their followers on instagram. Over the course of 12 months we were able to reach 1.5 Million people through CHIC Social Media and design.</p>" image=page.image-3 class="" %}
 
 {% include footer-cta.html text="How can we help tell your story?" %}
 
