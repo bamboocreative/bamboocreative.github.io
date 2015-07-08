@@ -94,7 +94,7 @@ $( document ).ready(function(){
 		
 		var error = false;
 		
-		var HTMLMessage = '<h1>Boom! Incoming Project.</h1>';
+		var HTMLMessage = '<h1>Boom! Get to work Dave. You have an incoming project.</h1>';
 		
 		$('.form-input').each(function(){
 						
@@ -136,7 +136,7 @@ $( document ).ready(function(){
 			"from_email": $('#email').val(),
 			"from_name": $('#name').val(),
 			"to": [{
-				"email": "jake@bamboocreative.com",
+				"email": "dave@bamboocreative.com",
 				"name": "Dave Cox",
 				"type": "to"
 			}],

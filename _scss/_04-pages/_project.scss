@@ -274,6 +274,7 @@ section.project-image-half {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     @include row;
     
     &.has-background {
