@@ -161,7 +161,6 @@
 	padding: 10vh 1em 0px 1em;
 	text-align: center;
 	position: relative;
-	z-index: -1;
 	@include media(max-width $screen-sm) { 
 		border-bottom: 2px solid map-get($gray, faded);
 	}
@@ -198,6 +197,8 @@
 	.feature-team {
 		@include row();
 		margin: 120px 40px 0 40px;
+		position: relative;
+		z-index: -1;
 		@include media(max-width $screen-sm) { 
 			margin: 80px 0 0 0;
 		}
