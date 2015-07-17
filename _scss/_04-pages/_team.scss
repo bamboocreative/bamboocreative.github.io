@@ -61,6 +61,7 @@
 		hr {
 			width: 30%;
 			margin: 20px auto;
+			border-color: map-get($teal, main);
 		}
 		
 		.person-overlay {

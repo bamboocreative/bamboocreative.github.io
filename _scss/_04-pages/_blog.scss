@@ -1,0 +1,160 @@
+.post-link {
+	display: block;
+	text-decoration: none;
+	color: $font-color;
+	@include transition(all .2s $ease-in-out-quad);	
+	
+	
+	&:hover {
+		.post-background {
+			@extend .background-image-hover;
+		}
+	}
+	
+}
+
+.post-wrap .section-post.full-feature{
+	margin-top: 80px;
+	border-top: 1px solid map-get($gray, light);
+	border-bottom: none;
+}
+
+.post-wrap {
+	.project-header {
+		background-color: map-get($gray, main);
+		z-index: -1;
+	}
+}
+
+.post-link.text-only {
+	.section-post.full-feature {
+		padding: 5% 1em;
+		padding: 5vh 1em;
+		
+		.post-info {
+			@include span-columns(12);
+		}
+	}
+}
+
+.section-post.full-feature {
+	position: relative;
+	overflow: hidden;
+	padding: 20% 1em;
+	padding: 20vh 1em;
+	border-bottom: 1px solid map-get($gray, light);
+	
+	&.light {
+		color: white;
+	}
+	
+	&.has-image {
+		color: white;
+		.post-overlay {
+			@extend .show-overlay;
+		}
+	}
+	
+	.next-post-badge {
+		@extend .next-project-badge;
+		color: white;
+	}
+	 
+	
+	@include media(max-width $screen-sm) { 
+		padding: 10% 1em;
+		padding: 10vh 1em;
+	}
+	
+	.post-info-wrapper {
+		@include outer-container;
+	}
+	
+	.post-info {
+		@include span-columns(8);
+		@include transition(all .2s $ease-in-out-quad);	
+		position: relative;
+		z-index: 2;
+		@include media(max-width $screen-sm) { 
+			@include span-columns(12);
+		}
+	}
+	
+	.post-info {
+		&:hover{			
+			.post-title {opacity: .7}
+			
+			.post-tagline {opacity: .7}
+			
+			.post-author {opacity: .7}
+		}
+	}
+	
+	.post-title {
+		font-size: 2.8rem;
+		font-weight: 600;
+		line-height: 1.2;
+		margin: 20px 0;
+		@include transition(all .2s $ease-in-out-quad);	
+		@include media(max-width $screen-sm) { 
+			font-size: 2.2rem;
+		}
+	}
+	
+	.post-tagline {
+		margin: 20px 0;
+		line-height: 1.5;
+		@include transition(all .2s $ease-in-out-quad);	
+		@include media(max-width $screen-sm) { 
+			font-size: 1rem;
+		}
+	}
+	
+	.post-author {
+		margin: 20px 0;
+		font-size: 1rem;
+		font-style: italic;
+		font-weight: 500;
+		@include transition(all .2s $ease-in-out-quad);	
+		@include media(max-width $screen-sm) { 
+			font-size: .8rem;
+		}
+	}
+	
+	.post-overlay {
+		@extend .overlay;
+	}
+	
+	.post-background {
+		@extend .background-image;
+	}
+}
+
+
+
+.post-excerpt{
+    border-bottom: 1px solid lighten($font-color-light, 20%);
+    padding-bottom: 2em;
+    
+    h3{
+        margin: 1em 0 0.6em 0;
+        text-transform: capitalize;
+    }
+    
+    &:last-of-type{
+        border-bottom: none;
+    }
+
+    .excerpt-footer{
+        color: $font-color-light;
+        font-style: italic;
+        
+        .date{
+          color: $primary-color;
+        }
+    }
+    
+    h2{
+        margin-bottom: 0.6em;
+    }
+}

@@ -22,7 +22,7 @@ address-map: https://www.google.com/maps/place/6020+W+Oaks+Blvd+%23180,+Rocklin,
 
 # Blog Settings
 permalink: blog/:title/
-paginate: 8
+paginate: 100
 paginate_path: "blog/page:num"
 
 # We need a sitemap
@@ -41,7 +41,7 @@ exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   project:
     output: true
-    permalink: /project/:path/
+    permalink: /our-work/:path/
     output_ext: false
     
   people:

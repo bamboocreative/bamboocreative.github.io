@@ -7,6 +7,8 @@ author: Bamboo
 excerpt: "Our CEO and Founder, CJ Alvarado, recognized as a Sacramento Business Journal’s 40 under 40 winner for 2013!"
 redirect_from: /congratulations-cj/
 image: /images/posts/cj.jpg
+background_color: '#3cbeaf'
+color: light
 ---
 
 ![Congratulations, CJ.](/images/posts/cj.jpg){: .left-img} Congratulations to our CEO and Founder, **[CJ Alvarado](https://twitter.com/cjalvarado)** for being recognized as one of the Sacramento Business Journal’s 40 under 40 winners for 2013!

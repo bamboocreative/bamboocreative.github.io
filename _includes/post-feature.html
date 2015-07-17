@@ -1,0 +1,38 @@
+{% assign posts = site.posts  %}
+
+{% for post in posts | limit: include.limit | offset: include.offset %}
+{% if forloop.index < 10 %}
+<a class="post-link" href="{{post.url}}">
+	<section class="section-post full-feature {{ post.has-image }} {{ post.color }}" style="background-color: {{post.background_color}};">
+		<div class="post-info-wrapper">
+			<div class="post-info">
+				{% if include.type == 'next-post' %}
+					<div class="next-post-badge">Next Post</div>
+				{% endif %}
+				<div class="post-title">{{ post.title }}</div>
+				<div class="post-tagline">{{ post.excerpt | markdownify }}</div>
+				<div class="post-author">Created by {{ post.author }}</div>
+				<div class="button">View Post</div>
+			</div>
+		</div>
+		<div class="post-background" style="background-image: url('{{post.feature_image}}')"></div>
+		<div class="post-overlay"></div>
+	</section>
+</a>
+{% else %}
+
+<a class="post-link text-only" href="{{post.url}}">
+	<section class="section-post full-feature {{ post.has-image }} {{ post.color }}" style="">
+		<div class="post-info-wrapper">
+			<div class="post-info">
+				<div class="post-title">{{ post.title }}</div>
+				<div class="post-author">Created by {{ post.author }}</div>
+			</div>
+		</div>
+	</section>
+</a>
+
+
+{% endif %}
+
+{% endfor %}

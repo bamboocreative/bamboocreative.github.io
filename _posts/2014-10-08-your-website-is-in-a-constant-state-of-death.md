@@ -4,10 +4,13 @@ title: "Your Website is in a Constant State of Death"
 categories: bamboo
 author: "Garrett Boatman"
 excerpt: "Why a website isn’t done when it’s done."
-image: /images/posts/death.jpg
----
+feature_image: '/images/posts/death.jpg'
+background_color: ''
+color: 'light'
+has-image: has-image
+show_overlay: show-overlay
 
-![Your website's on fire](/images/posts/death.jpg){: .feat-img}
+---
 
 You needed a new website.
 

@@ -26,12 +26,18 @@
 		padding: 1.5em;
 		text-align: center;
 		border-right: 1px solid map-get($gray, light);
+		min-height: 330px;
+		
+		@include media(max-width $screen-md){
+			font-size: 1rem;
+		}
 		
 		@include media(max-width $screen-sm){
 			@include span-columns(12);
 			border-bottom: 1px solid map-get($gray, light);
 			border-right: none;
 			font-size: 1rem;
+			min-height: 0;
 			img{
 				width: 60px;
 			}

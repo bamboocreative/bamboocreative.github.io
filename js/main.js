@@ -4,6 +4,17 @@ $( document ).ready(function(){
 		
 	document.addEventListener("touchstart", function(){}, true);
 	
+	if($('body.page-home').length){
+		 var height =  $(window).height();	
+		 var height =  $(window).height();
+		 $('.section-hero').css({'height': height + 'px'});	 
+	}
+	
+	$(window).resize( function(){
+		var height =  $(window).height();
+		$('.section-hero').css({'height': height + 'px'});
+	});
+	
 	if($('#header-mark').length){
 		var mark = $('#header-mark').offset().top;
 		var top = $(window).scrollTop();
@@ -43,12 +54,15 @@ $( document ).ready(function(){
 		}
 	});
 	
-	if($('.feature-team').length && $(window).width() > 768){
+	if($('.feature-team').length){
 				
 		window.setInterval(function(){
 			
 			var randomPerson = Math.floor(Math.random() * 9) + 1;
 			var randomSelection = Math.floor(Math.random() * 4) + 1;
+			if($(window).width() < 768){
+				randomSelection = Math.floor(Math.random() * 3) + 1;
+			} 
 			var append = randomSelection;
 			
 			var randomFeat = $('.feature-team .team-member:nth-child(' + randomSelection +')');

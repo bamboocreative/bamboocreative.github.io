@@ -3,7 +3,7 @@ layout: person
 image: emily.jpg
 name: Emily Lokteff
 author: emilylokteff
-title: Marketing Research
+title: Social Media Specialist
 order: 12
 
 social: 
