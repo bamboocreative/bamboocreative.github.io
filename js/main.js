@@ -116,7 +116,7 @@ $( document ).ready(function(){
 				button.text('Try Again.');
 				
 				setTimeout(function(){
-					button.text('Submit');
+					button.text('SEND IT!');
 				}, 2000)
 				
 				error = true;
@@ -163,14 +163,14 @@ $( document ).ready(function(){
 			if(response.status === 'error'){
 				button.text('Try Again');
 				setTimeout(function(){
-					button.text('Submit');
+					button.text('SEND IT!');
 				}, 2000)
 			} else {
 				button.text('Success!');
 				showMessage('Phenomenal! Look forward to working with you soon.', 5000);
 				document.body.scrollTop = document.documentElement.scrollTop = 0;
 				setTimeout(function(){
-					button.text('Submit');
+					button.text('SEND IT!');
 					$('.form-input').each(function(){
 						var input = $(this);
 						input.val('');

@@ -6,10 +6,10 @@ categories: bamboo
 author: Jake Elia
 excerpt: "Our office is divided; to love cat photos or to not love cat photos, that is the question."
 redirect_from: /good-content/
-image: /images/posts/good-content.jpg
+feature_image: /images/posts/good-content.jpg
+has-image: has-image
+show_overlay: show-overlay
 ---
-
-![Good Content](/images/posts/good-content.jpg){: .feat-img}
 
 Our office is divided; to love cat photos or to not love cat photos, that is the question.
 

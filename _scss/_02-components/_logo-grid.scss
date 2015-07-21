@@ -1,0 +1,70 @@
+.section-logos {
+	padding: 5% 1em 5% 1em;
+	border-bottom: 1px solid #dadada;
+	
+	p {
+		text-align: center;
+		font-weight: 400;
+		font-size: 1.6rem;
+		font-family: $base-serif-font;
+	}
+	
+	&.border-top {
+		border-top: 1px solid #dadada;
+	}
+	
+	&.col-4 {
+		.logo {
+			@include span-columns(1 of 4);
+			@include media(min-width $screen-sm) {
+				@include omega(4n);
+			}
+			@include media(max-width $screen-sm) {
+				@include span-columns(1 of 2);
+				@include omega(2n);
+			}
+		}
+	}
+	&.col-6 {
+		.logo {
+			@include span-columns(1 of 6);
+			@include media(min-width $screen-sm) {
+				@include omega(6n);
+			}
+			@include media(max-width $screen-sm) {
+				@include span-columns(1 of 2);
+				@include omega(2n);
+			}
+		}
+	}
+	&.col-8 {
+		.logo {
+			@include span-columns(1 of 8);
+			@include media(min-width $screen-sm) {
+				@include omega(8n);
+			}
+			@include media(max-width $screen-sm) {
+				@include span-columns(1 of 2);
+				@include omega(2n);
+			}
+		}
+	}
+	
+	.logo-wrapper {
+		@include outer-container(90%);
+	}
+
+	
+	.logo {
+		margin-top: 20px;
+		margin-bottom: 20px;
+				
+		img {
+			max-width: 100%;
+		}
+		
+	}
+
+}
+
+

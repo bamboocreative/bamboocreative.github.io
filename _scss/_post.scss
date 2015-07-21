@@ -40,12 +40,17 @@
 blockquote{
     p{
         padding-left: 2em;
-        border-left: 3px solid $font-color-light;
+        border-left: 3px solid map-get($teal, main);
         color: $font-color-light;
+        font-size: 2.3rem;
+        font-style: italic;
         em{
             display: block;
-            text-align: right;
-            color: $font-color;
+            margin-top: 20px;
+            font-size: .9rem;
+            font-family: $base-sans-font;
+            font-style: normal;
+            color: map-get($teal, main);
         }
     }
 }
@@ -56,4 +61,10 @@ blockquote{
     margin-right: 25px;
     height: 80px;
     border-radius: 40px;
+}
+
+.retreat-gal {
+	img {
+		width: 32%;
+	}
 }

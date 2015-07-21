@@ -23,6 +23,10 @@
 	.project-header {
 		background-color: map-get($gray, main);
 		z-index: -1;
+		
+		.project-url {
+			color: white;
+		}
 	}
 }
 
@@ -33,6 +37,7 @@
 		
 		.post-info {
 			@include span-columns(12);
+			color: map-get($gray, dark)
 		}
 	}
 }
@@ -129,6 +134,7 @@
 		@extend .background-image;
 	}
 }
+
 
 
 

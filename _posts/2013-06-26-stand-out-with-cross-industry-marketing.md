@@ -9,8 +9,6 @@ redirect_from: /stand-out-with-cross-industry-marketing/
 image: /images/posts/stand-out-with-cross-industry-marketing.jpg
 ---
 
-![Stand Out with Cross-Industry Marketing](/images/posts/stand-out-with-cross-industry-marketing.jpg){: .feat-img}
-
 _No matter what industry a company is in, brand building is paramount._
 
 In today’s marketing world, how can you help your brand gain visibility and traction within larger markets and reach out to ever-growing circles of customers? The short and sweet answer: go cross-industry.

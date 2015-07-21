@@ -2,6 +2,21 @@
 layout: page
 title: About
 fulltitle: What We Do
+
+logos: 
+  - image: '/images/logos/booklaunch.png'
+    name: 'Booklaunch'
+    link: 'https://booklaunch.io'
+  - image: '/images/logos/snippet.png'
+    name: 'Snippet App'
+    link: 'https://thesnippetapp.com'
+  - image: '/images/logos/brandcamp.png'
+    name: 'Brand Camp'
+    link: 'http://brandcamp.io'
+  - image: '/images/logos/presslaunch.png'
+    name: 'Presslaunch'
+    link: 'https://presslaunch.io'
+
 ---
 
 <section class="page-header">
@@ -50,7 +65,9 @@ fulltitle: What We Do
 			</div>
 		</div>
 	</div>
-	
+		
 </section>
 
-{% include footer-cta.html text="Let's get started." %}
+{% include logo-grid.html logos=page.logos limit=4 class="col-4 border-top" text="Products we've developed:" %}
+
+{% include footer-cta.html text="Let's get started." class="no-margin-top" %}

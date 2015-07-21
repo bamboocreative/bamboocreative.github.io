@@ -54,6 +54,8 @@ body-class: header-light page-home
 
 {% include project-grid.html type='home' limit=5 %}
 
+{% include logo-grid.html logos=site.logos limit=32 class="col-8" text="" %}
+
 {% assign people = site.people | sort: "order" %}
 
 <section class="section-team">
