@@ -1,6 +1,6 @@
 s3_id: AKIAJUIF52H7BO5F5QTA
 s3_secret: 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
-s3_bucket: bamboocreative.com.s3-website-us-west-2.amazonaws.com
+s3_bucket: bamboocreative.com
 cloudfront_distribution_id: EA25PRAQLK8UY
 
 # Below are examples of all the available configurations.
@@ -19,7 +19,7 @@ cloudfront_distribution_id: EA25PRAQLK8UY
 # gzip_zopfli: true
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
-# s3_endpoint: ap-northeast-1
+s3_endpoint: us-west-2
 
 # ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
 
