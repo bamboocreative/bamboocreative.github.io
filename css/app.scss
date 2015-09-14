@@ -1,39 +1,35 @@
----
----
-
 // These are Libraries
-@import "_07-vendors/bourbon/bourbon";
-@import "_07-vendors/neat/neat";
-@import "_07-vendors/normalize";
-@import "_07-vendors/animate";
+@import "../_scss/_07-vendors/bourbon/bourbon";
+@import "../_scss/_07-vendors/neat/neat";
+@import "../_scss/_07-vendors/normalize";
+@import "../_scss/_07-vendors/animate";
 
-@import "_06-utils/color-palette";
-@import "_06-utils/variables";
+@import "../_scss/_06-utils/color-palette";
+@import "../_scss/_06-utils/variables";
 
+@import "../_scss/_01-base/base";
+@import "../_scss/_01-base/typography";
+@import "../_scss/_01-base/fonts";
+@import "../_scss/_02-components/overlay";
+@import "../_scss/_02-components/buttons";
+@import "../_scss/_02-components/project-featured";
+@import "../_scss/_02-components/project-grid";
+@import "../_scss/_02-components/logo-grid";
+@import "../_scss/_02-components/testimonial";
+@import "../_scss/_02-components/message";
+@import "../_scss/_03-layout/header";
+@import "../_scss/_03-layout/footer";
+@import "../_scss/_04-pages/base";
+@import "../_scss/_04-pages/home";
+@import "../_scss/_04-pages/team";
+@import "../_scss/_04-pages/project";
+@import "../_scss/_04-pages/services";
+@import "../_scss/_04-pages/hire-us";
+@import "../_scss/_04-pages/contact";
+@import "../_scss/_04-pages/blog";
+@import "../_scss/_04-pages/playbook";
 
-@import "_01-base/base";
-@import "_01-base/typography";
-@import "_01-base/fonts";
-@import "_02-components/overlay";
-@import "_02-components/buttons";
-@import "_02-components/project-featured";
-@import "_02-components/project-grid";
-@import "_02-components/logo-grid";
-@import "_02-components/testimonial";
-@import "_02-components/message";
-@import "_03-layout/header";
-@import "_03-layout/footer";
-@import "_04-pages/base";
-@import "_04-pages/home";
-@import "_04-pages/team";
-@import "_04-pages/project";
-@import "_04-pages/services";
-@import "_04-pages/hire-us";
-@import "_04-pages/contact";
-@import "_04-pages/blog";
-@import "_04-pages/playbook";
-
-@import "main";
+@import "../_scss/main";
 
 .so-icon, .person-social a{
 	color: #fff;
@@ -80,9 +76,9 @@ $mamabear: 769px;
 $papabear: 1140px;
 $monsterbear: 1300px;
 
-@import "components";
-@import "forms";
-@import "pagination";
-@import "post";
+@import "../_scss/components";
+@import "../_scss/forms";
+@import "../_scss/pagination";
+@import "../_scss/post";
 
 
