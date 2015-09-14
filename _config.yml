@@ -32,10 +32,10 @@ gems:
 
 # Build settings
 markdown: kramdown
+
 sass:
-  sass_dir: _scss
-  style: :expanded
-  
+  style: :compressed
+
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 
 collections:
@@ -43,10 +43,10 @@ collections:
     output: true
     permalink: /our-work/:path/
     output_ext: false
-    
+
   people:
     output: true
-    
+
 # All Bamboo Employees
 authors:
   cjalvarado:
@@ -85,5 +85,3 @@ logos:
     name: 'The Snippet App'
   - image: '/images/logos/zocalo.png'
     name: 'Zocalo'
-  
-    
