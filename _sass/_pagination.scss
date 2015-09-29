@@ -1,0 +1,39 @@
+.pagination{
+    font-size: 1.1em;
+    
+    * {
+        color: white;
+        background-color: $primary-color;
+        font-size: .85em;
+        text-align: center;
+        border-radius: 30px;
+        display: inline-block;
+        border: 1px solid transparent;
+        line-height: 1.4em;
+    }
+
+
+    a {
+        @include transition(all .3s $ease-out-quint);
+        
+        &:hover{
+            background-color: $font-color-light;
+        }
+        
+        &:active{
+            background-color: lighten($font-color-light, 20%);
+            transition: none;
+        }
+    }
+    
+    span{
+        color: $primary-color;
+        background-color: white;
+        border: 1px solid $primary-color;
+    }
+    
+    a, span{
+        text-decoration: none;
+    }
+    
+}

@@ -1,0 +1,89 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "_07-vendors/bourbon/bourbon";
+@import "_07-vendors/neat/neat";
+@import "_07-vendors/normalize";
+@import "_07-vendors/animate";
+
+@import "_06-utils/color-palette";
+@import "_06-utils/variables";
+
+@import "_01-base/base";
+@import "_01-base/typography";
+@import "_01-base/fonts";
+@import "_02-components/overlay";
+@import "_02-components/buttons";
+@import "_02-components/project-featured";
+@import "_02-components/project-grid";
+@import "_02-components/logo-grid";
+@import "_02-components/testimonial";
+@import "_02-components/message";
+@import "_03-layout/header";
+@import "_03-layout/footer";
+@import "_04-pages/base";
+@import "_04-pages/home";
+@import "_04-pages/team";
+@import "_04-pages/project";
+@import "_04-pages/services";
+@import "_04-pages/hire-us";
+@import "_04-pages/contact";
+@import "_04-pages/blog";
+@import "_04-pages/playbook";
+
+@import "main";
+
+.so-icon, .person-social a{
+	color: #fff;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	display: inline-block;
+	font-size: 21px;
+	position: relative;
+	
+	@include transition(.3s background);
+	
+	i{
+		position: absolute;
+		left: 0;
+		top: 5px;
+		right: 0;
+		bottom: 0;
+	}
+	
+}
+
+/*
+.social, .person-social{
+	.twitter{background: $twitter; i{left: 1px; top: 7px;} &:hover{background: darken($twitter, 15%)}}
+	.facebook{background: $facebook; i{top: 7px;} &:hover{background: darken($facebook, 15%)}}
+	.instagram{background: $instagram; i{left: 1px; top: 7px;} &:hover{background: darken($instagram, 10%)}}
+	.youtube{background: $youtube; i{left: 3px; top: 6px;} &:hover{background: darken($youtube, 10%)}}
+	.pinterest{background: $pinterest; i{left: 3px; top: 6px;} &:hover{background: darken($pinterest, 10%)}}
+	.google{background: $google; i{left: 3px; top: 8px;} &:hover{background: darken($google, 5%)}}
+	.rdio{background: $rdio; i{left: 2px; top: 6.5px;} &:hover{background: darken($rdio, 5%)}}
+	.dribbble{background: $dribbble; i{left: 3px; top: 8px;} &:hover{background: darken($dribbble, 5%)}}
+	.github{background: $github; i{left: .5px; top: 7px;} &:hover{background: darken($github, 5%)}}
+	.spotify{background: $spotify; i{left: 1px; top: 7px;} &:hover{background: darken($spotify, 5%)}}
+	
+	
+	.i-email{background: $email; i{left: 3px; top: 6px;} &:hover{background: darken($email, 10%)}}
+}
+*/
+
+$babybear: 321px;
+$mamabear: 769px;
+$papabear: 1140px;
+$monsterbear: 1300px;
+
+@import "components";
+@import "forms";
+@import "pagination";
+@import "post";
+
+
