@@ -24,7 +24,8 @@ Even when you side-step to a pretty rough idea, you’re still stepping in a dir
 
 ## Focus on Content
 When you dive right into making color decisions or adjusting drop shadows before carefully planning the structure of your website, you run the risk of letting the design dictate the content. Unless you’re a design agency, probably the most valuable thing you have for your website will be the content, and not the visual appeal. Taking wireframing seriously will force you to thoughtfully consider the organization of your content.
-
+ 
+ 
 ## Reviewing Your Paper Wireframes
 When wireframing, it’s important to develop a review process that works for you and your team. You should set clear rules about how the team will make decisions on which pieces of the wireframe work and don’t work. Here’s a look at how our wireframing process runs:
 
