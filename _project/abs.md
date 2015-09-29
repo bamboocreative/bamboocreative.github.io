@@ -18,8 +18,8 @@ image-3: /images/projects/abs/abs-3.jpg
 video: <iframe src="https://player.vimeo.com/video/61279271?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 featured: false
-homepage_grid: false
-homepage_grid_order: 0
+homepage_grid: true
+homepage_grid_order: 3
 
 order: 11
 

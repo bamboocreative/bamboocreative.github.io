@@ -31,8 +31,8 @@ stats:
 
 
 featured: false
-homepage_grid: false
-homepage_grid_order: 0
+homepage_grid: true
+homepage_grid_order: 4
 
 order: 12
 

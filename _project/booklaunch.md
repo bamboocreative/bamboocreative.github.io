@@ -31,8 +31,7 @@ stats:
    copy: Facebook fan base growth
 
 featured: true
-homepage_grid: true
-homepage_grid_order: 4
+
 
 locked: true
 

@@ -13,7 +13,7 @@ feature_image: /images/projects/stanford/stanford-1.jpg
 
 
 featured: true
-homepage_grid: true
+homepage_grid: false
 homepage_grid_order: 4
 
 order: 8

@@ -63,8 +63,13 @@ $( document ).ready(function(){
 				
 		window.setInterval(function(){
 			
-			var randomPerson = Math.floor(Math.random() * 9) + 1;
+			var randomPerson = Math.floor(Math.random() * 6) + 1;
+			console.log(randomPerson)
+			console.log('ig')
+
 			var randomSelection = Math.floor(Math.random() * 4) + 1;
+
+			console.log(randomSelection)
 			if($(window).width() < 768){
 				randomSelection = Math.floor(Math.random() * 3) + 1;
 			} 

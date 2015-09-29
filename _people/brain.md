@@ -5,7 +5,7 @@ name: Brian Smith
 author: briansmith
 title: Designer
 bio: Cj is a very smart person. There are also cool things about him. Like his beard (not pictured).
-order: 7
+order: 5
 
 social: 
   - account: twitter
