@@ -1,0 +1,11 @@
+<section class="project-stats {{include.class}}" style="background-image: url('{{include.background}}')">
+	{% for item in include.stats  %}
+		<div class="stat-wrap">
+			<div class="big-num">
+				<span class="number">{{item.number}}</span>
+				<span class="unit">{{item.unit}}</span>
+			</div>
+			<div class="copy">{{item.copy}}</div>
+		</div>
+	{% endfor %}
+</section>

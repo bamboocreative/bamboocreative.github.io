@@ -3,13 +3,13 @@ layout: post
 title:  "Humanity's Lottery"
 date:   2014-03-04 12:00:00
 categories: bamboo 
-author: CJ Alvarado
+author: cjalvarado
 excerpt: "Over the years, I’ve had the opportunity to visit some remote places in the world. On one occasion, I was in a remote jungle in Chiang Mai, Thailand helping a Thai American doctor provide aid to refugees fleeing civil unrest in Burma."
 redirect_from: /humanitys-lottery/
-image: /images/posts/humanitys-lottery.jpg
+feature_image: /images/posts/humanitys-lottery.jpg
+has-image: has-image
+show_overlay: show-overlay
 ---
-
-![Humanity's Lottery](/images/posts/humanitys-lottery.jpg){: .feat-img}
 
 Over the years, I’ve had the opportunity to visit some remote places in the world. On one occasion, I was in a remote jungle in Chiang Mai, Thailand helping a Thai American doctor provide aid to refugees fleeing civil unrest in Burma. After a long, physically and emotionally draining day, I laid down on my mat and looked up at the stars. I thought, “My friends and family look at these same stars but under very different conditions.”
 

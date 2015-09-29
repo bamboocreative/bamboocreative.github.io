@@ -3,13 +3,13 @@ layout: post
 title: "Beautiful"
 date:   2014-09-22 12:00:00
 categories: bamboo
-author: "Bamboo"
+author: CJ Alvarado
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."
-image: /images/posts/beautiful.jpg
+feature_image: /images/posts/beautiful.jpg
 redirect_from: /Beautiful/
+has-image: has-image
+show_overlay: show-overlay
 ---
-
-![Beautiful Things](/images/posts/beautiful.jpg){: .feat-img}
 
 > "The worlds greatest scientists, philosophers, and artists agree: If an idea isn’t beautiful, it’s probably not innovative. They’re putting a special spin on the word beautiful by defining beauty as a quality of wholeness, or harmony, that generates pleasure, meaning, and satisfaction. A beautiful idea is often a great idea.” *Marty Neumeier*
 

@@ -7,9 +7,9 @@ author: Ben De Rienzo
 excerpt: "We had a chance to work with Lincoln Brewster, singer, songwriter and guitar extraordinaire, on his latest Christmas album.  From the very beginning, we knew that this would not be just another Christmas album. Lincoln, in fact, decided to donate all the proceeds of this project to the Northern Congo."
 redirect_from: /lincoln-brewster---joy-to-the-world/
 image: /images/posts/joy-to-the-world.jpg
+background_color: 'rgb(102, 27, 27)'
+color: light
 ---
-
-![Joy To The World](/images/posts/joy-to-the-world.jpg){: .feat-img}
 
 We had a chance to work with Lincoln Brewster, singer, songwriter and guitar extraordinaire, on his latest Christmas album.  From the very beginning, we knew that this would not be just another Christmas album. Lincoln, in fact, decided to donate all the proceeds of this project to the Northern Congo.
 

@@ -1,18 +1,94 @@
 ---
 layout: page
 fulltitle: Bamboo Creative | Executing beautiful ideas in Northern CA
+
+body-class: header-light page-home
+
 ---
-<div class="home-tag"> 
-	<h2>Unleash your company's creative potential.</h2>
-	<p>We are a creative firm in Northern California pushing ourselves and clients to execute <a title="Beautiful" href="/blog/beautiful/">beautiful</a> ideas. We delve into creative strategy, branding, design and product development.</p>
-	<span>Some of our trusted clients:</span>
-	<div class="feat-clients">
-    	    {% assign projects = site.project | sort: 'feat-order' %}
-           	{% for project in projects %}
-    		    {% if project.feat-order %}
-                <img alt="{{project.title}}" src="/images/client-assets/{{project.slug}}/logo.svg">
-    		    {% endif %}
-            {% endfor %} 
+
+<section class="section-hero">
+	<div class="video-wrapper">
+	    <div class="video-container">
+		    <video id="example_video_1" class="video-js vjs-default-skin" preload="auto" width="auto" height="auto" poster="/images/video-cover.png"
+	  data-setup='{"controls": false, "autoplay" : true, "loop": "true", "controls": false }'>
+			   <source src="/images/home-video.webm" type='video/webm' />
+			   <source src="/images/home-video.ogv" type='video/ogg' />
+			   <source src="/images/home-video.mp4" type='video/mp4' />
+			</video>
+
+	    </div>
 	</div>
-	<a class="button" href="/projects">Our Work</a>
-</div>
+    <div class="tagline-wrapper">
+	    <h1 class="tagline-hero">Every brand can be GREAT.</h1>
+	    <p class="tagline">We believe all brands (and the people behind them) possess greatness, it just needs to be uncovered, dusted off, and put on display.</p>
+    </div>
+</section>
+
+
+
+<section id="header-mark" class="section-services">
+	
+	<h3>We are a <strong>branding</strong> and <strong>digital</strong> agency that provides:</h3>
+	
+	<div class="service-container">
+		<div class="service-wrapper">
+			<h3>Strategic</br>Insights</h3>
+			<p>We look at an organization holistically to bring insights that have a profound impact.</p>
+		</div>
+		<div class="service-wrapper">
+			<h3>Ideas without</br>Limits</h3>
+			<p>If we're going to help unstick or move you forward, we start with everything on the table.</p>
+		</div>
+		<div class="service-wrapper">
+			<h3>Implementation</br>that Inspires</h3>
+			<p>Insights and ideas only take you so far, eventually this stuff needs to actually get done.</p>
+		</div>
+	</div>
+	
+	<p><a title="View our Work" href="/our-work" class="button">View Our Work</a></p>
+	
+</section>
+
+
+{% include project-feature.html type='home' limit=1 %}
+
+{% include project-grid.html type='home' limit=5 %}
+
+{% include logo-grid.html logos=site.logos limit=32 class="col-8" text="" %}
+
+{% assign people = site.people | sort: "order" %}
+
+<section class="section-team">
+	<div class="team-container">
+		<h3>Sameness <strong>=</strong> Lameness</h3>
+		<p>We're collectors of people, histories, and experiences. There is no Bamboo archetype except to seek out people who are hungry to make an impact and who play well with others.</p>
+		<a href="/our-team" title="Our Team" class="button">Meet the Team</a>
+	</div>
+	
+	<div class="all-team" style="display: none;">
+		{% for person in people %}
+		<div class="team-member hellothere {{person.name | downcase | truncatewords: 1, '' }}" data-name="{{person.name | downcase | truncatewords: 1, '' }}">
+			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
+			<img class="team-line" src="/images/team-line.png">
+			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
+		</div>
+		{% endfor %}
+	</div>
+	
+	<div class="feature-team">
+		{% for person in people | limit: 4  %}
+		<div class="team-member {{person.name | downcase | truncatewords: 1, '' }}" data-name="{{person.name | downcase | truncatewords: 1, '' }}">
+			<div class="team-member-name">{{person.name | truncatewords: 1, ''}}</div>
+			<img class="team-line" src="/images/team-line.png">
+			<img src="/images/people/{{person.image}}" alt="{{person.name}}">
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+{% include testimonial.html text="\"From the moment we partnered, to the latest scores of industry awards... the symbiotic fusion of collaborative creativity, storytelling, and epic imaging has been a critical foundation point of dynamic shift in our brand development.\"" credit="—Craig Amazeen, SVP Broadcast/New Media & Brand Development, Sacramento Kings" class="quote-center light" %}
+
+<section class="section-cta">
+	<a href="/our-work" class="button">View all our work</a>
+	<a href="/hire-us" class="button">Become a Client</a>
+</section>

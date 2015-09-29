@@ -1,0 +1,29 @@
+---
+layout: page
+title: Our Team
+fulltitle: Our Team
+---
+
+<section class="page-header">
+	<h2 class="page-title">Our Team</h2>
+	<p class="page-subtitle">Pairing talented strategic and creative minds with empathetic hearts allows us to truly understand our clients' needs and create beautiful solutions. Our team is a hard-working, unique group with a wide range of backgrounds and expertise.</p>
+</section>
+
+<div id="header-mark"></div>
+
+<div class="people-archive">
+	{% assign people = site.people | sort: 'order' %}
+	{% for person in people %}
+	<div class="person">	
+		<div class="person-wrapper">
+			<h4 class="person-name">{{person.name}}</h4>
+			<hr>
+			<span class="person-title">{{person.title}}</span>
+		</div>
+		<div class="person-background" style="background-image: url('/images/people/{{person.image}}')"></div>
+		<div class="person-overlay"></div>
+	</div>
+	{% endfor %}
+</div>
+
+{% include footer-cta.html text="Join the team." link='mailto:dustin@bamboocreative.com?subject=Join%20the%20team' %}

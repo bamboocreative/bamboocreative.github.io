@@ -2,6 +2,7 @@
 title: Bamboo Creative
 tagline: Executing beautiful ideas in Northern California. We push our clients to exceed their goals. Sometimes, that includes creative strategy, branding, design and product development.
 url: "https://bamboocreative.com" # the base hostname & protocol for your site
+post_dirs: false
 
 # Social
 socialimg: /images/social.jpg
@@ -12,13 +13,16 @@ googleplus: 112568524891449759610
 instagram: feeltheboo
 
 # Contact
-phone: 1 (855) trybamboo
-email: admin
+phone: 1 (855) try-bamboo
+actual_phone: 1 (855) 879-2262
+email: info@bamboocreative.com
+address: '6020 W Oaks Blvd. Suite 180<br>Rocklin, CA 95765'
+address-map: https://www.google.com/maps/place/6020+W+Oaks+Blvd+%23180,+Rocklin,+CA+95765/@38.8108335,-121.2872651,14z/data=!4m2!3m1!1s0x809b223dbf4116d1:0x7d9095bd5be386f6?hl=en-US
 
 
 # Blog Settings
 permalink: blog/:title/
-paginate: 8
+paginate: 100
 paginate_path: "blog/page:num"
 
 # We need a sitemap
@@ -28,8 +32,8 @@ gems:
 
 # Build settings
 markdown: kramdown
+
 sass:
-  sass_dir: _scss
   style: :compressed
 
 exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
@@ -37,63 +41,47 @@ exclude: [scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   project:
     output: true
+    permalink: /our-work/:path/
+    output_ext: false
+
   people:
     output: true
 
-# Configs prose.io for external editing
-prose:
-    rooturl: '_posts'
-    site: 'bamboocreative.github.io'
-    media: 'media'
-    metadata:
-        _posts:
-            -   name: "layout"
-                field:
-                    element: "hidden"
-                    value: "post"
-            -   name: "title"
-                field:
-                    element: "text"
-                    label: "title"
-            -   name: "categories"
-                field:
-                    element: "multiselect"
-                    label: "Add Categories"
-                    placeholder: "Choose Categories.."
-                    options:
-                        -   name: "Bamboo"
-                            value: "bamboo"
-                        -   name: "Web"
-                            value: "web"
-                        -   name: "Design"
-                            value: "design"
-                        -   name: "Productivity"
-                            value: "productivity"
-            -   name: "body-class"
-                field:
-                    element: "hidden"
-                    value: "body-class"
-            -   name: "author"
-                field:
-                    element: "select"
-                    label: "Choose Author"
-                    placeholder: "Choose Author.."
-                    options:
-                        -   name: "Bamboo"
-                            value: "Bamboo"
-                        -   name: "CJ Alvarado"
-                            value: "CJ Alvarado"
-                        -   name: "Ginny Townsend"
-                            value: "Ginny Townsend"
-                        -   name: "Ben Derienzo"
-                            value: "Ben Derienzo"
-                        -   name: "Jake Elia"
-                            value: "Jake Elia"
-                        -   name: "Garrett Boatman"
-                            value: "Garrett Boatman"
-                        -   name: "Josh Reeder-Esparza"
-                            value: "Josh Reeder-Esparza"
-                        -   name: "Angie Wysocki"
-                            value: "Angie Wysocki"
-                        -   name: "Emily Lockteff"
-                            value: "Emily Lockteff"
+# All Bamboo Employees
+authors:
+  cjalvarado:
+  alejandroreyes:
+
+logos: 
+  - image: '/images/logos/rocklin.png'
+    name: 'City of Rocklin'
+  - image: '/images/logos/ubisoft.png'
+    name: 'Ubisoft'
+  - image: '/images/logos/stanford.png'
+    name: 'Stanford University'
+  - image: '/images/logos/advancedphotoshop.png'
+    name: 'Advanced Photoshop'
+  - image: '/images/logos/alldata.png'
+    name: 'All Data'
+  - image: '/images/logos/bayside.png'
+    name: 'Bayside Church'
+  - image: '/images/logos/kings.png'
+    name: 'Sacramento Kings'
+  - image: '/images/logos/booklaunch.png'
+    name: 'Booklaunch'
+  - image: '/images/logos/chic.png'
+    name: 'CHICH Conference'
+  - image: '/images/logos/fleishmanhillard.png'
+    name: 'Fleishmanhillard'
+  - image: '/images/logos/abs.png'
+    name: 'American Bible Society'
+  - image: '/images/logos/jellybelly.png'
+    name: 'Jelly Belly'
+  - image: '/images/logos/pelican.png'
+    name: 'Pelican Gear'
+  - image: '/images/logos/prima.png'
+    name: 'Prima'
+  - image: '/images/logos/snippet.png'
+    name: 'The Snippet App'
+  - image: '/images/logos/zocalo.png'
+    name: 'Zocalo'

@@ -9,8 +9,6 @@ redirect_from: /reading-doesnt-cut-it-anymore/
 image: /images/posts/reading-doesnt-cut-it.jpg
 ---
 
-![Reading Doesn't Cut It Anymore](/images/posts/reading-doesnt-cut-it.jpg){: .feat-img}
-
 It's been an eventful year, with our first venture into designing a mobile application. It probably would have been smart to just pick some garbage-tech idea to cut our teeth on, like a silly, stress-relieving time-waster app or an ultra-simple utility. Instead, Bamboo decided to go after something disruptive by re-imagining (buzzword alert!) the reading experience on mobile devices. [Shaking my head...]
 
 There are myriad topics I could write about the experience, such as struggles of startup ventures, ui/ux techniques, bootstrapping and angel investing, but I'll step way back on my first post on this topic. It actually goes back to one of my biggest pet peeves with this whole process.

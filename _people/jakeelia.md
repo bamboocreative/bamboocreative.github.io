@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: person
 image: jake.jpg
 name: Jake Elia
 author: jakeelia
 title: Product Development & Strategy
-order: 9
+order: 4
 
 social: 
   - account: twitter
@@ -17,5 +17,6 @@ social:
     username: leylandjacob
   - account: rdio
     username: leylandjacob
-    
+
+bio: "Jack of all trades, master of none, and always building something. Most likely to walk up to you and say \"Let me pitch you an idea.\" Connoisseur of most liquids."
 ---

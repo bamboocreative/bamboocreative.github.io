@@ -1,0 +1,23 @@
+<section class="section-logos {{include.class}}">
+	{% if include.text != '' %}
+		<p>{{include.text}}</p>
+	{% endif %}
+	<div class="logo-wrapper">
+	{% for logo in include.logos | limit: include.limit %}
+		
+			<div class="logo">
+				{% if !logo.link or logo.link == '' %}
+					<a href="{{logo.link}}" title="{{logo.name}}" target="_blank">
+				{% endif %}
+				
+				<img src="{{logo.image}}" alt="{{logo.name}}">
+				
+				{% if logo.link != '' %}
+					</a>
+				{% endif %}
+			</div>
+		
+	{% endfor %}
+	</div>
+</section>
+

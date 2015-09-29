@@ -1,0 +1,24 @@
+---
+layout: page
+fulltitle: Our Work
+---
+
+<!-- This is the project page! -->
+<section class="page-header">
+	<h2 class="page-title">Our Work</h2>
+	<p class="page-subtitle">What do video game companies, universities, restaurants, churches, and delicious gelatinous candies have in common? They're all part of the family of partners we get to work with on a daily basis. Our life is awesome.</p>
+</section>
+
+<div id="header-mark"></div>
+
+
+
+{% include project-feature.html class="show-featured-overlay" showOverlay="show-overlay" type='' limit=1 offset=0 %}
+
+{% include project-grid.html type='' limit=10 offset=1 %}
+ 
+{% include testimonial.html text="\"Bamboo has been a catalyst for our brand, leading us to a new level of thinking about how we serve the School of Humanities and Sciences.\"" credit="—Dustin Liang, IT Project Manager, School of Humanities & Sciences Dean's Office" class="quote-center light"%}
+
+{% include logo-grid.html logos=site.logos limit=32 class="col-8" text="" %}
+
+{% include footer-cta.html text="Become one of our case studies" %}

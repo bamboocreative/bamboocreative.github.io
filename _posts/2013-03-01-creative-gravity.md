@@ -7,11 +7,10 @@ author: Jake Elia
 excerpt: "We live in a constant battle with gravity. Nothing is more consistent than that ever-present downward pull."
 redirect_from: /creative-gravity/
 image: /images/posts/creative-gravity.jpg
+background_color: '#dadada'
 ---
 
-![Creative Gravity](/images/posts/creative-gravity.jpg){: .feat-img}
-
-> “I’m as proud of what we don’t do as I am of what we do.” - Steve Jobs
+> “I’m as proud of what we don’t do as I am of what we do.” _- Steve Jobs_
 
 We live in a constant battle with gravity. Nothing is more consistent than that ever-present downward pull.
 

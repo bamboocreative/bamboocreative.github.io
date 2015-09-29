@@ -1,18 +1,23 @@
 ---
 layout: project
-title: Stanford University
+body-class: header-light
+title: Stanford
+tagline: Tagline
 slug: stanford
-image: logo.svg 
-website: http://stanford.edu
-prettywebsite: stanford.edu
-services: Branding, Technology
-feat-order: 2
-order: 5
+logo: logo.svg
+services: Branding, Creative Implementation, Design Thinking
+
+locked: true
+
+feature_image: /images/projects/stanford/stanford-1.jpg
+
+
+featured: true
+homepage_grid: true
+homepage_grid_order: 4
+
+order: 8
+
 ---
 
-We are partnering with one of the country's premiere educational institutions, Stanford University, to advance research and accelerate student engagement through the use of new and existing technology. 
 
-Working primarily with the School of Humanities and Sciences, this project will be unveiled in the Fall of 2014.
-
-![Stanford](/images/client-assets/{{page.slug}}/01.png)
-![Stanford](/images/client-assets/{{page.slug}}/02.jpg)

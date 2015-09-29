@@ -1,0 +1,40 @@
+{% if include.type == 'home' %}
+	{% assign projects = site.project | where:"homepage_grid",true | sort: "homepage_grid_order" %}
+{% else %}
+	{% assign projects = site.project | sort: "order" %}
+{% endif %}
+<section class="section-project grid-feature">
+	
+	{% for project in projects | limit:include.limit | offset: include.offset %}
+		<div class="project">
+			{% if project.locked == true %}
+				<div class="project-link locked" style="background-image: url('{{project.feature_image}}')">
+			{% else %}
+				<a class="project-link" href="{{project.url}}" style="background-image: url('{{project.feature_image}}')">
+			{% endif %}
+			<div class="project-overlay"></div>
+			<div class="project-info-wrapper">
+				<div class="project-info">
+					<div class="project-services">{{project.services}}</div>
+					<hr>
+					<div class="project-name">{{project.title}}</div>
+					<hr>
+					{% if project.locked == true %}
+						<div class="lock-wrapper">
+							<img src="/images/project-lock.png" alt="Project Locked">
+							<p>PROJECT LOCKED<br><span class="locked-small">AVAIlABLE BY REQUEST</span></p>
+						</div>
+					{% else %}
+						<div class="button">View Case Study</div>
+					{% endif %}
+				</div>
+			</div>			
+			{% if project.locked == true %}
+				</div>
+			{% else %}
+				</a>
+			{% endif %}
+		</div>
+	{% endfor %}
+</section>
+

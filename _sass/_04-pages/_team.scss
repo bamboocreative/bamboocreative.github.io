@@ -1,0 +1,109 @@
+.people-archive {
+	@include outer-container;
+	
+	+ .section-cta {
+		margin-top: 80px;
+	}
+	
+	.person {
+		width: 33.333333%;
+		float: left;
+		height: 350px;
+		margin-right: 0;
+		position: relative;
+		display: table;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+		
+		&:nth-child(3n){
+			@include clearfix;
+		} 
+		
+		@include media(max-width $screen-md){
+			width: 50%;
+			height: 500px;
+			&:nth-child(2n){
+				@include clearfix;
+			} 
+		}
+		
+		@include media(max-width $screen-sm){
+			width: 100%;
+			&:nth-child(1n){
+				@include clearfix;
+			} 
+			.person-overlay {
+				visibility: visible;
+				opacity: .5;
+			}
+			&:hover{
+				.person-overlay {
+					opacity: .5;
+				}
+			}
+		}
+				
+		&:hover {
+			.person-overlay {
+				@extend .show-overlay;
+			}
+			.person-wrapper {
+				opacity: 1;
+				visibility: visible;
+			}
+			.person-background {
+				@extend .background-image-hover;
+			}
+		}
+		
+		hr {
+			width: 30%;
+			margin: 20px auto;
+			border-color: map-get($teal, main);
+		}
+		
+		.person-overlay {
+			@extend .overlay;
+			z-index: 0;
+		}
+		
+		.person-background {
+			@extend .background-image;
+			@include filter(grayscale(100%));
+		}
+		
+		.person-wrapper {
+			padding: 10px;
+			display: table-cell;
+			position: relative;
+			z-index: 3;
+			vertical-align: middle;
+			color: #fff;
+			text-align: center;
+			opacity: 0;
+			visibility: hidden;
+			@include transition(all .2s $ease-in-out-quad);
+			@include media(max-width $screen-sm){
+				visibility: visible;
+				opacity: 1;
+			}
+
+			
+			
+			.person-name{
+				padding: 0;
+				margin: 0;
+				line-height: 1em;
+				font-size: 1.3em;
+			}
+			.person-title {
+				font-family: $serif-font-family;
+			}
+			
+		}
+
+	}
+	
+}

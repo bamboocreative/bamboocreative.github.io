@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="page single-person" role="main">
+
+	<header class="person-header">
+		<img class="person-image" alt="{{page.name}}" src="/images/people/{{page.image}}">
+		<h1 class="person-name">{{ page.name }}</h1>
+		<p class="person-bio">{{page.bio}}</p>
+		<div class="person-social">
+			{% for user in page.social %}
+				{% include social.html %}
+			{% endfor %}
+		</div>
+	</header>
+	<section class="author-content">
+		<section class="author-posts">
+			<div class="title-box">Blog Posts</div>
+			{% for post in site.posts %}
+		        {% if post.author == page.author %}
+		        <section class="post-excerpt">
+		            <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
+		            <p>{{ post.excerpt | markdownify }}</p>
+		            <p class="excerpt-footer">{{ post.date | date: "%B %d, %Y" }}</p>
+		        </section>
+		        {% endif %}
+		    {% endfor %}
+		</section>
+		<section class="author-projects">
+			<div class="title-box">Projects</div><br>
+			{% for post in site.project %}
+				{% for author in post.authors %}
+					{% if author.id == page.author %}
+                            <a href="{{post.url}}" class="project">	
+								{% include /logos/{{post.slug}}/logo.svg %}
+							</a>
+                            <!-- <span>Role: {{author.role}}</span> -->
+    		            </a>
+					{% endif %}
+				{% endfor %}
+		    {% endfor %}
+		</section>
+		
+	</section>
+	    {% include pagination.html %} 
+	<section class="proj-content">
+		{{ content }}
+	</section>
+	
+</article>

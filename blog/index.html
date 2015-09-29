@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Blog
+fulltitle: Blog
 ---
 
-<article class="page" role="main">
-    <h2 class="center hidden">Blog</h2>
-    {% for post in paginator.posts %}
-        <section class="post-excerpt">
-            <h3><a title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt | markdownify }}</p>
-            <p class="excerpt-footer">{{ post.author }} wrote this on <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>.</p>
-        </section>
-    {% endfor %}
+<section class="page-header">
+	<h2 class="page-title">Feel the Boo. Be the Boo.</h2>
+	<p class="page-subtitle">A vibrant and objective collection of thoughts, theories, inspiration, and challenges to industry norms; Served up on a platter - as often as we believe we have something that needs to be shared with the planet. Please to enjoy.</p>
+</section>
 
-    {% include pagination.html %}    
+<article class="page blog-feed" role="main" id="header-mark">
+    {% include post-feature.html %}
 </article>
+
+{% include footer-cta.html text="Put our minds to work" %}

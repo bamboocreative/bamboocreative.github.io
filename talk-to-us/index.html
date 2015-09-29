@@ -1,0 +1,37 @@
+---
+
+layout: page
+title: Contact
+fulltitle: Talk to Us
+body-class: contact-page
+
+---
+<section class="page-header">
+	<h2 class="page-title">Talk to Us</h2>
+	<p class="page-subtitle">We love being bombarded by cat videos, hilarious gifs, and all the internet stuff because, reasons. Have a project in mind that you’d like to collaborate on? Want to be the next Bamboo superhero? Want to buy us a drink? Here's how you can contact us:</p>
+</section>
+
+<div id="header-mark"></div>
+
+<div class="contact">
+	<div class="call">
+		<img src="/images/icon-phone.gif" align="Call Us">
+		<a href="tel://1-855-8792262">{{ site.phone }}</a>
+		<span class="small">{{site.actual_phone}}</span>
+	</div>
+	<div class="email">
+		<img src="/images/icon-email.gif" align="Email Us">
+		<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+	</div>
+	<div class="address">
+		<img src="/images/icon-address.gif" align="Visit Us">
+		<a target="_blank" href="{{site.address-map}}">{{site.address}}</a>
+	</div>
+</div>
+<div class="social-icons">
+	<a href="https://www.twitter.com/feeltheboo" class="twitter"><i class="icon-twitter"></i></a>
+	<a href="https://www.facebook.com/BambooCreative" class="facebook"><i class="icon-facebook"></i></a>
+	<a href="https://instagram.com/feeltheboo" class="instagram"><i class="icon-instagram"></i></a>
+</div>
+
+{% include footer-cta.html text="Let's start a project together" %}

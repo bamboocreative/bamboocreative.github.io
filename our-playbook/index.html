@@ -1,0 +1,19 @@
+---
+layout: page
+title: Our Playbook
+fulltitle: Our Playbook
+---
+
+<section class="page-header">
+	<h2 class="page-title">Our Playbook</h2>
+	<p class="page-subtitle">We've spent years developing our crafts, processes, and business. We've compiled that knowledge in to this simple playbook that outlines how we run things. Our playbook evolves as we grow, learn, and change.</p>
+</section>
+
+<div id="header-mark"></div>
+
+<article class="playbook">
+	{% capture playbook %}{% include playbook.md %}{% endcapture %}
+	{{ playbook  | markdownify }}
+</article>
+
+

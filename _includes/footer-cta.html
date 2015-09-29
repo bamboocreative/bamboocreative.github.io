@@ -1,0 +1,8 @@
+<section class="section-cta {{include.class}}">
+	
+	{% if include.link %}
+		<a href="{{include.link}}" class="button" title="{{include.text}}">{{include.text}}</a>
+	{% else %}
+		<a href="/hire-us" class="button" title="{{include.text}}">{{include.text}}</a>
+	{% endif %}	
+</section>

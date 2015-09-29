@@ -1,19 +1,28 @@
 ---
 layout: default
+body-class: header-light
 ---
 
-<article class="page" role="main">
-	
-	<header class="post-header">
-		<h1 class="pub-title">{{ page.title | capitalize }}</h1>
-		<div class="pub-author">by {{ page.author }}</div> 
-		<div class="pub-date">{{ page.date | date: "%B %-d, %Y" }}</div>
-		
-		
+<script src="//load.sumome.com/" data-sumo-site-id="4494d6ee0dc172f4c1ccdf521170f97a53717103c55a96f67fa08aa6cd0b933e" async="async"></script>
+<article class="project-wrap post-wrap" role="main">
+	<header class="project-header" style="background-color: {{page.background_color}};">
+		<h1 class="blog-post-title">{{ page.title | capitalize }}</h1>
+		<div class="project-services">Created by {{ page.author }}</div> 
+			<div class="project-url">
+				{{ page.date | date: "%B %-d, %Y" }}
+			</div>
+		<div class="project-background" style="background-image:url('{{page.feature_image}}');"></div>
+		<div class="project-overlay {{page.show_overlay}}"></div>
 	</header>
 	
-	<section class="post-content">
+	<div id="header-mark"></div>
+
+	<section class="page project-content">
 		{{ content }}
 	</section>
+		
+	{% include pagination.html %}
 	
+	{% include footer-cta.html text="Work with us" %}
+
 </article>

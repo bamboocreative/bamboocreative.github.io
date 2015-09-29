@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: person
 image: emily.jpg
 name: Emily Lokteff
 author: emilylokteff
-title: Marketing Research
+title: Social Media Specialist
 order: 12
 
 social: 
@@ -15,5 +15,6 @@ social:
     username: emilylokteff
   - account: spotify
     username: 1235186594
-    
+
+bio: "Living that social media life. Classical pianist, spread sheet enthusiast, never seen without a travel mug full of tea."
 ---

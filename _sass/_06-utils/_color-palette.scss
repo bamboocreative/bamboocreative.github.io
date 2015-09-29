@@ -1,0 +1,67 @@
+$primary-color: #3cbeaf;
+$action-color: #3cbeaf;
+
+$border: 1px solid #ccc;
+$error: #de3535;
+$success: #d5f5d7;
+
+$twitter: 	#78cdf0 !default;
+$facebook: 	#537bbd !default;
+$instagram: #517fa4 !default;
+$youtube: 	#d34836 !default;
+$pinterest:	#cb2027 !default;
+$google: 	#dd4b39 !default;
+$email:		lighten(#6a6a6a, 15%);
+$rdio: 		#006ed2 !default;
+$dribbble:	#ea4c89 !default;
+$github: 	#333333 !default;
+$spotify: 	#81b71a !default;
+
+// -----------------------------------------------------------------------------
+// Color one in the pallete
+// -----------------------------------------------------------------------------
+
+$color: (
+	faded: 			#000000,
+	subdued: 		#000000,
+	main: 			#000000,
+	mainOne: 		#000000,
+	mainTwo: 		#000000,
+	dark: 			#4a4a4a,
+	
+);
+
+$teal: (
+	light: 		#69b696,
+	main: 		#3cbeaf,
+	dark: 		#000000,
+);
+
+$blue: (
+	faded: 			#000000,
+	subdued: 		#000000,
+	main: 			#72abc8,
+	mainOne: 		#000000,
+	mainTwo: 		#000000,
+);
+
+// Gray
+$gray: (
+	light: 			#dadada,
+	main: 			#9a9a9a,
+	dark: 			#4a4a4a,
+	
+);
+
+// -----------------------------------------------------------------------------
+// Social Icons
+// -----------------------------------------------------------------------------
+$social: (
+	twitter: 		#78cdf0,
+	facebook: 		#537bbd,
+	instagram: 		#517fa4,
+	youtube: 		#d34836,
+	snapchat: 		#fffc00,
+	pinterest:		#cb2027,
+	google: 		#dd4b39
+)

@@ -6,10 +6,10 @@ author: "CJ Alvarado"
 excerpt: "In 1975, a Kodak engineer invented the first digital camera which captured low resolution black and white images and transferred them to a TV. He then took his idea and pitched it to various leaders in the company."
 image: /images/posts/kodak.jpg
 redirect_from: /3-ways-to-help-great-ideas-thrive/
-image: /images/posts/kodak.jpg
+feature_image: /images/posts/kodak.jpg
+has-image: has-image
+show_overlay: show-overlay
 ---
-
-![Kodak Film](/images/posts/kodak.jpg){: .feat-img}
 
 > "It's the same each time with progress. First they ignore you, then they say you're mad, then there's a pause, and then you can't find anyone who disagrees with you." Tony Benn
 

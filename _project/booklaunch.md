@@ -1,17 +1,66 @@
 ---
 layout: project
-title: Booklaunch.io
+body-class: header-light
+title: Booklaunch
+tagline: Tagline
 slug: booklaunch
-image: logo.svg 
-website: https://booklaunch.io/
+logo: logo.svg
+website: http://booklaunch.io
 prettywebsite: booklaunch.io
-services: Branding, Web, Design, Marketing, Labs
+services: Branding, Creative Implementation, Design Thinking
+
+feature_image: /images/projects/booklaunch/booklaunch-1.jpg
+
+image-1: /images/projects/booklaunch/booklaunch-1.jpg
+image-2: /images/projects/booklaunch/booklaunch-2.jpg
+image-3: /images/projects/booklaunch/booklaunch-3.jpg
+image-4: /images/projects/booklaunch/booklaunch-4.jpg
+
+stats:
+ - number: 10
+   unit: M
+   copy: Impressions over 12 month campaign
+ - number: 80
+   unit: '%'
+   copy: Instagram follower growth
+ - number: 40
+   unit: '%'
+   copy: Twitter follow growth
+ - number: 30
+   unit: '%'
+   copy: Facebook fan base growth
+
+featured: true
+homepage_grid: true
+homepage_grid_order: 4
+
+locked: true
+
 order: 3
+
 ---
 
-In our experience developing publishing solutions, we have heard many of the pain points and challenges that aspiring authors and writers have. Even for a traditionally-published author, the landscape has changed so much that they are constantly searching for ways to make their book marketing more effective.
+### Opportunity:
+Text. 
+{: .pullquote }
 
-We created Booklaunch.io as a simple, beautiful way to create a book marketing page. Incorporating author-friendly features such as drag-and-drop imagery, media integration, email capture in a completely code-free experience, writers could start promoting a title in a fraction of the time it would take to solicit a designer.
+{% include project-image-full.html class="" image=page.image-2 %}
 
-![booklaunch](/images/client-assets/{{page.slug}}/01.jpg)
-![booklaunch](/images/client-assets/{{page.slug}}/02.jpg)
+### Solutions:
+Text.
+
+{% include project-image-full.html class="image-fixed" image=page.image-3 %}
+
+#Outcomes
+{: .center }
+
+Text.
+{: .center } 
+
+{% include stats.html class="no-margin-bottom" stats=page.stats background=page.stats-background %}
+
+{% include testimonial.html text="\"As our restaurant started to expand into more locations, we needed to get a better handle on our brand and ensure that we could continue growth. We needed new ideas so we turned to Bamboo. They're branding work not only helped us refine our external message but also provided the internal focus and clarity that had eluded us for years. We needed to believe in ourselves again. Sales are up. Morale is up and we're more excited about the future than ever before!\"" credit="-Ryan Rose, Executive Chef, booklaunch" class="quote-center" %}
+
+{% include project-image-full.html class="no-margin-bottom no-margin-top" image=page.image-4 %}
+
+{% include footer-cta.html text="Let's shoot for the moon together" %}

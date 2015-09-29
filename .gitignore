@@ -3,3 +3,4 @@ node_modules/*
 *.scssc
 _site
 .sass-cache
+.idea/*
