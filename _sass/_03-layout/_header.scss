@@ -37,7 +37,6 @@ header.header{
 	position: relative;
 	background-color: transparent;
 	z-index: 999;
-	
 			
 	.page{
 		@include outer-container();
@@ -135,7 +134,7 @@ nav.site-nav{
 		display: block;
 		margin: 0px auto;
 		padding: 10px 0;
-		width: 60%;
+		width: 70%;
 		text-align: justify;
 		//IE
 		text-justify: distribute;
@@ -151,6 +150,7 @@ nav.site-nav{
 			display: inline-block;
 			font-size: 1.7rem;
 			margin: 0;
+		  	padding: 0 5px ;
 			@include media(max-width $screen-sm){
 				&:last-child {
 					display: none;
