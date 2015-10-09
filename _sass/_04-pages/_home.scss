@@ -78,12 +78,12 @@
 		font-family: $base-serif-font;
 		font-weight: 300;
 		font-style: italic;
-		font-size: 4rem;
+		font-size: 3.7rem;
 		margin: 0;
 		z-index: 10;
 		color: white;
 		@include media(min-width 1700px) { 
-			font-size: 5.75rem;
+			font-size: 6rem;
 			@include span-columns(12);
 		}
 		@include media(max-width $screen-sm) { 
@@ -101,7 +101,7 @@
 		font-family: $base-serif-font;
 		font-weight: 100;
 		font-style: italic;
-		font-size: 1.7rem;
+		font-size: 2rem;
 		color: white;
 		@include media(min-width 1700px) { 
 			font-size: 2.4rem;
