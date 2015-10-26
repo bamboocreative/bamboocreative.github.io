@@ -5,7 +5,7 @@ categories: bamboo
 author: "Brian Smith"
 excerpt: "When choosing photos for your projects, you have a few options"
 feature_image: '/images/posts/great-stock-photos.jpg'
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 image: /images/posts/great-stock-photos.jpg
 ---

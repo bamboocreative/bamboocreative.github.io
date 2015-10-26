@@ -3,7 +3,7 @@
 {% for post in posts | limit: include.limit | offset: include.offset %}
 {% if forloop.index < 10 %}
 <a class="post-link" href="{{post.url}}">
-	<section class="section-post full-feature {{ post.has-image }} {{ post.color }}" style="background-color: {{post.background_color}};">
+	<section class="section-post full-feature {{ post.has_image }} {{ post.color }}" style="background-color: {{post.background_color}};">
 		<div class="post-info-wrapper">
 			<div class="post-info">
 				{% if include.type == 'next-post' %}

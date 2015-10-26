@@ -5,7 +5,7 @@ categories: bamboo
 author: "CJ Alvarado"
 excerpt: "Every morning my day started the same way."
 feature_image: 'https://ununsplash.imgix.net/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?fit=crop&fm=jpg&h=1550&q=75&w=1050'
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

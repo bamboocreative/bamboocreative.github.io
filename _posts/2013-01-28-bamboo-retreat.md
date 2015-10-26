@@ -8,7 +8,7 @@ excerpt: "Last week, we gathered the team and trekked up to Tahoe for our staff 
 redirect_from: /bamboo-retreat/
 feature_image: /images/posts/bamboo-retreat.jpg
 color: light
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

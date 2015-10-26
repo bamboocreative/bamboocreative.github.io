@@ -7,7 +7,7 @@ author: Jake Elia
 excerpt: "Our office is divided; to love cat photos or to not love cat photos, that is the question."
 redirect_from: /good-content/
 feature_image: /images/posts/good-content.jpg
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

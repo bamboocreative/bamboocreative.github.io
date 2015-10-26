@@ -1,3 +1,16 @@
+@include media(max-width $screen-sm-max) {
+    .post-wrap {
+        .blog-post-title {}
+
+        h1 {}
+
+        .project-content {
+            margin-top: 1em !important;
+        }
+    }
+}
+
+
 .post-header {
     text-align: center;
 
@@ -81,14 +94,76 @@ blockquote {
 
 .blog-post-title {
     font-size: 5rem;
-    max-width: 15em;
+    max-width: 13em;
     margin: 1em auto;
     color: white;
+
+    @include media(max-width $screen-md-max) {
+        font-size: 3rem;
+    }
 }
 
 .post-wrap {
     p {
         font-size: 1.5rem;
         line-height: 1.65;
+    }
+}
+
+.wtgc {
+    color: $wtgc;
+    font-weight: 400;
+}
+
+.medium--wrap {
+    max-width: 45em;
+}
+
+.medium--left {
+    @include pad(1em);
+
+    p {
+        margin-bottom: .3em;
+
+        a {
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+    }
+
+    @include span-columns(10 of 12);
+
+    @include shift(1);
+
+    text-align: center;
+
+    @include media(min-width $screen-md) {
+        @include span-columns(6.5 of 12);
+
+        @include shift(0);
+
+        text-align: left;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+}
+
+.medium--right {
+    @include span-columns(10 of 12);
+
+    @include shift(1);
+
+    iframe {
+        margin: 0 auto;
+    }
+
+    @include media(min-width $screen-md) {
+        @include span-columns(5.5 of 12);
+
+        @include shift(0);
+
+        iframe {
+            float: right;
+        }
     }
 }
