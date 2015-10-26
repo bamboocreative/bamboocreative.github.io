@@ -7,7 +7,7 @@ excerpt: "In 1975, a Kodak engineer invented the first digital camera which capt
 image: /images/posts/kodak.jpg
 redirect_from: /3-ways-to-help-great-ideas-thrive/
 feature_image: /images/posts/kodak.jpg
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

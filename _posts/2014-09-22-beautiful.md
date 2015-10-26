@@ -7,7 +7,7 @@ author: CJ Alvarado
 excerpt: "We believe in beautiful ideas. Beautiful ideas move people."
 feature_image: /images/posts/beautiful.jpg
 redirect_from: /Beautiful/
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

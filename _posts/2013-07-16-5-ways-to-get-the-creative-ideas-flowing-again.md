@@ -7,7 +7,7 @@ author: cjalvarado
 excerpt: "No matter how creative you are, sometimes the well just runs dry. But, you still have projects and clients, and they're still relying on your creative genius!"
 redirect_from: /5-ways-to-get-the-creative-ideas-flowing-again/
 feature_image: '/images/posts/5-Ways-to.jpg'
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 ---
 

@@ -7,7 +7,7 @@ excerpt: "Why a website isn’t done when it’s done."
 feature_image: '/images/posts/death.jpg'
 background_color: ''
 color: 'light'
-has-image: has-image
+has_image: has-image
 show_overlay: show-overlay
 
 ---

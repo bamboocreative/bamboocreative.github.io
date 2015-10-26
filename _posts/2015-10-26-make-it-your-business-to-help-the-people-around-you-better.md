@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Great Leaders Bring Out The Best In People
+title: Make It Your Business to Help The People Around You Better
 categories: bamboo
 published: True
 color: light
@@ -9,9 +9,9 @@ excerpt: ''
 feature_image: '/images/posts/lead.jpg'
 has_image: has-image
 show_overlay: show-overlay
+
 ---
 
-# How Great Leaders Bring Out The Best In People
 Are you a multiplier or a diminisher? Where you fall on this scale has a lot to do with how well you lead, according to Liz Wiseman. In her book *Multipliers,* she explains that “the best leaders increase the capacity of everyone around them” through being a multiplier instead of a diminisher.
 
 So what’s the difference between a multiplier and a diminisher? According to Wiseman, a lot of it comes down to giving employees space to come up with new ideas. 
