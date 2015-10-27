@@ -116,7 +116,7 @@
         font-weight: 600;
         line-height: 1.2;
         margin: 20px 0;
-
+        text-transform: capitalize;
         @include transition(all 0.2s $ease-in-out-quad);
 
         @include media(max-width $screen-sm) {

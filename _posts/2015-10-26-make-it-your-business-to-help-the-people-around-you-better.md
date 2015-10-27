@@ -9,6 +9,7 @@ excerpt: ''
 feature_image: '/images/posts/lead.jpg'
 has_image: has-image
 show_overlay: show-overlay
+medium_article: https://medium.com/@cjalvarado/make-it-your-business-to-help-the-people-around-you-better-92d67f8eb168#.dr75qkkso
 
 ---
 

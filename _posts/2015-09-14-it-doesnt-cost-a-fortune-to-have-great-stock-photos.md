@@ -7,7 +7,6 @@ excerpt: "When choosing photos for your projects, you have a few options"
 feature_image: '/images/posts/great-stock-photos.jpg'
 has_image: has-image
 show_overlay: show-overlay
-image: /images/posts/great-stock-photos.jpg
 ---
 
 Compelling imagery is essential to drawing customers into your product or service. People make snap judgements – in fact, you only have eight seconds to [capture their attention](http://time.com/3858309/attention-spans-goldfish/) – and if the header photo on your website looks dated, cheesy, or irrelevant, they’re going to bail immediately. Also, having great imagery plays a big role in helping customers identify with your brand. 

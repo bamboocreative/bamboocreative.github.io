@@ -6,10 +6,10 @@ image: /images/posts/
 color: light
 author: bamboo
 excerpt: ""
-background_color: black
+feature_image: '/images/posts/comms.jpg'
+has_image: has-image
+show_overlay: show-overlay
 ---
-
-# Restore Order to An Unruly Comms Department
 
 No matter the size of your organization, you need a strong communications (comms) department – even if that department is a team of one. There’s too much chatter out there about your industry, product, customer – and about you – to be in the dark! To create a great comms department, we’ve got to start with the role of the comms department. 
 

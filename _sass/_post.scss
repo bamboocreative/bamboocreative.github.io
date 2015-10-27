@@ -1,6 +1,8 @@
 @include media(max-width $screen-sm-max) {
     .post-wrap {
-        .blog-post-title {}
+        .blog-post-title {
+
+        }
 
         h1 {}
 
@@ -97,7 +99,7 @@ blockquote {
     max-width: 13em;
     margin: 1em auto;
     color: white;
-
+    text-transform: capitalize;
     @include media(max-width $screen-md-max) {
         font-size: 3rem;
     }
