@@ -9,6 +9,7 @@ color: light
 has_image: has-image
 author: bamboo
 feature_image: /images/posts/forefront.jpg
+medium_article: https://medium.com/way-to-go-champ/forefront-4fa4737c954b#.abwuz27fa
 
 ---
 
