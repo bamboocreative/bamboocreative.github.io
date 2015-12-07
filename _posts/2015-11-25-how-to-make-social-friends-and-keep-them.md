@@ -2,7 +2,7 @@
 layout: post
 title: How to make (social) friends and keep them.
 categories: bamboo
-published: False
+published: True
 excerpt: ''
 show_overlay: show-overlay
 color: light

@@ -4,8 +4,8 @@ title: Restore Order to An Unruly Comms Department
 categories: bamboo
 image: /images/posts/
 color: light
-author: Dustin Ljung
-published: False
+author: CJ Alvarado
+published: True
 excerpt: ""
 feature_image: '/images/posts/comms.jpg'
 has_image: has-image
@@ -42,10 +42,10 @@ Did everyone get on board immediately? No, of course not. That's ok. Soon, every
 ### 3. Find the Right Channels
 Today there are more communication channels than ever. There are four major types, which can be remembered by the acronym P.E.S.O.
 
-**Paid:** Channels you pay to market or communicate on. Ex: billboards, radio, tv.
-**Earned:** Channels you have earned the right to communicate on. Ex: blogs, podcasts, news sites.
-**Shared:** Channels you share with users. Ex: Facebook, Twitter. Youtube, blog comments, forums, etc.
-**Owned:** Channels you own and manage. Ex: your website, app, etc.
+- **Paid:** Channels you pay to market or communicate on. Ex: billboards, radio, tv.
+- **Earned:** Channels you have earned the right to communicate on. Ex: blogs, podcasts, news sites.
+- **Shared:** Channels you share with users. Ex: Facebook, Twitter. Youtube, blog comments, forums, etc.
+- **Owned:** Channels you own and manage. Ex: your website, app, etc.
 
 It’s important to identify what channels are most relevant and most effective. Not every channel is considered equal. Great communication teams know how to find, build, and nurture their channels. How do you do that with so many options?
 

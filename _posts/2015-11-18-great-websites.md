@@ -3,7 +3,7 @@ layout: post
 title:  Great Websites Start On Paper
 categories: bamboo
 author: Brian Smith
-published: False
+published: True
 color: light
 excerpt: "You need to start on paper with low fidelity wireframes. Like literal paper. With real pens or pencils."
 feature_image: '/images/posts/great-websites.jpg'
