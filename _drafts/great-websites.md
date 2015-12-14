@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "Great Websites Start On Paper"
+title: Great Websites Start On Paper
 author: Brian Smith
-excerpt: "You need to start on paper with low fidelity wireframes. Like literal paper. With real pens or pencils."
-image: /images/posts/joy-to-the-world.jpg
-background_color: 'rgb(102, 27, 27)'
+excerpt: You need to start on paper with low fidelity wireframes. Like literal paper. With real pens or pencils.
+image: "/images/posts/joy-to-the-world.jpg"
+background_color: "rgb(102, 27, 27)"
 color: light
+published: true
 ---
 
+
 # Great Websites Start On Paper
-Creating a website is easy. In fact, you can create a website in less than an hour with a wide variety of online tools like Squarespace, often without even providing a credit card. For many people, this is all they need. Everything is pre-made for you – simple drag and drop, pre-selected colors, and more – and you’re guaranteed at least an adequate website. But if you’re looking to make something truly great, highly functional, and perfectly suited for your (or your client’s) needs, you need to start on paper with low fidelity wireframes.
+Creating a website is easy. In fact, you can create a website in less than an hour with a wide variety of online tools like Squarespace, often without even providing a credit card. For many people, this is all they need. Everything is pre-made for you – simple drag and drop, pre-selected colors, and more – and you’re guaranteed at least an adequate website. But if you’re looking to make something truly great, highly functional, and perfectly suited for your (or your client’s) needs, you need to start on paper with low fidelity wireframes. 
 
 Like literal paper. With real pens or pencils. It seems like everyday there is a new product released guaranteed to speed up your wireframe and design process. Many of which work really well, but there’s no replacement for putting pen to paper. Let’s take a look at a few key reasons we need to be using more trees everyday… and planting them, too. 
 
@@ -40,6 +42,4 @@ We’ve created a simple but effective paper wireframing tool. That will allow y
 
 [Download The Bamboo Toolbox Paper Wireframes](https://bamboocreative.com/downloads/wireframes.pdf)
 
-Let us know how it’s working for you. 
-
-
+Let us know how it’s working for you.
