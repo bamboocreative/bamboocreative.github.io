@@ -5,6 +5,7 @@ name: Laurey Kiehne
 author: laureykiehne
 title: Project Manager
 order: 3
+display: true
 
 social: 
   - account: twitter

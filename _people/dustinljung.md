@@ -5,6 +5,7 @@ name: Dustin Ljung
 author: dustinljung
 title: Managing Director
 order: 2
+display: true
 
 social:
 

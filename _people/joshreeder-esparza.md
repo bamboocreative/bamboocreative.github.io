@@ -5,6 +5,7 @@ name: Josh Reeder-Esparza
 author: joshreederesparza
 title: Web Developer
 order: 6
+display: false
 
 social: 
   - account: twitter

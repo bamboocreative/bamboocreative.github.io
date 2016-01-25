@@ -6,6 +6,7 @@ author: cjalvarado
 title: Founder & CEO
 bio: Cj is a very smart person. There are also cool things about him. Like his beard (not pictured).
 order: 1
+display: true
 
 social: 
   - account: twitter

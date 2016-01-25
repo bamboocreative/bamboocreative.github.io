@@ -14,6 +14,7 @@ fulltitle: Our Team
 <div class="people-archive">
 	{% assign people = site.people | sort: 'order' %}
 	{% for person in people %}
+	{% if person.display == true %}
 	<div class="person">	
 		<div class="person-wrapper">
 			<h4 class="person-name">{{person.name}}</h4>
@@ -23,6 +24,7 @@ fulltitle: Our Team
 		<div class="person-background" style="background-image: url('/images/people/{{person.image}}')"></div>
 		<div class="person-overlay"></div>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>
 

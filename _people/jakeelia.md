@@ -5,6 +5,7 @@ name: Jake Elia
 author: jakeelia
 title: Product Development & Strategy
 order: 4
+display: true
 
 social: 
   - account: twitter
