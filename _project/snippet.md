@@ -25,10 +25,10 @@ stats:
    copy: iTunes Top Grossing Apps on launch
 
 featured: true
-homepage_grid: true
+homepage_grid: false
 homepage_grid_order: 4
 
-order: 10
+order: 6
 
 ---
 

@@ -20,7 +20,7 @@ featured: true
 homepage_grid: true
 homepage_grid_order: 8
 
-order: 1
+order: 2
 
 ---
 

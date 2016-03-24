@@ -13,10 +13,11 @@ feature_image: /images/projects/zocalo/zocalo-1.jpg
 
 image-1: /images/projects/zocalo/zocalo-1.jpg
 image-2: /images/projects/zocalo/zocalo-2.jpg
-image-3: /images/projects/zocalo/zocalo-3.jpg
+image-3: /images/projects/zocalo/zocalo-3.png
 image-4: /images/projects/zocalo/zocalo-4.jpg
 image-5: /images/projects/zocalo/zocalo-5.jpg
 image-6: /images/projects/zocalo/zocalo-6.jpg
+image-7: /images/projects/zocalo/zocalo-8.png
 
 stats-background: /images/projects/zocalo/zocalo-7.jpg
 
@@ -34,11 +35,11 @@ stats:
    unit: '%'
    copy: Facebook fan base growth
 
-featured: false
-homepage_grid: false
-homepage_grid_order: 4
+featured: true
+homepage_grid: true
+homepage_grid_order: 2
 
-order: 9
+order: 4
 
 ---
 
@@ -53,9 +54,11 @@ This story needed to be told through updated web and social media presences that
 ### Solutions
 Bamboo launched a brand project with the Zocalo team in order to help bring some cohesion and continuity to the story that is being told. The goal was to put solid language and tools in the hands of those that lead this restaurant.  Bamboo also created a new website and headed up the social media strategy to help build their online presence into something clear, cohesive, and effective. 
 
-{% include project-image-full.html class="image-fixed" image=page.image-3 %}
+{% include project-image-full.html class="image-fixed no-margin-bottom" image=page.image-7 %}
 
-{% include testimonial.html text="\"As our restaurant started to expand into more locations, we needed to get a better handle on our brand and ensure that we could continue growth. We needed new ideas so we turned to Bamboo. They're branding work not only helped us refine our external message but also provided the internal focus and clarity that had eluded us for years. We needed to believe in ourselves again. Sales are up. Morale is up and we're more excited about the future than ever before!\"" credit="-Ryan Rose, Executive Chef, Zocalo" class="quote-center dark" %}
+{% include project-image-full.html class="image-fixed no-margin-top no-margin-bottom" image=page.image-3 %}
+
+{% include testimonial.html text="\"As our restaurant started to expand into more locations, we needed to get a better handle on our brand and ensure that we could continue growth. We needed new ideas so we turned to Bamboo. They're branding work not only helped us refine our external message but also provided the internal focus and clarity that had eluded us for years. We needed to believe in ourselves again. Sales are up. Morale is up and we're more excited about the future than ever before!\"" credit="-Ryan Rose, Executive Chef, Zocalo" class="quote-center dark no-margin-top" %}
 
 #Outcomes
 {: .center }
