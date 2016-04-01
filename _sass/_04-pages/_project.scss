@@ -273,6 +273,16 @@ section.project-image-half {
 }
 
 .project-image-column {
+    &.images-two {
+        .column-image {
+            width: 50%;
+            float: left;
+
+            @include media(max-width $screen-sm) {
+                width: 100%;
+            }
+        }
+    }
     &.images-three {
         .column-image {
             width: 33.3333333%;
