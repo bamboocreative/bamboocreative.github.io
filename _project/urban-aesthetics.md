@@ -15,12 +15,13 @@ image-1: /images/projects/ua/ua-1.jpg
 image-2: /images/projects/ua/ua-2.jpg
 image-3: /images/projects/ua/ua-3.jpg
 image-4: /images/projects/ua/ua-4.jpg
+image-5: /images/projects/ua/ua-5.png
 
 featured: false
 homepage_grid: false
 homepage_grid_order: 4
 
-order: 3
+order: 4
 
 ---
 
@@ -38,6 +39,9 @@ Through industry research and target market interviews, we developed a brand map
 {% include project-image-full.html class="image-fixed no-margin-bottom" image=page.image-3 %}
 
 {% include project-image-full.html class="" image=page.image-4 %}
+
+{% include project-image-full.html class="" image=page.image-5 %}
+
 
 {% include footer-cta.html text="Let's do something beautiful" class="no-margin-top" %}
 

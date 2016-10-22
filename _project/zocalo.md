@@ -36,10 +36,10 @@ stats:
    copy: Facebook fan base growth
 
 featured: true
-homepage_grid: true
+homepage_grid: false
 homepage_grid_order: 2
 
-order: 4
+order: 8
 
 ---
 

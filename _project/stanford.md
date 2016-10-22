@@ -16,10 +16,9 @@ featured: true
 homepage_grid: true
 homepage_grid_order: 4
 
-order: 5
+order: 6
 
 ---
-
 
 
 ### Opportunity
@@ -33,5 +32,5 @@ After conducting a brand audit, we developed a brand brief, identity system, and
 
 {% include project-image-full.html class="image-fixed no-margin-bottom" image=page.image-3 %}
 
-{% include footer-cta.html text="Ready to get stated?" class="no-margin-top" %}
+{% include footer-cta.html text="Ready to get started?" class="no-margin-top" %}
 

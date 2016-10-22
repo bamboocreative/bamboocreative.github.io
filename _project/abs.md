@@ -21,7 +21,7 @@ featured: false
 homepage_grid: true
 homepage_grid_order: 3
 
-order: 11
+order: 8
 
 ---
 
