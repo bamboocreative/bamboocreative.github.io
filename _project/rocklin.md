@@ -20,7 +20,7 @@ image-6: /images/projects/rocklin/rocklin-6.jpg
 
 featured: true
 homepage_grid: true
-homepage_grid_order: 0
+homepage_grid_order: 1
 
 order: 2
 

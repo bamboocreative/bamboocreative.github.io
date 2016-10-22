@@ -22,9 +22,9 @@ images-2:
 
 video: <video style="max-width:100%;" preload="" loop="" autoplay="" muted=""><source src="https://s3-us-west-1.amazonaws.com/hosting-gallaway/gallaway-video.mp4" type="video/mp4"></video>
 
-featured: false
-homepage_grid: false
-homepage_grid_order: 4
+featured: true
+homepage_grid: true
+homepage_grid_order: 0
 
 order: 1
 
