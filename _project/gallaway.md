@@ -38,7 +38,7 @@ With a website that hadn’t been updated in years, the Gallaway team approached
 
 {% include project-video.html class="" video=page.video %}
 
-#Soltutions
+#Solutions
 {: .center }
 
 With any project, our first challenge is to immerse ourselves in our client’s industry. This is what we love – learning the ins and outs of different industries fuels our curiosity and creativity. With Gallaway, we dove deep into the world of commercial real estate, learning about the pains their clients face, and the solutions the Gallaway team provides.
